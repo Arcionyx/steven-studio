@@ -1,0 +1,9 @@
+{
+  "name": "steven-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Steven Studio — a multidisciplinary art and design portfolio",
+  "scripts": {
+    "check": "node --check dist/app.js && node scripts/check.mjs"
+  }
+}

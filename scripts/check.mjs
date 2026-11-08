@@ -1,0 +1,13 @@
+import {readFile, access} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const html = await readFile(new URL('../dist/index.html',import.meta.url),'utf8');
+const manifest = JSON.parse(await readFile(new URL('../.openai/hosting.json',import.meta.url),'utf8'));
+assert.equal(manifest.static.directory,'dist');
+assert.ok(manifest.project_id);
+const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
+assert.equal(ids.length,new Set(ids).size,'Duplicate element IDs');
+for (const [,id] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(id),`Missing section: ${id}`);
+for (const [,asset] of html.matchAll(/(?:src|href)="([^"#]+\.(?:js|css|svg))"/g)) await access(new URL('../dist/'+asset,import.meta.url));
+assert.ok(ids.includes('awards'));
+assert.equal([...html.matchAll(/data-project="/g)].length,6);
+console.log('Site checks passed: assets, navigation, projects, awards and hosting manifest.');

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f1e9">
+  <meta name="description" content="Steven Studio，一个跨越艺术、视觉与设计的个人创作空间。探索不同媒介，让想法自由生长。">
+  <title>Steven Studio — Art, design & everything in between</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#work">跳转到作品</a>
+  <header class="site-header">
+    <a href="#" class="brand" aria-label="Steven Studio 首页">steven<span class="brand-mark">✳</span><span class="brand-sub">independent<br>creative studio</span></a>
+    <nav aria-label="主导航"><a href="#work">项目 <span>Projects</span></a><a href="#awards">荣誉 <span>Awards</span></a><a href="#about">关于 <span>Studio</span></a><a class="nav-contact" href="#contact">联系 <span>Contact ↗</span></a></nav>
+    <button class="menu-toggle" aria-label="打开导航" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+  </header>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="移动端导航" hidden><a href="#work">项目 / Projects</a><a href="#awards">荣誉 / Awards</a><a href="#about">关于 / Studio</a><a href="#contact">联系 / Contact</a></nav>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-kicker"><span><i></i> A SPACE FOR CREATIVE EXPLORATION</span><span>ART · DESIGN · EXPERIMENT</span></div>
+      <h1 id="hero-title">Ideas take<br><em>many</em> forms<span class="title-dot">.</span></h1>
+      <div class="hero-bottom"><p>让想法，不止一种形状。<span>我是 Steven，在艺术与设计之间探索，<br>也在不同的媒介里，寻找新的可能。</span></p><a class="round-link" href="#work" aria-label="探索作品"><span>探索作品<br><small>EXPLORE WORK</small></span><b>↙</b></a></div>
+      <div class="hero-art" aria-label="抽象形态概念视觉"><div class="art-axis axis-x"></div><div class="art-axis axis-y"></div><span class="art-top">STUDIO EXPLORATION — 001</span><div class="sculpture"><div class="sculpture-ring ring-one"></div><div class="sculpture-ring ring-two"></div><div class="sculpture-ring ring-three"></div><div class="sculpture-core"></div></div><div class="art-shadow"></div><span class="art-caption">A THOUGHT,<br>TAKING SHAPE.</span><span class="art-index">S / 01<br>FORM STUDY</span></div>
+      <div class="hero-foot"><span>STEVEN STUDIO</span><span>跨越边界，保持好奇。</span><span>SCROLL TO DISCOVER ↓</span></div>
+    </section>
+    <section id="work" class="work-section" aria-labelledby="work-title">
+      <div class="section-heading"><div><span class="eyebrow">01 / SELECTED PROJECTS</span><h2 id="work-title">Across disciplines<span>项目与作品</span></h2></div><p class="section-note">不同领域，同一种好奇心。<br><span>当前展示为版式示例，真实项目资料待补充。</span></p></div>
+      <div class="filter-bar" role="group" aria-label="按作品类别筛选"><button class="active" data-filter="all" aria-pressed="true">全部 <span>All <sup>06</sup></span></button><button data-filter="visual" aria-pressed="false">视觉设计 <span>Visual</span></button><button data-filter="object" aria-pressed="false">物件与空间 <span>Object & Space</span></button><button data-filter="experiment" aria-pressed="false">艺术实验 <span>Experiments</span></button></div>
+      <p class="sr-only" id="filter-status" aria-live="polite">显示全部 6 个概念项目</p>
+      <div class="project-grid">
+        <article class="project" data-category="visual"><button class="project-open" data-project="form" aria-label="查看 Form & Feeling 概念项目"><div class="project-cover cover-form"><span class="cover-small">AN EXPLORATION OF<br>SHAPE & EMOTION</span><span class="form-type">FORM<br><em>& feeling</em></span><div class="orange-orbit orbit-a"></div><div class="orange-orbit orbit-b"></div><span class="cover-bottom">VISUAL IDENTITY STUDY <b>01—06</b></span><span class="project-arrow" aria-hidden="true">↗</span></div></button><div class="project-meta"><div><h3>Form & Feeling</h3><p>视觉识别 / 品牌探索</p></div><span class="demo-tag">CONCEPT 01</span></div></article>
+        <article class="project" data-category="object"><button class="project-open" data-project="soft" aria-label="查看 Soft Objects 概念项目"><div class="project-cover cover-soft"><span class="cover-small">STEVEN STUDIO<br>OBJECT RESEARCH</span><div class="soft-shape shape-back"></div><div class="soft-shape shape-front"></div><span class="soft-type">soft<br>objects.</span><span class="cover-bottom">MATERIAL / FORM / EVERYDAY <b>02—06</b></span><span class="project-arrow" aria-hidden="true">↗</span></div></button><div class="project-meta"><div><h3>Soft Objects</h3><p>物件设计 / 材质研究</p></div><span class="demo-tag">CONCEPT 02</span></div></article>
+        <article class="project" data-category="experiment"><button class="project-open" data-project="between" aria-label="查看 Between the Lines 概念项目"><div class="project-cover cover-lines"><span class="cover-small">EXPERIMENTAL SERIES<br>LINES IN MOTION</span><div class="line-field"></div><span class="lines-type">between<br>the lines<span>线条之间</span></span><span class="cover-bottom">GENERATIVE EXPLORATION <b>03—06</b></span><span class="project-arrow" aria-hidden="true">↗</span></div></button><div class="project-meta"><div><h3>Between the Lines</h3><p>生成艺术 / 视觉实验</p></div><span class="demo-tag">CONCEPT 03</span></div></article>
+        <article class="project" data-category="visual"><button class="project-open" data-project="ordinary" aria-label="查看 The Ordinary 概念项目"><div class="project-cover cover-ordinary"><span class="cover-small">NOTICING THE<br>UNNOTICED.</span><span class="ordinary-type">the<br>ordinary<span>日常之中</span></span><div class="ordinary-square"></div><span class="ordinary-sub">A JOURNAL OF SMALL DISCOVERIES</span><span class="cover-bottom">EDITORIAL & TYPOGRAPHY <b>04—06</b></span><span class="project-arrow" aria-hidden="true">↗</span></div></button><div class="project-meta"><div><h3>The Ordinary</h3><p>编辑设计 / 字体排版</p></div><span class="demo-tag">CONCEPT 04</span></div></article>
+        <article class="project" data-category="object"><button class="project-open" data-project="room" aria-label="查看 A Room for Pause 概念项目"><div class="project-cover cover-room"><span class="cover-small">SPATIAL STUDY<br>LIGHT / STILLNESS / TIME</span><div class="room-wall"></div><div class="room-window"></div><div class="room-plinth"></div><div class="room-sphere"></div><span class="room-type">a room<br>for pause.</span><span class="cover-bottom">SPATIAL CONCEPT <b>05—06</b></span><span class="project-arrow" aria-hidden="true">↗</span></div></button><div class="project-meta"><div><h3>A Room for Pause</h3><p>空间概念 / 光影研究</p></div><span class="demo-tag">CONCEPT 05</span></div></article>
+        <article class="project" data-category="experiment"><button class="project-open" data-project="play" aria-label="查看 Serious About Play 概念项目"><div class="project-cover cover-play"><span class="cover-small">NO RULES.<br>JUST POSSIBILITIES.</span><span class="play-type">SERIOUS<br>ABOUT<br><em>PLAY.</em></span><span class="play-star">✳</span><span class="cover-bottom">AN OPEN-ENDED EXPERIMENT <b>06—06</b></span><span class="project-arrow" aria-hidden="true">↗</span></div></button><div class="project-meta"><div><h3>Serious About Play</h3><p>创意编程 / 自由实验</p></div><span class="demo-tag">CONCEPT 06</span></div></article>
+      </div>
+      <div class="work-foot"><span>EVERY PROJECT STARTS WITH A QUESTION.</span><span>新的探索，持续发生。 ↗</span></div>
+    </section>
+    <section id="awards" class="awards-section" aria-labelledby="awards-title"><div class="section-heading"><div><span class="eyebrow">02 / RECOGNITION</span><h2 id="awards-title">Awards & honours<span>奖项与荣誉</span></h2></div><p class="section-note">创作历程的另一种记录。</p></div><div class="awards-table"><div class="awards-labels"><span>年份 / YEAR</span><span>奖项 / DISTINCTION</span><span>项目 / PROJECT</span></div><div class="awards-empty"><span>—</span><div><h3>荣誉档案，整理中。</h3><p>待补充真实奖项、颁发机构与获奖项目。</p></div><span>TO BE ADDED</span></div></div></section>
+    <section id="about" class="about-section" aria-labelledby="about-title">
+      <div class="about-sticker" aria-hidden="true">STEVEN<br><em>STUDIO.</em><span>✳</span><small>AN INDEPENDENT<br>CREATIVE PRACTICE</small></div><div class="about-content"><span class="eyebrow">03 / BEHIND THE STUDIO</span><h2 id="about-title">一种好奇心，<br>很多种<em>表达。</em></h2><div class="about-copy"><p>嗨，我是 Steven。<br>这里是我的个人 studio，也是一个持续生长的创作空间。</p><p>我做过各种各样的设计，也一直喜欢尝试新的领域。在不同的媒介之间，我更在意想法本身，以及它最适合的表达方式。</p><p>不急着给自己一个固定的标签。<br>保持开放，认真观察，动手试试。</p></div><div class="practice-list"><span>Art & design</span><span>Across disciplines</span><span>Ideas into form</span><span>And everything in between ↗</span></div></div>
+    </section>
+    <section id="contact" class="contact-section" aria-labelledby="contact-title"><div class="contact-top"><span class="eyebrow">04 / A NEW CONVERSATION</span><span>GOOD THINGS BEGIN WITH A HELLO.</span></div><h2 id="contact-title">Have something<br>in <em>mind?</em><span>↗</span></h2><div class="contact-bottom"><p>一个新想法，一次合作，或者只是打个招呼。<br><span>Let's make something interesting.</span></p><a class="contact-link" href="https://github.com/Arcionyx" target="_blank" rel="noopener noreferrer">在 GitHub 找到我 <span>↗</span></a></div></section>
+  </main>
+  <footer><a href="#" class="footer-brand">steven studio<span>✳</span></a><span>© <span id="year">2026</span> STEVEN STUDIO</span><a href="#">BACK TO TOP ↑</a></footer>
+  <dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-bar"><span>PROJECT EXPLORATION / 概念展示</span><button id="close-dialog" aria-label="关闭项目详情">关闭 ×</button></div><div id="dialog-art" class="dialog-art" aria-hidden="true"></div><div class="dialog-body"><p id="dialog-category" class="eyebrow"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><p class="dialog-notice">这是用于展示网站布局与交互的概念项目，并非 Steven 的真实客户案例。真实作品将在后续整理后替换。</p><button id="next-project" class="next-project">下一个概念项目 <span>→</span></button></div></dialog>
+</body>
+</html>
