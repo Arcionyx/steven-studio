@@ -16,6 +16,8 @@ Run `npm run check`.
 - `dist/app.js` contains the six demonstration project descriptions, filters, project dialog and mobile navigation.
 - `dist/locales.js` contains complete English, Simplified Chinese, Traditional Chinese, Japanese and Korean translations. English is the default. The header language selector updates the whole interface, including covers, dialog text, metadata and accessibility labels. It remembers the choice locally. A valid `?lang=en`, `?lang=zh-Hans`, `?lang=zh-Hant`, `?lang=ja` or `?lang=ko` link takes precedence over that saved choice.
 - `dist/style.css` contains the responsive design system and original CSS concept visuals.
+- The SF monogram uses layered, overlapping contours for a sculptural effect (`dist/assets/sf-monogram.png`). Its solid companion is used for small browser icons. The wordmark is written as **Steven Studio**.
+- Display typography uses self-hosted Cormorant Garamond in regular and italic styles. Its SIL Open Font License is included in `dist/assets/fonts/`. Body text and navigation retain readable sans-serif styling; other writing systems use suitable serif display fallbacks.
 - All six current projects are clearly labeled layout demonstrations. They are not real Steven projects or client work. The awards area contains an honest empty state until actual awards are provided.
 - The only published contact link is the confirmed GitHub profile. Replace it with the preferred professional contact when supplied.
 

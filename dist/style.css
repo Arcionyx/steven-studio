@@ -56,3 +56,36 @@ html:not([lang=en]) .dialog-art .soft-type,html:not([lang=en]) .dialog-art .line
 @media(max-width:900px) and (min-width:761px){.site-header nav{gap:13px;font-size:10px}.header-actions{gap:16px}.language-control{padding-left:13px}#language-selector{font-size:10px}html[lang=ja] .site-header nav{gap:10px;font-size:9px}}
 @media(max-width:760px){.header-actions{gap:18px}.language-control{border-left:0;padding-left:0}#language-selector{font-size:11px;max-width:105px}.brand-sub{display:none}.brand{font-size:34px}.brand-mark{margin-right:0}.section-note{max-width:none}.hero-bottom p>.hero-intro{font-size:13px;max-width:235px}.hero-bottom p>span{max-width:240px}.round-link{font-size:10px;padding:8px}.filter-bar button .filter-text{display:inline!important;font-size:inherit}.filter-bar{gap:24px}.filter-bar button{min-height:35px}.section-heading h2>.heading-primary{font-size:36px}.contact-link>span[data-i18n]{font-size:13px}.contact-bottom p>.contact-description{font-size:11px}html:not([lang=en]) .hero h1{font-size:13.6vw;line-height:1.2}html[lang=ja] .hero h1,html[lang=ko] .hero h1{font-size:11vw}html:not([lang=en]) .form-type{font-size:13vw}html:not([lang=en]) .soft-type,html:not([lang=en]) .lines-type,html:not([lang=en]) .ordinary-type,html:not([lang=en]) .room-type{font-size:11vw}html[lang=ja] .soft-type,html[lang=ko] .soft-type,html[lang=ko] .room-type{font-size:8vw}html:not([lang=en]) .play-type{font-size:12vw}html[lang=ja] .about-content h2,html[lang=ko] .about-content h2{font-size:8.2vw}html[lang=ja] .contact-section h2,html[lang=ko] .contact-section h2{font-size:10.2vw}html:not([lang=en]) .dialog-art .form-type{font-size:45px}html:not([lang=en]) .dialog-art .soft-type,html:not([lang=en]) .dialog-art .lines-type,html:not([lang=en]) .dialog-art .ordinary-type,html:not([lang=en]) .dialog-art .room-type{font-size:32px}}
 @media(max-width:360px){.header-actions{gap:12px}.brand{font-size:30px}.brand-mark{font-size:25px}#language-selector{font-size:10px;max-width:95px}.hero-bottom p>.hero-intro,.hero-bottom p>span{max-width:195px}.round-link{width:74px;height:74px;font-size:9px}}
+
+/* Steven Studio: sculptural SF monogram and expressive editorial typography. */
+:root{--display-font:'Cormorant Garamond',Georgia,'Times New Roman',serif}
+.brand{gap:10px;font-weight:400;letter-spacing:0;flex-shrink:0}
+.sf-logo{display:block;object-fit:contain;flex-shrink:0;filter:contrast(1.35)}
+.brand>.sf-logo{width:64px;height:64px}
+.brand-wordmark{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.brand-name{font-family:var(--display-font);font-size:44px;font-weight:600;font-style:italic;letter-spacing:-1.9px;line-height:.85;font-feature-settings:'liga' 1,'dlig' 1}
+.brand-studio{font-family:'DM Sans',Arial,sans-serif;font-size:9px;line-height:1.2;font-weight:500;letter-spacing:3.6px;padding-left:4px}
+html[lang=en] .hero h1{font-family:var(--display-font);font-weight:500;letter-spacing:-.055em;line-height:.98;font-size:clamp(64px,8.7vw,154px)}
+html[lang=en] .hero h1 em{font-family:var(--display-font);font-style:italic;font-weight:500;letter-spacing:-.045em}
+html[lang=en] .section-heading h2{font-family:var(--display-font);font-weight:500;font-size:clamp(36px,4.1vw,65px);letter-spacing:-1.5px}
+html[lang=en] .section-heading h2>span:not(.heading-primary){font-family:'DM Sans',Arial,sans-serif;letter-spacing:.8px}
+html[lang=en] .about-content h2,html[lang=en] .contact-section h2{font-family:var(--display-font);font-weight:500;letter-spacing:-.045em}
+html[lang=en] .about-content h2 em,html[lang=en] .contact-section h2 em{font-family:var(--display-font);font-weight:500;font-style:italic;letter-spacing:-.04em}
+html[lang=en] .project-meta h3,html[lang=en] .dialog-body h2{font-family:var(--display-font);font-weight:600;letter-spacing:-.4px}
+html[lang=en] .project-meta h3{font-size:24px}
+html[lang=en] .dialog-body h2{font-size:48px}
+html[lang=en] .form-type em,html[lang=en] .soft-type,html[lang=en] .ordinary-type,html[lang=en] .play-type em{font-family:var(--display-font)}
+.about-sticker{font-family:var(--display-font);font-weight:500;letter-spacing:-.035em;font-size:clamp(56px,6.5vw,104px)}
+.about-sticker em{font-family:var(--display-font);font-weight:500;font-style:italic}
+.studio-emblem{position:absolute;right:7%;bottom:62px;width:65%;height:auto;filter:brightness(0) invert(1);opacity:.82}
+.about-sticker small{font-family:'DM Sans',Arial,sans-serif;z-index:2}
+.footer-brand{display:flex;align-items:center;gap:8px;font-family:var(--display-font);font-size:30px;font-style:italic;font-weight:600;letter-spacing:-.8px}
+.footer-brand .sf-logo{width:52px;height:52px}
+.footer-brand>span{font:inherit;margin:0}
+html[lang=zh-Hans] :is(.hero h1,.section-heading h2,.about-content h2,.contact-section h2){font-family:'Songti SC','STSong','SimSun',serif;font-weight:400}
+html[lang=zh-Hant] :is(.hero h1,.section-heading h2,.about-content h2,.contact-section h2){font-family:'Songti TC','STSong','PMingLiU',serif;font-weight:400}
+html[lang=ja] :is(.hero h1,.section-heading h2,.about-content h2,.contact-section h2){font-family:'Hiragino Mincho ProN','Yu Mincho','MS PMincho',serif;font-weight:400}
+html[lang=ko] :is(.hero h1,.section-heading h2,.about-content h2,.contact-section h2){font-family:'AppleMyungjo','Batang',serif;font-weight:400}
+@media(max-width:1050px){.brand>.sf-logo{width:55px;height:55px}.brand-name{font-size:39px}.brand-studio{font-size:8px;letter-spacing:3.2px}.brand{gap:7px}}
+@media(max-width:760px){.brand>.sf-logo{width:51px;height:51px}.brand-name{font-size:36px}.brand-studio{font-size:7px;letter-spacing:3px}.brand-wordmark{gap:4px}html[lang=en] .hero h1{font-size:16.5vw;line-height:1}html[lang=en] .section-heading h2{font-size:42px}html[lang=en] .section-heading h2>.heading-primary{font-size:inherit}html[lang=en] .about-content h2{font-size:43px}html[lang=en] .contact-section h2{font-size:14.5vw}html[lang=en] .project-meta h3{font-size:25px}html[lang=en] .dialog-body h2{font-size:36px}.about-sticker{font-size:17vw}.studio-emblem{width:48%;right:4%;bottom:38px}.footer-brand{font-size:25px}.footer-brand .sf-logo{width:44px;height:44px}.header-actions{gap:13px}}
+@media(max-width:360px){.brand>.sf-logo{width:43px;height:43px}.brand-name{font-size:31px}.brand-studio{font-size:6px;letter-spacing:2.7px}.brand{gap:4px}.header-actions{gap:8px}.menu-toggle{width:29px;padding-left:5px}}
