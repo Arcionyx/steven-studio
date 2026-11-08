@@ -89,3 +89,48 @@ html[lang=ko] :is(.hero h1,.section-heading h2,.about-content h2,.contact-sectio
 @media(max-width:1050px){.brand>.sf-logo{width:55px;height:55px}.brand-name{font-size:39px}.brand-studio{font-size:8px;letter-spacing:3.2px}.brand{gap:7px}}
 @media(max-width:760px){.brand>.sf-logo{width:51px;height:51px}.brand-name{font-size:36px}.brand-studio{font-size:7px;letter-spacing:3px}.brand-wordmark{gap:4px}html[lang=en] .hero h1{font-size:16.5vw;line-height:1}html[lang=en] .section-heading h2{font-size:42px}html[lang=en] .section-heading h2>.heading-primary{font-size:inherit}html[lang=en] .about-content h2{font-size:43px}html[lang=en] .contact-section h2{font-size:14.5vw}html[lang=en] .project-meta h3{font-size:25px}html[lang=en] .dialog-body h2{font-size:36px}.about-sticker{font-size:17vw}.studio-emblem{width:48%;right:4%;bottom:38px}.footer-brand{font-size:25px}.footer-brand .sf-logo{width:44px;height:44px}.header-actions{gap:13px}}
 @media(max-width:360px){.brand>.sf-logo{width:43px;height:43px}.brand-name{font-size:31px}.brand-studio{font-size:6px;letter-spacing:2.7px}.brand{gap:4px}.header-actions{gap:8px}.menu-toggle{width:29px;padding-left:5px}}
+
+/* Original work from the A1 portfolio, organised by design discipline. */
+.portfolio-hero{background:#141614;color:#f3f1e9}
+.hero-project-image{position:absolute;width:70%;height:78%;left:15%;top:10%;object-fit:contain}
+.portfolio-hero:after{box-shadow:none}
+.portfolio-hero .art-caption,.portfolio-hero .art-index{text-shadow:0 1px 6px #000}
+.portfolio-cover{background:#181a17}
+.portfolio-cover>img{display:block;width:100%;height:100%;object-fit:contain;transition:transform .6s}
+.project-open:hover .portfolio-cover>img{transform:scale(1.035)}
+.portfolio-cover .cover-small{background:var(--paper);color:var(--ink);padding:6px 9px;top:18px;left:18px;letter-spacing:1px}
+.cover-snake-scale{background:#fff}.cover-snake-scale>img{padding:7%}
+.cover-futureform{background:#dfdcd2}.cover-futureform>img{padding:7%}
+.cover-light-painting{background:#07090e}.cover-light-painting>img{object-fit:cover}
+.cover-fibre-transmitter>img,.cover-pay-tribute>img{padding:4%}
+.source-tag{font-size:8px;letter-spacing:.7px;color:var(--muted);text-align:right;flex-shrink:0}
+.filter-bar{gap:clamp(18px,2.6vw,42px);scrollbar-width:thin}
+.filter-bar button{flex-shrink:0;padding-top:8px;min-height:44px}
+.filter-bar button sup{color:var(--muted);font-size:8px;margin-left:5px}
+.work-details{border-block:1px solid var(--line);margin:28px 0 32px;padding:20px 0}
+.work-details h3,.source-reference>span:first-child{font:500 9px 'DM Sans',Arial,sans-serif;letter-spacing:1px;text-transform:uppercase}
+.work-details p{font-size:12px;line-height:1.9;margin:10px 0 0}
+.work-gallery{display:grid;gap:28px}
+.work-gallery figure{margin:0}
+.work-gallery img{display:block;width:100%;height:auto;max-height:670px;object-fit:contain;background:#141614}
+.work-gallery figcaption{font-size:11px;color:var(--muted);line-height:1.7;margin-top:9px}
+.source-reference{border-top:1px solid var(--line);margin-top:32px;padding-top:18px;line-height:2!important;color:var(--muted);font-size:10px!important}
+.dialog-body{padding:30px 45px 40px}.dialog-body h2{overflow-wrap:anywhere}
+.awards-empty p{max-width:440px}.awards-empty h3{font-size:18px}
+@media(max-width:760px){.source-tag{font-size:7px;max-width:70px;line-height:1.7}.portfolio-hero{min-height:440px}.hero-project-image{height:77%;top:10%}.filter-bar{gap:23px}.dialog-body{padding:26px 22px 30px}.dialog-bar{padding:14px 22px}.work-gallery{gap:23px}.work-gallery figcaption{font-size:10px}.work-details p{font-size:11px}.project-meta h3{line-height:1.15}.project-meta{align-items:flex-start}.project-meta p{line-height:1.6}}
+
+/* Text-only presentation while the owner prepares project imagery. */
+.discipline-panel{background:#e4e5da;color:var(--ink);min-height:480px}
+.discipline-panel:after{box-shadow:none}
+.discipline-list{position:absolute;inset:70px 28px 100px;list-style:none;counter-reset:discipline;padding:0;margin:0;display:flex;flex-direction:column;justify-content:center}
+.discipline-list li{counter-increment:discipline;display:flex;align-items:baseline;gap:18px;padding:15px 0;border-bottom:1px solid #bdc1b1;font-family:var(--display-font);font-size:clamp(22px,2.4vw,38px);line-height:1.15}
+.discipline-list li:before{content:'0' counter(discipline);font:9px Arial,sans-serif;letter-spacing:1px;flex-shrink:0}
+html:not([lang=en]) .discipline-list li{font-family:inherit;font-size:clamp(16px,1.6vw,25px)}
+.portfolio-cover{aspect-ratio:1.4;color:var(--ink);background:#e1e3d9;text-align:left}
+.category-industrial{background:#e5d8c2}.category-visual{background:#d5dce0}.category-photography{background:#343d39;color:var(--paper)}.category-installation{background:#ded4d1}
+.work-number{position:absolute;left:7%;top:6%;font-size:12px;letter-spacing:2px;border-bottom:1px solid currentColor;padding-bottom:8px;opacity:.55}
+.work-cover-title{position:absolute;left:7%;right:7%;top:32%;font-family:var(--display-font);font-size:clamp(36px,4.7vw,75px);line-height:1.02;letter-spacing:-.035em;overflow-wrap:anywhere}
+.work-cover-category{position:absolute;bottom:8%;left:7%;right:7%;font-size:9px;letter-spacing:.7px;line-height:1.6}
+html:not([lang=en]) .work-cover-title{font-family:inherit;font-size:clamp(25px,3.1vw,48px);line-height:1.3;letter-spacing:0}
+.work-gallery:empty{display:none}
+@media(max-width:760px){.discipline-panel{min-height:410px}.discipline-list{inset:65px 24px 95px}.discipline-list li{font-size:30px;padding:12px 0}html:not([lang=en]) .discipline-list li{font-size:20px}.portfolio-cover{aspect-ratio:1.4}.work-cover-title{font-size:12vw}html:not([lang=en]) .work-cover-title{font-size:8vw}.work-cover-category{font-size:9px}}
