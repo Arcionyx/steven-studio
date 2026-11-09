@@ -174,6 +174,17 @@ window.STUDIO_LOCALES = {
           "structureDetail": "Pay Tribute — chain and framework detail",
           "wovenEye": "Pay Tribute — woven eye and chain detail"
         }
+      },
+      "future-transmitter": {
+        "title": "Future Fibre Optic Transmitter",
+        "category": "Three-dimensional composition",
+        "description": "Future Fibre Optic Transmitter imagines a particle emitter from the future, driven by a powerful source of energy. Its blue components form the emission system, which precisely controls and accelerates particle beams to explore the properties and interactions of elementary particles. The yellow components represent the energy contained within the device. In this imagined future, the equipment can process nuclear waste, breaking down hazardous material and transforming it into harmless substances. When threatened, it can also defend itself and counterattack intruders.",
+        "details": "Dimensions: 26.6 × 20.3 × 18.4 cm. Materials: Chevron board and lacquer.",
+        "gallery": {
+          "full": "Future Fibre Optic Transmitter — full view",
+          "effect": "Future Fibre Optic Transmitter — radial light study",
+          "angle": "Future Fibre Optic Transmitter — angled view with light trails"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -193,7 +204,8 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "View awards & honours",
     "backToWorks": "Back to projects",
     "awardsMetaTitle": "Awards & honours — Steven Studio",
-    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade, Silver Medal for Color Sphere Marine Blossoms and Bronze Medal for ArgenRubi."
+    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade, Silver Medal for Color Sphere Marine Blossoms and Bronze Medal for ArgenRubi.",
+    "filterComposition": "Three-dimensional composition"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -369,6 +381,17 @@ window.STUDIO_LOCALES = {
           "structureDetail": "Pay Tribute — 铁链与骨架细节",
           "wovenEye": "Pay Tribute — 编织眼部与铁链细节"
         }
+      },
+      "future-transmitter": {
+        "title": "Future Fibre Optic Transmitter",
+        "category": "立体构成",
+        "description": "Future Fibre Optic Transmitter 构想了一台来自未来、蕴藏强大能量的粒子发射器。蓝色部分构成粒子发射系统，通过精准控制与加速粒子束，深入探索基本粒子的性质及其相互作用；黄色部分则表现装置内部所蕴含的能量。在这一未来设定中，设备能够处理核废料，将有害物质分解并转化为无害物质。当遭遇危险时，它也能启动自我防御，对入侵者发起反击。",
+        "details": "尺寸：26.6 × 20.3 × 18.4 厘米。材料：雪弗板、漆。",
+        "gallery": {
+          "full": "Future Fibre Optic Transmitter — 作品全貌",
+          "effect": "Future Fibre Optic Transmitter — 放射光影实验",
+          "angle": "Future Fibre Optic Transmitter — 光轨下的侧面视角"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -388,7 +411,8 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "查看奖项与荣誉",
     "backToWorks": "返回作品",
     "awardsMetaTitle": "奖项与荣誉 — Steven Studio",
-    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 的 2024 年全球艺术创作奖金奖、Color Sphere Marine Blossoms 的银奖与 ArgenRubi 的铜奖。"
+    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 的 2024 年全球艺术创作奖金奖、Color Sphere Marine Blossoms 的银奖与 ArgenRubi 的铜奖。",
+    "filterComposition": "立体构成"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -564,6 +588,17 @@ window.STUDIO_LOCALES = {
           "structureDetail": "Pay Tribute — 鐵鏈與骨架細節",
           "wovenEye": "Pay Tribute — 編織眼部與鐵鏈細節"
         }
+      },
+      "future-transmitter": {
+        "title": "Future Fibre Optic Transmitter",
+        "category": "立體構成",
+        "description": "Future Fibre Optic Transmitter 構想了一台來自未來、蘊藏強大能量的粒子發射器。藍色部分構成粒子發射系統，透過精準控制與加速粒子束，深入探索基本粒子的性質及其相互作用；黃色部分則表現裝置內部所蘊含的能量。在這一未來設定中，設備能夠處理核廢料，將有害物質分解並轉化為無害物質。當遭遇危險時，它也能啟動自我防禦，對入侵者發起反擊。",
+        "details": "尺寸：26.6 × 20.3 × 18.4 公分。材料：雪弗板、漆。",
+        "gallery": {
+          "full": "Future Fibre Optic Transmitter — 作品全貌",
+          "effect": "Future Fibre Optic Transmitter — 放射光影實驗",
+          "angle": "Future Fibre Optic Transmitter — 光軌下的側面視角"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -583,7 +618,8 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "查看獎項與榮譽",
     "backToWorks": "返回作品",
     "awardsMetaTitle": "獎項與榮譽 — Steven Studio",
-    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 的 2024 年全球藝術創作獎金獎、Color Sphere Marine Blossoms 的銀獎與 ArgenRubi 的銅獎。"
+    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 的 2024 年全球藝術創作獎金獎、Color Sphere Marine Blossoms 的銀獎與 ArgenRubi 的銅獎。",
+    "filterComposition": "立體構成"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -759,6 +795,17 @@ window.STUDIO_LOCALES = {
           "structureDetail": "Pay Tribute — 鎖と骨組みのディテール",
           "wovenEye": "Pay Tribute — 編み込まれた目と鎖のディテール"
         }
+      },
+      "future-transmitter": {
+        "title": "Future Fibre Optic Transmitter",
+        "category": "立体構成",
+        "description": "Future Fibre Optic Transmitterは、強大なエネルギーを内に秘めた、未来の粒子放出装置を構想した作品です。青い部分は粒子の放出システムを表し、粒子ビームを精密に制御・加速することで、素粒子の性質や相互作用を探究します。黄色い部分は、装置の内部に蓄えられたエネルギーを表現しています。この想像上の未来では、装置は核廃棄物を処理し、有害な物質を分解して無害な物質へと変えることができます。また、危険にさらされた際には、自らを守り、侵入者に反撃する機能も備えています。",
+        "details": "サイズ：26.6 × 20.3 × 18.4 cm。素材：Chevronボード、ラッカー。",
+        "gallery": {
+          "full": "Future Fibre Optic Transmitter — 全体像",
+          "effect": "Future Fibre Optic Transmitter — 放射状の光の表現",
+          "angle": "Future Fibre Optic Transmitter — 光の軌跡を伴う斜めからの眺め"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -778,7 +825,8 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "受賞一覧を見る",
     "backToWorks": "作品一覧へ戻る",
     "awardsMetaTitle": "受賞 — Steven Studio",
-    "awardsMetaDescription": "2024年グローバル・アート・クリエーション・アワードでの Frostfade の金賞、Color Sphere Marine Blossoms の銀賞、ArgenRubi の銅賞など、Steven Studio の受賞情報。"
+    "awardsMetaDescription": "2024年グローバル・アート・クリエーション・アワードでの Frostfade の金賞、Color Sphere Marine Blossoms の銀賞、ArgenRubi の銅賞など、Steven Studio の受賞情報。",
+    "filterComposition": "立体構成"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -954,6 +1002,17 @@ window.STUDIO_LOCALES = {
           "structureDetail": "Pay Tribute — 사슬과 골조의 세부 모습",
           "wovenEye": "Pay Tribute — 엮어 만든 눈과 사슬의 세부 모습"
         }
+      },
+      "future-transmitter": {
+        "title": "Future Fibre Optic Transmitter",
+        "category": "입체구성",
+        "description": "Future Fibre Optic Transmitter는 강력한 에너지를 품은 미래의 입자 방출 장치를 상상한 작품입니다. 파란색 부분은 입자 방출 시스템을 나타내며, 입자 빔을 정밀하게 제어하고 가속해 기본 입자의 성질과 상호작용을 깊이 탐구합니다. 노란색 부분은 장치 내부에 담긴 에너지를 표현합니다. 이 상상 속 미래에서 장치는 핵폐기물을 처리하고, 유해한 물질을 분해해 무해한 물질로 바꿀 수 있습니다. 위험에 처했을 때는 스스로를 방어하고 침입자에게 반격하는 기능도 갖추고 있습니다.",
+        "details": "크기: 26.6 × 20.3 × 18.4 cm. 재료: 셰브론 보드, 래커.",
+        "gallery": {
+          "full": "Future Fibre Optic Transmitter — 작품 전체 모습",
+          "effect": "Future Fibre Optic Transmitter — 방사형 빛 표현",
+          "angle": "Future Fibre Optic Transmitter — 빛의 궤적과 함께 본 측면"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -973,6 +1032,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "수상 내역 보기",
     "backToWorks": "작품으로 돌아가기",
     "awardsMetaTitle": "수상 내역 — Steven Studio",
-    "awardsMetaDescription": "2024 글로벌 아트 크리에이션 어워드에서 Frostfade가 받은 금상, Color Sphere Marine Blossoms가 받은 은상, ArgenRubi가 받은 동상을 포함한 Steven Studio의 수상 내역입니다."
+    "awardsMetaDescription": "2024 글로벌 아트 크리에이션 어워드에서 Frostfade가 받은 금상, Color Sphere Marine Blossoms가 받은 은상, ArgenRubi가 받은 동상을 포함한 Steven Studio의 수상 내역입니다.",
+    "filterComposition": "입체구성"
   }
 };

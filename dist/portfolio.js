@@ -165,5 +165,31 @@ window.STUDIO_WORKS = {
         1688
       ]
     ]
+  },
+  "future-transmitter": {
+    "category": "composition",
+    "source": "Owner-supplied images and description",
+    "assetPath": "assets/works/future-transmitter",
+    "cover": "future-transmitter-01",
+    "images": [
+      [
+        "future-transmitter-01",
+        "full",
+        1500,
+        2000
+      ],
+      [
+        "future-transmitter-02",
+        "effect",
+        2000,
+        1475
+      ],
+      [
+        "future-transmitter-03",
+        "angle",
+        2000,
+        1500
+      ]
+    ]
   }
 };
