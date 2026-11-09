@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Fifteen owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, **Red Flame Demon God** (Photography / Light painting), **Portrait Sketch** (Painting / Sketch), and five numbered **Digital Art** works (Painting / Digital art). Categories are assigned by the owner. Unfinished work entries remain removed.
+Sixteen owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, **Red Flame Demon God** (Photography / Light painting), **Portrait Sketch** (Painting / Sketch), five numbered **Digital Art** works (Painting / Digital art), and **Maglev Ground** (Urban planning). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -40,7 +40,9 @@ Five digital artworks are separate entries under Painting / Digital art, using n
 
 Selecting Painting reveals filters for all six paintings, the one sketch and the five digital artworks. Changing the main discipline resets the painting subtype filter. Work navigation follows the visible selection.
 
-All fifteen works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
+**Maglev Ground**, displayed in Chinese as **磁浮街境**, is an owner-classified Urban planning concept. The English name preserves the title visible in the supplied drawing; the Chinese name was suggested for the site. The complete drawing is both cover and detail image. Its five-language description summarises the street perspective, modular paving section and proposed control of vehicle movement, without claiming engineering validation or a built project.
+
+All sixteen works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
 
 ## Identity and languages
 

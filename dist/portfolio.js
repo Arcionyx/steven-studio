@@ -323,5 +323,19 @@ window.STUDIO_WORKS = {
         1799
       ]
     ]
+  },
+  "maglev-ground": {
+    "category": "urban-planning",
+    "source": "Owner-supplied concept drawing and user-assigned urban-planning classification. English title preserves Maglev Ground from the artwork; Chinese display title 磁浮街境 was suggested for publication. Description paraphrases the visible concept annotations; no location, construction status, date, dimensions or award is asserted.",
+    "assetPath": "assets/works/maglev-ground",
+    "cover": "maglev-ground-01",
+    "images": [
+      [
+        "maglev-ground-01",
+        "full",
+        2400,
+        1799
+      ]
+    ]
   }
 };

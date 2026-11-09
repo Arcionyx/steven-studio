@@ -340,6 +340,19 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Digital Art 05 — Complete artwork"
         }
+      },
+      "maglev-ground": {
+        "title": "Maglev Ground",
+        "category": "Urban planning",
+        "description": "Maglev Ground imagines an urban street built around an adaptive magnetic-levitation surface. A street perspective is paired with a sectional study of modular paving, showing electrically controlled magnetic force, rotating tile supports and an adaptive base. The concept explores how the roadway itself could contribute to vehicle movement, with changes in magnetic force and tile orientation proposed as ways to influence acceleration and deceleration.",
+        "facts": {
+          "title": "Maglev Ground",
+          "category": "Urban planning",
+          "presentation": "Street perspective and modular paving section"
+        },
+        "gallery": {
+          "full": "Maglev Ground — Complete concept drawing"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -382,7 +395,8 @@ window.STUDIO_LOCALES = {
     "filterDigitalArt": "Digital art",
     "filterSketch": "Sketch",
     "filterAllPainting": "All paintings",
-    "paintingFilterLabel": "Filter paintings by type"
+    "paintingFilterLabel": "Filter paintings by type",
+    "filterUrbanPlanning": "Urban planning"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -724,6 +738,19 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "数字艺术 05 — 完整画面"
         }
+      },
+      "maglev-ground": {
+        "title": "磁浮街境",
+        "category": "城市规划",
+        "description": "「磁浮街境」构想了一种以自适应磁悬浮路面为基础的城市街道。作品通过街道透视图与模块化铺装剖面，展示电控磁力、可转动的铺装支撑与自适应基层。方案探索通过调节磁力与铺装单元的角度，让路面本身参与车辆的运动，引导加速与减速。",
+        "facts": {
+          "title": "磁浮街境",
+          "category": "城市规划",
+          "presentation": "街道透视图与模块化铺装剖面图"
+        },
+        "gallery": {
+          "full": "磁浮街境 — 完整概念图"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -766,7 +793,8 @@ window.STUDIO_LOCALES = {
     "filterDigitalArt": "数字艺术",
     "filterSketch": "素描",
     "filterAllPainting": "全部绘画",
-    "paintingFilterLabel": "按绘画类型筛选"
+    "paintingFilterLabel": "按绘画类型筛选",
+    "filterUrbanPlanning": "城市规划"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -1108,6 +1136,19 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "數位藝術 05 — 完整畫面"
         }
+      },
+      "maglev-ground": {
+        "title": "磁浮街境",
+        "category": "城市規劃",
+        "description": "「磁浮街境」構想了一種以自適應磁懸浮路面為基礎的城市街道。作品透過街道透視圖與模組化鋪面剖面，呈現電控磁力、可轉動的鋪面支撐與自適應基層。方案探索透過調節磁力與鋪面單元的角度，讓路面本身參與車輛的運動，引導加速與減速。",
+        "facts": {
+          "title": "磁浮街境",
+          "category": "城市規劃",
+          "presentation": "街道透視圖與模組化鋪面剖面圖"
+        },
+        "gallery": {
+          "full": "磁浮街境 — 完整概念圖"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1150,7 +1191,8 @@ window.STUDIO_LOCALES = {
     "filterDigitalArt": "數位藝術",
     "filterSketch": "素描",
     "filterAllPainting": "全部繪畫",
-    "paintingFilterLabel": "按繪畫類型篩選"
+    "paintingFilterLabel": "按繪畫類型篩選",
+    "filterUrbanPlanning": "城市規劃"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -1492,6 +1534,19 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "デジタルアート 05 — 作品全体"
         }
+      },
+      "maglev-ground": {
+        "title": "Maglev Ground",
+        "category": "都市計画",
+        "description": "Maglev Groundは、状況に応じて調整できる磁気浮上路面を都市の街路に組み込むモビリティのコンセプトです。街路の透視図とモジュール式舗装の断面図を通じて、電気制御による磁力、回転する舗装ユニットの支持部、柔軟な支持層を描いています。磁力や舗装ユニットの向きを変えることで、路面そのものが車両の加速・減速に関わる可能性を探る提案です。",
+        "facts": {
+          "title": "Maglev Ground",
+          "category": "都市計画",
+          "presentation": "街路の透視図とモジュール式舗装の断面図"
+        },
+        "gallery": {
+          "full": "Maglev Ground — コンセプト図全体"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -1534,7 +1589,8 @@ window.STUDIO_LOCALES = {
     "filterDigitalArt": "デジタルアート",
     "filterSketch": "デッサン",
     "filterAllPainting": "すべての絵画",
-    "paintingFilterLabel": "絵画の種類で絞り込む"
+    "paintingFilterLabel": "絵画の種類で絞り込む",
+    "filterUrbanPlanning": "都市計画"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -1876,6 +1932,19 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "디지털 아트 05 — 작품 전체 모습"
         }
+      },
+      "maglev-ground": {
+        "title": "Maglev Ground",
+        "category": "도시계획",
+        "description": "Maglev Ground는 상황에 맞게 조절되는 자기부상 노면을 중심으로 도시 가로를 새롭게 구상한 모빌리티 콘셉트입니다. 가로 투시도와 모듈형 포장 단면도를 통해 전기로 제어되는 자기력, 회전하는 포장 지지부와 유연한 기층을 보여줍니다. 자기력과 포장 유닛의 방향을 조절해 노면 자체가 차량의 움직임에 관여하고, 가속과 감속을 유도할 가능성을 탐구합니다.",
+        "facts": {
+          "title": "Maglev Ground",
+          "category": "도시계획",
+          "presentation": "가로 투시도 및 모듈형 포장 단면도"
+        },
+        "gallery": {
+          "full": "Maglev Ground — 콘셉트 도면 전체"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -1918,6 +1987,7 @@ window.STUDIO_LOCALES = {
     "filterDigitalArt": "디지털 아트",
     "filterSketch": "소묘",
     "filterAllPainting": "전체 회화",
-    "paintingFilterLabel": "회화 유형별 보기"
+    "paintingFilterLabel": "회화 유형별 보기",
+    "filterUrbanPlanning": "도시계획"
   }
 };
