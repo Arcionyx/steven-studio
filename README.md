@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Six owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), and **Future Fibre Optic Transmitter** (Three-dimensional composition). Categories are assigned by the owner. Unfinished work entries remain removed.
+Seven owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), and **Cyber Aurora** (Photography / Light painting). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -27,6 +27,10 @@ The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bro
 **Pay Tribute** uses six owner-supplied photographs in their original order, with the first as its cover and the remaining five visible only in the work gallery. Its full narrative retains Background, Introduction and Significance sections, polished in all five languages. Dimensions are 36.5 × 38.1 × 24.7 cm; materials are polyester fibre, iron chain, iron wire, wooden strips and LED light strip. The owner states that this work has no award; it does not appear in Awards & honours.
 
 **Future Fibre Optic Transmitter** is categorised by the owner as a three-dimensional composition. The first of three supplied photographs is its cover; all three appear in order in the work gallery. Dimensions are 26.6 × 20.3 × 18.4 cm; materials are Chevron board and lacquer. The five-language introduction preserves the speculative particle-emitter narrative. No award is associated with this work.
+
+**Cyber Aurora** is the first supplied light-painting photograph. Its one image serves as both cover and detail view. The supplied camera settings are SONY ILCE-7M4, RGB, 44 mm, F/22, Manual, original image dimensions 3504 × 2336 pixels, ISO 125 and a 13-second exposure. No other light-painting entries are created until supplied.
+
+All seven works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
 
 ## Identity and languages
 

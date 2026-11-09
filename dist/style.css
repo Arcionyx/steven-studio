@@ -196,3 +196,10 @@ html:not([lang=en]) .awards-page h1{font-family:inherit;font-size:clamp(36px,6vw
 .work-narrative p{font-size:13px;line-height:2;max-width:68ch;margin:0;text-wrap:pretty}
 html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
 @media(max-width:760px){.work-narrative h3{font-size:28px}.work-narrative p{font-size:12px;line-height:1.95}html:not([lang=en]) .work-narrative h3{font-size:21px}}
+
+/* Each work field has its own label line and value line. */
+#dialog-details{margin:18px 0 0;display:grid;gap:16px}
+.work-fact dt,.fact-label{display:block;font-size:10px;line-height:1.5;letter-spacing:.3px;color:var(--muted)}
+.work-fact dd{font-size:12px;line-height:1.9;margin:4px 0 0;overflow-wrap:anywhere}
+.work-awards .fact-label{margin:15px 0 4px}
+@media(max-width:760px){.work-fact dd{font-size:11px}}

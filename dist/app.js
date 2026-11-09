@@ -170,13 +170,27 @@ function renderProject(index, slide = 0) {
     block.append(heading, paragraph);
     return block;
   }));
-  document.querySelector('#dialog-details').textContent = copy.details;
+  document.querySelector('#dialog-details').replaceChildren(...Object.entries(copy.facts).map(([key, value]) => {
+    const row = document.createElement('div');
+    row.className = 'work-fact';
+    const label = document.createElement('dt');
+    label.textContent = text('factLabels.' + key);
+    const content = document.createElement('dd');
+    content.textContent = value;
+    row.append(label, content);
+    return row;
+  }));
   const awardSection = document.querySelector('#dialog-awards');
   awardSection.hidden = !copy.award;
   if (copy.award) {
     document.querySelector('#dialog-award-level').textContent = `${work.awards[0].year} · ${copy.award.level}`;
     document.querySelector('#dialog-award-name').textContent = copy.award.name;
-    document.querySelector('#dialog-award-organizer').textContent = `${text('awardOrganizerLabel')}: ${copy.award.organizer}`;
+    const organizerLabel = document.createElement('span');
+    organizerLabel.className = 'fact-label';
+    organizerLabel.textContent = text('awardOrganizerLabel');
+    const organizer = document.createElement('span');
+    organizer.textContent = copy.award.organizer;
+    document.querySelector('#dialog-award-organizer').replaceChildren(organizerLabel, organizer);
   }
   const firstImage = work.images[0];
   if (firstImage) gallery.style.setProperty('--gallery-aspect', `${firstImage[2]} / ${firstImage[3]}`);
@@ -197,6 +211,8 @@ function renderProject(index, slide = 0) {
   });
   gallery.replaceChildren(...figures);
   gallerySection.hidden = figures.length === 0;
+  document.querySelector('.gallery-controls').hidden = figures.length < 2;
+  document.querySelector('#gallery-help').hidden = figures.length < 2;
   const dots = work.images.map((_, imageIndex) => {
     const dot = document.createElement('button');
     dot.type = 'button';

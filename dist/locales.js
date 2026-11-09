@@ -76,7 +76,6 @@ window.STUDIO_LOCALES = {
         "title": "Adversity Silver Wings",
         "category": "Architectural design / Concept",
         "description": "A spatial study of determination and the self. Gestures become triangles and short, straight lines; three physical models lead to a silver, wing-like form, with a silhouette recalling a grand piano. The selected model is imagined in urban and landscape settings.",
-        "details": "2023 · Acrylic board, wood strips and mirror paper. Model: 19.3 × 10.4 × 5.55 in. Physical model and conceptual photomontages; an unbuilt spatial proposal.",
         "gallery": {
           "city": "At the subway exit",
           "snow": "Within the snowy landscape",
@@ -100,13 +99,19 @@ window.STUDIO_LOCALES = {
             "title": "A future energy hub",
             "description": "This innovative art installation is imagined within a futuristic world, serving as an energy supply hub on the outskirts of a bustling city centre. The visionary space grew out of my exploration of my own character and embodies my unwavering resilience. With its sleek silver silhouette, it becomes a beacon of endurance within the urban landscape. In Adversity Silver Wings, a vision of the future and the spirit of perseverance come together, expressing the strength to endure challenges and keep moving forward."
           }
+        },
+        "facts": {
+          "title": "Adversity Silver Wings",
+          "year": "2023",
+          "materials": "Acrylic board, wood strips and mirror paper",
+          "modelDimensions": "19.3 × 10.4 × 5.55 in",
+          "presentation": "Physical model and conceptual photomontages; an unbuilt spatial proposal."
         }
       },
       "frostfade": {
         "title": "Frostfade",
         "category": "Installation",
         "description": "Frostfade envisions a plant from the future, transformed by human pollution of the natural environment. As it adapts to increasingly extreme conditions, including frequent high temperatures, drought and intense ultraviolet radiation, the plant gradually loses its pigment. In this imagined ecology, its white leaves reflect more sunlight and heat, helping it withstand drought by reducing water loss through transpiration. The plant may also develop white leaves as a way to limit the uptake and accumulation of pollutants and toxic substances from its surroundings.",
-        "details": "Size: 28 × 20 × 16 cm. Materials: 3D printing supplies and flower-making liquid.",
         "gallery": {
           "full": "Frostfade — full view",
           "detail": "Frostfade — detail of the leaf and branching structure"
@@ -115,13 +120,17 @@ window.STUDIO_LOCALES = {
           "level": "Gold Medal",
           "name": "Global Art Creation Award",
           "organizer": "European Association of Culture and Education"
+        },
+        "facts": {
+          "title": "Frostfade",
+          "materials": "3D printing supplies and flower-making liquid",
+          "dimensions": "28 × 20 × 16 cm"
         }
       },
       "color-sphere": {
         "title": "Color Sphere Marine Blossoms",
         "category": "Installation",
         "description": "Color Sphere Marine Blossoms imagines a sea plant from the future, shaped by human destruction and pollution. As discarded waste breaks down and toxic substances accumulate, the surrounding environment and its plant life take on a spectrum of colours. The plants are spherical and have evolved a more efficient photosynthetic system, enabling them to survive in the low-light conditions of the deep sea. Their richly coloured leaves may capture and use a wider range of light wavelengths, improving the efficiency of photosynthesis.",
-        "details": "Size: 26 × 15 × 17 cm. Materials: foam balls, modelling clay and 3D printing supplies.",
         "gallery": {
           "full": "Color Sphere Marine Blossoms — full view",
           "detail": "Color Sphere Marine Blossoms — detail of the coloured spherical forms"
@@ -130,13 +139,17 @@ window.STUDIO_LOCALES = {
           "level": "Silver Medal",
           "name": "Global Art Creation Award",
           "organizer": "European Association of Culture and Education"
+        },
+        "facts": {
+          "title": "Color Sphere Marine Blossoms",
+          "materials": "foam balls, modelling clay and 3D printing supplies",
+          "dimensions": "26 × 15 × 17 cm"
         }
       },
       "argenrubi": {
         "title": "ArgenRubi",
         "category": "Installation",
         "description": "ArgenRubi imagines plants growing in large metal scrapyards, where intensive industrial refining and the waste of natural resources have transformed the environment. After absorbing large amounts of tin, zinc, iron and other elements, the plants undergo genetic mutations to adapt to these extreme conditions. Their silvery framework suggests structural changes in the cells on the surface of the leaves, allowing them to reflect sunlight and heat and reduce damage. The red fruits, in turn, may have evolved to attract pollinators or animals that disperse seeds. Their colour stands out against the backdrop of an abandoned industrial site, drawing insects and other organisms.",
-        "details": "Size: 41 × 32 × 34 cm. Materials: tinfoil and balloons.",
         "gallery": {
           "full": "ArgenRubi — full view",
           "detail": "ArgenRubi — detail of the silver framework and red fruit-like forms"
@@ -145,13 +158,17 @@ window.STUDIO_LOCALES = {
           "level": "Bronze Medal",
           "name": "Global Art Creation Award",
           "organizer": "European Association of Culture and Education"
+        },
+        "facts": {
+          "title": "ArgenRubi",
+          "materials": "tinfoil and balloons",
+          "dimensions": "41 × 32 × 34 cm"
         }
       },
       "pay-tribute": {
         "title": "Pay Tribute",
         "category": "Installation",
         "description": "In an imagined future, I am an archaeologist and art lover who discovers the skull remains of an ancient “violent bear”. Fascinated by this long-lost creature, I set out to pay tribute to it through an artistic reinterpretation.",
-        "details": "Dimensions: 36.5 × 38.1 × 24.7 cm. Materials: polyester fibre, iron chain, iron wire, wooden strips and LED light strip.",
         "narrative": {
           "background": {
             "title": "Background",
@@ -173,17 +190,45 @@ window.STUDIO_LOCALES = {
           "fibreDetail": "Pay Tribute — fibre and wire mesh detail",
           "structureDetail": "Pay Tribute — chain and framework detail",
           "wovenEye": "Pay Tribute — woven eye and chain detail"
+        },
+        "facts": {
+          "title": "Pay Tribute",
+          "materials": "polyester fibre, iron chain, iron wire, wooden strips and LED light strip",
+          "dimensions": "36.5 × 38.1 × 24.7 cm"
         }
       },
       "future-transmitter": {
         "title": "Future Fibre Optic Transmitter",
         "category": "Three-dimensional composition",
         "description": "Future Fibre Optic Transmitter imagines a particle emitter from the future, driven by a powerful source of energy. Its blue components form the emission system, which precisely controls and accelerates particle beams to explore the properties and interactions of elementary particles. The yellow components represent the energy contained within the device. In this imagined future, the equipment can process nuclear waste, breaking down hazardous material and transforming it into harmless substances. When threatened, it can also defend itself and counterattack intruders.",
-        "details": "Dimensions: 26.6 × 20.3 × 18.4 cm. Materials: Chevron board and lacquer.",
         "gallery": {
           "full": "Future Fibre Optic Transmitter — full view",
           "effect": "Future Fibre Optic Transmitter — radial light study",
           "angle": "Future Fibre Optic Transmitter — angled view with light trails"
+        },
+        "facts": {
+          "title": "Future Fibre Optic Transmitter",
+          "materials": "Chevron board and lacquer",
+          "dimensions": "26.6 × 20.3 × 18.4 cm"
+        }
+      },
+      "cyber-aurora": {
+        "title": "Cyber Aurora",
+        "category": "Photography / Light painting",
+        "description": "Light-painting photography captured over a 13-second exposure.",
+        "facts": {
+          "title": "Cyber Aurora",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "Manual",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13 s"
+        },
+        "gallery": {
+          "full": "Cyber Aurora — blue-white and golden light trails"
         }
       }
     },
@@ -191,7 +236,7 @@ window.STUDIO_LOCALES = {
     "filterIndustrial": "Industrial & product",
     "filterPhotography": "Photography",
     "filterInstallation": "Installation",
-    "detailsLabel": "Materials & process",
+    "detailsLabel": "Work information",
     "galleryLabel": "Selected images",
     "archiveLabel": "WORK ARCHIVE",
     "galleryPrevious": "Previous image",
@@ -205,7 +250,23 @@ window.STUDIO_LOCALES = {
     "backToWorks": "Back to projects",
     "awardsMetaTitle": "Awards & honours — Steven Studio",
     "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade, Silver Medal for Color Sphere Marine Blossoms and Bronze Medal for ArgenRubi.",
-    "filterComposition": "Three-dimensional composition"
+    "filterComposition": "Three-dimensional composition",
+    "factLabels": {
+      "title": "Title of work",
+      "year": "Year",
+      "materials": "Materials",
+      "dimensions": "Dimensions",
+      "modelDimensions": "Model dimensions",
+      "presentation": "Presentation",
+      "equipment": "Equipment model",
+      "colorSpace": "Colour space",
+      "focalLength": "Focal length",
+      "aperture": "Aperture",
+      "exposureProgram": "Exposure program",
+      "resolution": "Image dimensions",
+      "iso": "ISO",
+      "exposureTime": "Exposure time"
+    }
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -283,7 +344,6 @@ window.STUDIO_LOCALES = {
         "title": "逆境银翼",
         "category": "建筑设计 / 概念研究",
         "description": "围绕「坚定」与「自我」展开的空间探索。身体姿态转化为三角形与短直线，经过三个实体模型的比较，最终发展出银色翼状形体，轮廓带有三角钢琴的联想，并被置入城市与自然场景。",
-        "details": "2023 年。亚克力板、木条、镜面纸。模型尺寸：19.3 × 10.4 × 5.55 英寸。实体模型与概念合成图，属于未建成的空间提案。",
         "gallery": {
           "city": "地铁站出口",
           "snow": "静谧雪境",
@@ -307,13 +367,19 @@ window.STUDIO_LOCALES = {
             "title": "未来能量枢纽",
             "description": "这是一件设想于未来世界的创新艺术装置，在繁忙城市中心的外围承担能源供应枢纽的角色。这个充满前瞻性的空间源于我对自身精神特质的探索，体现着我坚定不移的韧性。流畅的银色轮廓让它成为城市景观中一座象征持久与坚守的灯塔。在《逆境银翼》中，对未来的想象与坚持不懈的精神相互交融，共同表达面对挑战、持续前行的力量。"
           }
+        },
+        "facts": {
+          "title": "逆境银翼",
+          "year": "2023",
+          "materials": "亚克力板、木条、镜面纸",
+          "modelDimensions": "19.3 × 10.4 × 5.55 英寸",
+          "presentation": "实体模型与概念合成图，属于未建成的空间提案。"
         }
       },
       "frostfade": {
         "title": "Frostfade",
         "category": "装置艺术",
         "description": "《Frostfade》构想了一株来自未来的植物，它因人类对自然环境的污染而发生变异。频繁的高温、干旱与强烈的紫外线，使植物面临日益严苛的气候条件；在适应这些变化的过程中，它逐渐失去了原有的色素。在这一想象中的生态环境里，白色叶片能够反射更多阳光与热量，减少叶片蒸腾造成的水分流失，从而帮助植物抵御干旱。植物也可能通过演化出白色叶片，减少对环境中污染物与有毒物质的吸收和积累。",
-        "details": "尺寸：28 × 20 × 16 厘米。材料：3D 打印材料、造花液。",
         "gallery": {
           "full": "Frostfade——作品全貌",
           "detail": "Frostfade——叶片与分枝结构细节"
@@ -322,13 +388,17 @@ window.STUDIO_LOCALES = {
           "level": "金奖",
           "name": "全球艺术创作奖",
           "organizer": "欧洲文化与教育协会"
+        },
+        "facts": {
+          "title": "Frostfade",
+          "materials": "3D 打印材料、造花液",
+          "dimensions": "28 × 20 × 16 厘米"
         }
       },
       "color-sphere": {
         "title": "Color Sphere Marine Blossoms",
         "category": "装置艺术",
         "description": "《Color Sphere Marine Blossoms》构想了一种来自未来的海洋植物，它的形态与色彩受到人类破坏和环境污染的影响。随着废弃物分解、有毒物质不断积累，周围环境与其中生长的植物逐渐呈现出多样的色彩。这些植物具有球形结构，并演化出更高效的光合作用系统，使它们能够在光线微弱的深海环境中生存。叶片丰富的颜色，也可能是一种捕捉并利用不同波长光线的适应方式，从而提升光合作用的效率。",
-        "details": "尺寸：26 × 15 × 17 厘米。材料：泡沫球、塑形土、3D 打印材料。",
         "gallery": {
           "full": "Color Sphere Marine Blossoms——作品全貌",
           "detail": "Color Sphere Marine Blossoms——彩色球状形体细节"
@@ -337,13 +407,17 @@ window.STUDIO_LOCALES = {
           "level": "银奖",
           "name": "全球艺术创作奖",
           "organizer": "欧洲文化与教育协会"
+        },
+        "facts": {
+          "title": "Color Sphere Marine Blossoms",
+          "materials": "泡沫球、塑形土、3D 打印材料",
+          "dimensions": "26 × 15 × 17 厘米"
         }
       },
       "argenrubi": {
         "title": "ArgenRubi",
         "category": "装置艺术",
         "description": "《ArgenRubi》构想了一类生长于大型金属废料场中的植物。在人类大规模工业冶炼与自然资源浪费的影响下，它们所处的环境发生了巨大变化。植物吸收了大量锡、锌、铁等元素，并通过基因变异适应这些极端条件。银色的骨架暗示着叶片表面细胞结构的变化，使其能够反射阳光与热量，减轻环境造成的损伤。红色果实则可能是一种吸引传粉者或种子传播者的进化策略：在废弃厂区的背景中，鲜明的红色更容易被看见，从而吸引昆虫及其他生物。",
-        "details": "尺寸：41 × 32 × 34 厘米。材料：锡纸、气球。",
         "gallery": {
           "full": "ArgenRubi——作品全貌",
           "detail": "ArgenRubi——银色骨架与红色果实状形体的细节"
@@ -352,13 +426,17 @@ window.STUDIO_LOCALES = {
           "level": "铜奖",
           "name": "全球艺术创作奖",
           "organizer": "欧洲文化与教育协会"
+        },
+        "facts": {
+          "title": "ArgenRubi",
+          "materials": "锡纸、气球",
+          "dimensions": "41 × 32 × 34 厘米"
         }
       },
       "pay-tribute": {
         "title": "Pay Tribute",
         "category": "装置艺术",
         "description": "在一个想象中的未来，我是一名考古学家，也是一位艺术爱好者。我发现了一只古代“暴力熊”的头骨遗骸，并被这个早已消逝的生物深深吸引。我决定通过艺术重新诠释它，向它致敬。",
-        "details": "尺寸：36.5 × 38.1 × 24.7 厘米。材料：聚酯纤维、铁链、铁丝、木条、LED 灯带。",
         "narrative": {
           "background": {
             "title": "创作背景",
@@ -380,17 +458,45 @@ window.STUDIO_LOCALES = {
           "fibreDetail": "Pay Tribute — 纤维与金属网细节",
           "structureDetail": "Pay Tribute — 铁链与骨架细节",
           "wovenEye": "Pay Tribute — 编织眼部与铁链细节"
+        },
+        "facts": {
+          "title": "Pay Tribute",
+          "materials": "聚酯纤维、铁链、铁丝、木条、LED 灯带",
+          "dimensions": "36.5 × 38.1 × 24.7 厘米"
         }
       },
       "future-transmitter": {
         "title": "Future Fibre Optic Transmitter",
         "category": "立体构成",
         "description": "Future Fibre Optic Transmitter 构想了一台来自未来、蕴藏强大能量的粒子发射器。蓝色部分构成粒子发射系统，通过精准控制与加速粒子束，深入探索基本粒子的性质及其相互作用；黄色部分则表现装置内部所蕴含的能量。在这一未来设定中，设备能够处理核废料，将有害物质分解并转化为无害物质。当遭遇危险时，它也能启动自我防御，对入侵者发起反击。",
-        "details": "尺寸：26.6 × 20.3 × 18.4 厘米。材料：雪弗板、漆。",
         "gallery": {
           "full": "Future Fibre Optic Transmitter — 作品全貌",
           "effect": "Future Fibre Optic Transmitter — 放射光影实验",
           "angle": "Future Fibre Optic Transmitter — 光轨下的侧面视角"
+        },
+        "facts": {
+          "title": "Future Fibre Optic Transmitter",
+          "materials": "雪弗板、漆",
+          "dimensions": "26.6 × 20.3 × 18.4 厘米"
+        }
+      },
+      "cyber-aurora": {
+        "title": "Cyber Aurora",
+        "category": "摄影 / 光绘",
+        "description": "以 13 秒曝光记录光迹的光绘摄影作品。",
+        "facts": {
+          "title": "Cyber Aurora",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "手动",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13 秒"
+        },
+        "gallery": {
+          "full": "Cyber Aurora — 蓝白色与金色光轨"
         }
       }
     },
@@ -398,7 +504,7 @@ window.STUDIO_LOCALES = {
     "filterIndustrial": "工业与产品",
     "filterPhotography": "摄影",
     "filterInstallation": "装置艺术",
-    "detailsLabel": "材料与过程",
+    "detailsLabel": "作品信息",
     "galleryLabel": "作品图像",
     "archiveLabel": "作品档案",
     "galleryPrevious": "上一张图片",
@@ -412,7 +518,23 @@ window.STUDIO_LOCALES = {
     "backToWorks": "返回作品",
     "awardsMetaTitle": "奖项与荣誉 — Steven Studio",
     "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 的 2024 年全球艺术创作奖金奖、Color Sphere Marine Blossoms 的银奖与 ArgenRubi 的铜奖。",
-    "filterComposition": "立体构成"
+    "filterComposition": "立体构成",
+    "factLabels": {
+      "title": "作品名称",
+      "year": "年份",
+      "materials": "材料",
+      "dimensions": "尺寸",
+      "modelDimensions": "模型尺寸",
+      "presentation": "呈现形式",
+      "equipment": "相机型号",
+      "colorSpace": "色彩空间",
+      "focalLength": "焦距",
+      "aperture": "光圈",
+      "exposureProgram": "曝光模式",
+      "resolution": "图像尺寸",
+      "iso": "ISO 感光度",
+      "exposureTime": "曝光时间"
+    }
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -490,7 +612,6 @@ window.STUDIO_LOCALES = {
         "title": "逆境銀翼",
         "category": "建築設計 / 概念研究",
         "description": "圍繞「堅定」與「自我」展開的空間探索。身體姿態轉化為三角形與短直線，經過三個實體模型的比較，最終發展出銀色翼狀形體，輪廓帶有三角鋼琴的聯想，並被置入城市與自然場景。",
-        "details": "2023 年。壓克力板、木條、鏡面紙。模型尺寸：19.3 × 10.4 × 5.55 英寸。實體模型與概念合成圖，屬於未建成的空間提案。",
         "gallery": {
           "city": "地鐵站出口",
           "snow": "靜謐雪境",
@@ -514,13 +635,19 @@ window.STUDIO_LOCALES = {
             "title": "未來能量樞紐",
             "description": "這是一件設想於未來世界的創新藝術裝置，在繁忙城市中心的外圍承擔能源供應樞紐的角色。這個充滿前瞻性的空間源於我對自身精神特質的探索，體現著我堅定不移的韌性。流暢的銀色輪廓讓它成為城市景觀中一座象徵持久與堅守的燈塔。在《逆境銀翼》中，對未來的想像與堅持不懈的精神相互交融，共同表達面對挑戰、持續前行的力量。"
           }
+        },
+        "facts": {
+          "title": "逆境銀翼",
+          "year": "2023",
+          "materials": "壓克力板、木條、鏡面紙",
+          "modelDimensions": "19.3 × 10.4 × 5.55 英寸",
+          "presentation": "實體模型與概念合成圖，屬於未建成的空間提案。"
         }
       },
       "frostfade": {
         "title": "Frostfade",
         "category": "裝置藝術",
         "description": "《Frostfade》構想了一株來自未來的植物，它因人類對自然環境的污染而發生變異。頻繁的高溫、乾旱與強烈的紫外線，使植物面臨日益嚴苛的氣候條件；在適應這些變化的過程中，它逐漸失去了原有的色素。在這一想像中的生態環境裡，白色葉片能夠反射更多陽光與熱量，減少葉片蒸散造成的水分流失，從而幫助植物抵禦乾旱。植物也可能透過演化出白色葉片，減少對環境中污染物與有毒物質的吸收和累積。",
-        "details": "尺寸：28 × 20 × 16 公分。材料：3D 列印材料、造花液。",
         "gallery": {
           "full": "Frostfade——作品全貌",
           "detail": "Frostfade——葉片與分枝結構細節"
@@ -529,13 +656,17 @@ window.STUDIO_LOCALES = {
           "level": "金獎",
           "name": "全球藝術創作獎",
           "organizer": "歐洲文化與教育協會"
+        },
+        "facts": {
+          "title": "Frostfade",
+          "materials": "3D 列印材料、造花液",
+          "dimensions": "28 × 20 × 16 公分"
         }
       },
       "color-sphere": {
         "title": "Color Sphere Marine Blossoms",
         "category": "裝置藝術",
         "description": "《Color Sphere Marine Blossoms》構想了一種來自未來的海洋植物，它的形態與色彩受到人類破壞和環境污染的影響。隨著廢棄物分解、有毒物質不斷累積，周圍環境與其中生長的植物逐漸呈現出多樣的色彩。這些植物具有球形結構，並演化出更高效的光合作用系統，使它們能夠在光線微弱的深海環境中生存。葉片豐富的顏色，也可能是一種捕捉並利用不同波長光線的適應方式，從而提升光合作用的效率。",
-        "details": "尺寸：26 × 15 × 17 公分。材料：泡沫球、塑形土、3D 列印材料。",
         "gallery": {
           "full": "Color Sphere Marine Blossoms——作品全貌",
           "detail": "Color Sphere Marine Blossoms——彩色球狀形體細節"
@@ -544,13 +675,17 @@ window.STUDIO_LOCALES = {
           "level": "銀獎",
           "name": "全球藝術創作獎",
           "organizer": "歐洲文化與教育協會"
+        },
+        "facts": {
+          "title": "Color Sphere Marine Blossoms",
+          "materials": "泡沫球、塑形土、3D 列印材料",
+          "dimensions": "26 × 15 × 17 公分"
         }
       },
       "argenrubi": {
         "title": "ArgenRubi",
         "category": "裝置藝術",
         "description": "《ArgenRubi》構想了一類生長於大型金屬廢料場中的植物。在人類大規模工業冶煉與自然資源浪費的影響下，它們所處的環境發生了巨大變化。植物吸收了大量錫、鋅、鐵等元素，並透過基因變異適應這些極端條件。銀色的骨架暗示著葉片表面細胞結構的變化，使其能夠反射陽光與熱量，減輕環境造成的損傷。紅色果實則可能是一種吸引傳粉者或種子傳播者的演化策略：在廢棄廠區的背景中，鮮明的紅色更容易被看見，從而吸引昆蟲及其他生物。",
-        "details": "尺寸：41 × 32 × 34 公分。材料：錫紙、氣球。",
         "gallery": {
           "full": "ArgenRubi——作品全貌",
           "detail": "ArgenRubi——銀色骨架與紅色果實狀形體的細節"
@@ -559,13 +694,17 @@ window.STUDIO_LOCALES = {
           "level": "銅獎",
           "name": "全球藝術創作獎",
           "organizer": "歐洲文化與教育協會"
+        },
+        "facts": {
+          "title": "ArgenRubi",
+          "materials": "錫紙、氣球",
+          "dimensions": "41 × 32 × 34 公分"
         }
       },
       "pay-tribute": {
         "title": "Pay Tribute",
         "category": "裝置藝術",
         "description": "在一個想像中的未來，我是一名考古學家，也是一位藝術愛好者。我發現了一隻古代「暴力熊」的頭骨遺骸，並被這個早已消逝的生物深深吸引。我決定透過藝術重新詮釋牠，向牠致敬。",
-        "details": "尺寸：36.5 × 38.1 × 24.7 公分。材料：聚酯纖維、鐵鏈、鐵絲、木條、LED 燈帶。",
         "narrative": {
           "background": {
             "title": "創作背景",
@@ -587,17 +726,45 @@ window.STUDIO_LOCALES = {
           "fibreDetail": "Pay Tribute — 纖維與金屬網細節",
           "structureDetail": "Pay Tribute — 鐵鏈與骨架細節",
           "wovenEye": "Pay Tribute — 編織眼部與鐵鏈細節"
+        },
+        "facts": {
+          "title": "Pay Tribute",
+          "materials": "聚酯纖維、鐵鏈、鐵絲、木條、LED 燈帶",
+          "dimensions": "36.5 × 38.1 × 24.7 公分"
         }
       },
       "future-transmitter": {
         "title": "Future Fibre Optic Transmitter",
         "category": "立體構成",
         "description": "Future Fibre Optic Transmitter 構想了一台來自未來、蘊藏強大能量的粒子發射器。藍色部分構成粒子發射系統，透過精準控制與加速粒子束，深入探索基本粒子的性質及其相互作用；黃色部分則表現裝置內部所蘊含的能量。在這一未來設定中，設備能夠處理核廢料，將有害物質分解並轉化為無害物質。當遭遇危險時，它也能啟動自我防禦，對入侵者發起反擊。",
-        "details": "尺寸：26.6 × 20.3 × 18.4 公分。材料：雪弗板、漆。",
         "gallery": {
           "full": "Future Fibre Optic Transmitter — 作品全貌",
           "effect": "Future Fibre Optic Transmitter — 放射光影實驗",
           "angle": "Future Fibre Optic Transmitter — 光軌下的側面視角"
+        },
+        "facts": {
+          "title": "Future Fibre Optic Transmitter",
+          "materials": "雪弗板、漆",
+          "dimensions": "26.6 × 20.3 × 18.4 公分"
+        }
+      },
+      "cyber-aurora": {
+        "title": "Cyber Aurora",
+        "category": "攝影 / 光繪",
+        "description": "以 13 秒曝光記錄光跡的光繪攝影作品。",
+        "facts": {
+          "title": "Cyber Aurora",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "手動",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13 秒"
+        },
+        "gallery": {
+          "full": "Cyber Aurora — 藍白色與金色光軌"
         }
       }
     },
@@ -605,7 +772,7 @@ window.STUDIO_LOCALES = {
     "filterIndustrial": "工業與產品",
     "filterPhotography": "攝影",
     "filterInstallation": "裝置藝術",
-    "detailsLabel": "材料與過程",
+    "detailsLabel": "作品資訊",
     "galleryLabel": "作品圖像",
     "archiveLabel": "作品檔案",
     "galleryPrevious": "上一張圖片",
@@ -619,7 +786,23 @@ window.STUDIO_LOCALES = {
     "backToWorks": "返回作品",
     "awardsMetaTitle": "獎項與榮譽 — Steven Studio",
     "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 的 2024 年全球藝術創作獎金獎、Color Sphere Marine Blossoms 的銀獎與 ArgenRubi 的銅獎。",
-    "filterComposition": "立體構成"
+    "filterComposition": "立體構成",
+    "factLabels": {
+      "title": "作品名稱",
+      "year": "年份",
+      "materials": "材料",
+      "dimensions": "尺寸",
+      "modelDimensions": "模型尺寸",
+      "presentation": "呈現形式",
+      "equipment": "相機型號",
+      "colorSpace": "色彩空間",
+      "focalLength": "焦距",
+      "aperture": "光圈",
+      "exposureProgram": "曝光模式",
+      "resolution": "影像尺寸",
+      "iso": "ISO 感光度",
+      "exposureTime": "曝光時間"
+    }
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -697,7 +880,6 @@ window.STUDIO_LOCALES = {
         "title": "逆境の銀翼",
         "category": "建築デザイン / コンセプト",
         "description": "「決意」と自己をめぐる空間の探求。身体の動きを三角形や短い直線へ変換し、三つの模型を比較して、グランドピアノを思わせる銀色の翼状の形へ展開しました。都市や自然の風景への配置も構想しています。",
-        "details": "2023 年。アクリル板、木材、ミラー紙。模型寸法：19.3 × 10.4 × 5.55 インチ。実物模型とフォトモンタージュによる未建設の空間提案。",
         "gallery": {
           "city": "地下鉄駅の出口で",
           "snow": "静かな雪景色の中で",
@@ -721,13 +903,19 @@ window.STUDIO_LOCALES = {
             "title": "未来のエネルギー拠点",
             "description": "未来の世界に構想したこの革新的なアートインスタレーションは、活気ある都心の外縁でエネルギー供給の拠点を担う存在です。この先を見据えた空間は、自分自身の精神性を探る過程から生まれ、私の揺るがない粘り強さを表しています。滑らかな銀色の輪郭は、都市の風景の中で、耐え抜き、進み続ける意志を示す灯台のように立ち現れます。「逆境の銀翼」では、未来への想像力と諦めずに歩む姿勢が結びつき、困難に向き合いながら前へ進む力を表現しています。"
           }
+        },
+        "facts": {
+          "title": "逆境の銀翼",
+          "year": "2023",
+          "materials": "アクリル板、木材、ミラー紙",
+          "modelDimensions": "19.3 × 10.4 × 5.55 インチ",
+          "presentation": "実物模型とフォトモンタージュによる未建設の空間提案。"
         }
       },
       "frostfade": {
         "title": "Frostfade",
         "category": "インスタレーション",
         "description": "「Frostfade」は、人間による自然環境の汚染を受けて変異した、未来の植物を構想した作品です。頻繁な高温、干ばつ、強い紫外線など、ますます厳しくなる気候条件に適応する過程で、植物は少しずつ色素を失っていきます。この想像上の生態系では、白い葉がより多くの日光と熱を反射し、蒸散による水分の損失を抑えることで、植物が乾燥に耐える助けとなります。また、白い葉への進化は、周囲の環境に含まれる汚染物質や有害物質の吸収と蓄積を減らすための適応とも考えられます。",
-        "details": "寸法：28 × 20 × 16 cm。素材：3D プリント用素材、造花用液。",
         "gallery": {
           "full": "Frostfade — 作品全景",
           "detail": "Frostfade — 葉と枝分かれの構造のディテール"
@@ -736,13 +924,17 @@ window.STUDIO_LOCALES = {
           "level": "金賞",
           "name": "グローバル・アート・クリエーション・アワード",
           "organizer": "欧州文化教育協会"
+        },
+        "facts": {
+          "title": "Frostfade",
+          "materials": "3D プリント用素材、造花用液",
+          "dimensions": "28 × 20 × 16 cm"
         }
       },
       "color-sphere": {
         "title": "Color Sphere Marine Blossoms",
         "category": "インスタレーション",
         "description": "「Color Sphere Marine Blossoms」は、人間による環境破壊や汚染の影響を受けた、未来の海洋植物を構想した作品です。捨てられたごみが分解され、有害物質が蓄積するにつれて、周囲の環境とそこに育つ植物はさまざまな色を帯びていきます。植物は球状の構造を持ち、より効率的な光合成の仕組みを進化させることで、光の乏しい深海でも生きられるようになっています。色鮮やかな葉も、異なる波長の光を捉えて利用し、光合成の効率を高めるための適応なのかもしれません。",
-        "details": "寸法：26 × 15 × 17 cm。素材：発泡素材の球、造形用粘土、3D プリント用素材。",
         "gallery": {
           "full": "Color Sphere Marine Blossoms — 作品全景",
           "detail": "Color Sphere Marine Blossoms — 色鮮やかな球状の形のディテール"
@@ -751,13 +943,17 @@ window.STUDIO_LOCALES = {
           "level": "銀賞",
           "name": "グローバル・アート・クリエーション・アワード",
           "organizer": "欧州文化教育協会"
+        },
+        "facts": {
+          "title": "Color Sphere Marine Blossoms",
+          "materials": "発泡素材の球、造形用粘土、3D プリント用素材",
+          "dimensions": "26 × 15 × 17 cm"
         }
       },
       "argenrubi": {
         "title": "ArgenRubi",
         "category": "インスタレーション",
         "description": "「ArgenRubi」は、大規模な金属スクラップ工場に生きる植物を構想した作品です。人間による集中的な工業精錬や天然資源の浪費によって、植物を取り巻く環境は大きく変わっています。スズ、亜鉛、鉄などの元素を大量に取り込んだ植物は、こうした過酷な条件に適応するため、遺伝的な変異を遂げます。銀色の骨格は葉の表面にある細胞構造の変化を示唆し、日光や熱を反射して損傷を和らげる働きを想像させます。一方、赤い果実は、花粉を媒介する生物や種子を運ぶ動物を引き寄せるために進化したものかもしれません。廃工場の風景の中で赤色はひときわ目立ち、昆虫をはじめとするさまざまな生物を誘います。",
-        "details": "寸法：41 × 32 × 34 cm。素材：金属箔、風船。",
         "gallery": {
           "full": "ArgenRubi — 作品全景",
           "detail": "ArgenRubi — 銀色の骨格と赤い果実状の形のディテール"
@@ -766,13 +962,17 @@ window.STUDIO_LOCALES = {
           "level": "銅賞",
           "name": "グローバル・アート・クリエーション・アワード",
           "organizer": "欧州文化教育協会"
+        },
+        "facts": {
+          "title": "ArgenRubi",
+          "materials": "金属箔、風船",
+          "dimensions": "41 × 32 × 34 cm"
         }
       },
       "pay-tribute": {
         "title": "Pay Tribute",
         "category": "インスタレーション",
         "description": "想像上の未来を舞台に、私は考古学者であり、芸術を愛する一人の人間として、古代の「暴力ベア」の頭骨の遺骸を発見します。遠い昔に生きたこの生き物に心をひかれ、芸術を通してその姿を解釈し直し、敬意を表そうと考えました。",
-        "details": "サイズ：36.5 × 38.1 × 24.7 cm。素材：ポリエステル繊維、鉄の鎖、針金、木の細材、LEDテープライト。",
         "narrative": {
           "background": {
             "title": "制作の背景",
@@ -794,17 +994,45 @@ window.STUDIO_LOCALES = {
           "fibreDetail": "Pay Tribute — 繊維と金網のディテール",
           "structureDetail": "Pay Tribute — 鎖と骨組みのディテール",
           "wovenEye": "Pay Tribute — 編み込まれた目と鎖のディテール"
+        },
+        "facts": {
+          "title": "Pay Tribute",
+          "materials": "ポリエステル繊維、鉄の鎖、針金、木の細材、LEDテープライト",
+          "dimensions": "36.5 × 38.1 × 24.7 cm"
         }
       },
       "future-transmitter": {
         "title": "Future Fibre Optic Transmitter",
         "category": "立体構成",
         "description": "Future Fibre Optic Transmitterは、強大なエネルギーを内に秘めた、未来の粒子放出装置を構想した作品です。青い部分は粒子の放出システムを表し、粒子ビームを精密に制御・加速することで、素粒子の性質や相互作用を探究します。黄色い部分は、装置の内部に蓄えられたエネルギーを表現しています。この想像上の未来では、装置は核廃棄物を処理し、有害な物質を分解して無害な物質へと変えることができます。また、危険にさらされた際には、自らを守り、侵入者に反撃する機能も備えています。",
-        "details": "サイズ：26.6 × 20.3 × 18.4 cm。素材：Chevronボード、ラッカー。",
         "gallery": {
           "full": "Future Fibre Optic Transmitter — 全体像",
           "effect": "Future Fibre Optic Transmitter — 放射状の光の表現",
           "angle": "Future Fibre Optic Transmitter — 光の軌跡を伴う斜めからの眺め"
+        },
+        "facts": {
+          "title": "Future Fibre Optic Transmitter",
+          "materials": "Chevronボード、ラッカー",
+          "dimensions": "26.6 × 20.3 × 18.4 cm"
+        }
+      },
+      "cyber-aurora": {
+        "title": "Cyber Aurora",
+        "category": "写真 / ライトペインティング",
+        "description": "13秒の露光で光の軌跡を描いたライトペインティング作品。",
+        "facts": {
+          "title": "Cyber Aurora",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "マニュアル",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13秒"
+        },
+        "gallery": {
+          "full": "Cyber Aurora — 青白い光と金色の光の軌跡"
         }
       }
     },
@@ -812,7 +1040,7 @@ window.STUDIO_LOCALES = {
     "filterIndustrial": "工業・プロダクト",
     "filterPhotography": "写真",
     "filterInstallation": "インスタレーション",
-    "detailsLabel": "素材と制作",
+    "detailsLabel": "作品情報",
     "galleryLabel": "作品画像",
     "archiveLabel": "作品アーカイブ",
     "galleryPrevious": "前の画像",
@@ -826,7 +1054,23 @@ window.STUDIO_LOCALES = {
     "backToWorks": "作品一覧へ戻る",
     "awardsMetaTitle": "受賞 — Steven Studio",
     "awardsMetaDescription": "2024年グローバル・アート・クリエーション・アワードでの Frostfade の金賞、Color Sphere Marine Blossoms の銀賞、ArgenRubi の銅賞など、Steven Studio の受賞情報。",
-    "filterComposition": "立体構成"
+    "filterComposition": "立体構成",
+    "factLabels": {
+      "title": "作品名",
+      "year": "制作年",
+      "materials": "素材",
+      "dimensions": "サイズ",
+      "modelDimensions": "模型寸法",
+      "presentation": "表現形式",
+      "equipment": "カメラ機種",
+      "colorSpace": "色空間",
+      "focalLength": "焦点距離",
+      "aperture": "絞り",
+      "exposureProgram": "露出モード",
+      "resolution": "画像サイズ",
+      "iso": "ISO感度",
+      "exposureTime": "露光時間"
+    }
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -904,7 +1148,6 @@ window.STUDIO_LOCALES = {
         "title": "역경의 은빛 날개",
         "category": "건축 디자인 / 콘셉트",
         "description": "결의와 자아를 탐구하는 공간 작업입니다. 몸의 자세를 삼각형과 짧은 직선으로 바꾸고 세 모형을 비교하여, 그랜드피아노를 연상시키는 은빛 날개 형태로 발전시켰습니다. 도시와 자연 풍경 속 배치도 구상했습니다.",
-        "details": "2023년. 아크릴판, 목재, 거울 종이. 모형 크기: 19.3 × 10.4 × 5.55인치. 실물 모형과 개념 합성 이미지로 제시한 미시공 공간 제안입니다.",
         "gallery": {
           "city": "지하철역 출구에서",
           "snow": "고요한 설경 속에서",
@@ -928,13 +1171,19 @@ window.STUDIO_LOCALES = {
             "title": "미래의 에너지 거점",
             "description": "미래 세계를 배경으로 구상한 이 혁신적인 예술 설치 작품은 분주한 도심의 외곽에서 에너지를 공급하는 거점 역할을 합니다. 앞날을 내다보는 이 공간은 저 자신의 정신적 특성을 탐구하는 과정에서 탄생했으며, 흔들리지 않는 저의 회복력을 담고 있습니다. 매끄러운 은빛 윤곽은 도시 풍경 속에서 인내와 굳건한 의지를 보여 주는 등대 같은 존재가 됩니다. 「역경의 은빛 날개」에서는 미래를 향한 상상력과 끈기 있게 나아가는 정신이 만나, 도전을 견디며 계속 전진하는 힘을 표현합니다."
           }
+        },
+        "facts": {
+          "title": "역경의 은빛 날개",
+          "year": "2023",
+          "materials": "아크릴판, 목재, 거울 종이",
+          "modelDimensions": "19.3 × 10.4 × 5.55 인치",
+          "presentation": "실물 모형과 개념 합성 이미지로 제시한 미시공 공간 제안입니다."
         }
       },
       "frostfade": {
         "title": "Frostfade",
         "category": "설치미술",
         "description": "〈Frostfade〉는 인간의 자연환경 오염으로 변이를 겪은 미래의 식물을 상상한 작품입니다. 잦은 고온과 가뭄, 강한 자외선 등 갈수록 극심해지는 기후 조건에 적응하는 과정에서 이 식물은 점차 색소를 잃어갑니다. 이 상상 속 생태계에서 흰 잎은 더 많은 햇빛과 열을 반사하고, 증산으로 인한 수분 손실을 줄여 식물이 가뭄을 견디도록 돕습니다. 또한 흰 잎으로의 진화는 주변 환경에 있는 오염물질과 유해물질의 흡수 및 축적을 줄이기 위한 적응 방식일 수 있습니다.",
-        "details": "크기: 28 × 20 × 16cm. 재료: 3D 프린팅 재료, 조화 제작액.",
         "gallery": {
           "full": "Frostfade — 작품 전체 모습",
           "detail": "Frostfade — 잎과 가지 구조의 세부 모습"
@@ -943,13 +1192,17 @@ window.STUDIO_LOCALES = {
           "level": "금상",
           "name": "글로벌 아트 크리에이션 어워드",
           "organizer": "유럽 문화교육협회"
+        },
+        "facts": {
+          "title": "Frostfade",
+          "materials": "3D 프린팅 재료, 조화 제작액",
+          "dimensions": "28 × 20 × 16 cm"
         }
       },
       "color-sphere": {
         "title": "Color Sphere Marine Blossoms",
         "category": "설치미술",
         "description": "〈Color Sphere Marine Blossoms〉는 인간의 환경 파괴와 오염의 영향을 받은 미래의 해양 식물을 상상한 작품입니다. 버려진 쓰레기가 분해되고 유해물질이 축적되면서, 주변 환경과 그곳에서 자라는 식물은 다양한 색을 띠게 됩니다. 이 식물들은 구형 구조를 지니며, 더욱 효율적인 광합성 체계를 진화시켜 빛이 부족한 심해에서도 살아갈 수 있습니다. 다채로운 잎의 색 역시 서로 다른 파장의 빛을 포착하고 활용하여 광합성 효율을 높이기 위한 적응 방식일 수 있습니다.",
-        "details": "크기: 26 × 15 × 17cm. 재료: 폼볼, 조형용 점토, 3D 프린팅 재료.",
         "gallery": {
           "full": "Color Sphere Marine Blossoms — 작품 전체 모습",
           "detail": "Color Sphere Marine Blossoms — 다채로운 구형 구조의 세부 모습"
@@ -958,13 +1211,17 @@ window.STUDIO_LOCALES = {
           "level": "은상",
           "name": "글로벌 아트 크리에이션 어워드",
           "organizer": "유럽 문화교육협회"
+        },
+        "facts": {
+          "title": "Color Sphere Marine Blossoms",
+          "materials": "폼볼, 조형용 점토, 3D 프린팅 재료",
+          "dimensions": "26 × 15 × 17 cm"
         }
       },
       "argenrubi": {
         "title": "ArgenRubi",
         "category": "설치미술",
         "description": "〈ArgenRubi〉는 대규모 금속 폐기물 처리장에서 살아가는 식물을 상상한 작품입니다. 인간의 집중적인 산업 제련과 천연자원의 낭비로 인해 이 식물들을 둘러싼 환경은 크게 달라졌습니다. 주석, 아연, 철 등의 원소를 다량 흡수한 식물은 이러한 극한 조건에 적응하기 위해 유전적 변이를 겪습니다. 은빛 골격은 잎 표면 세포의 구조적 변화를 암시하며, 햇빛과 열을 반사해 손상을 줄이는 적응 방식을 떠올리게 합니다. 한편 붉은 열매는 수분을 돕는 생물이나 씨앗을 퍼뜨리는 동물을 끌어들이기 위해 진화한 것일 수 있습니다. 폐산업시설을 배경으로 붉은색은 더욱 선명하게 드러나며, 곤충을 비롯한 다양한 생물의 관심을 끕니다.",
-        "details": "크기: 41 × 32 × 34cm. 재료: 은박지, 풍선.",
         "gallery": {
           "full": "ArgenRubi — 작품 전체 모습",
           "detail": "ArgenRubi — 은빛 골격과 붉은 열매 형태의 세부 모습"
@@ -973,13 +1230,17 @@ window.STUDIO_LOCALES = {
           "level": "동상",
           "name": "글로벌 아트 크리에이션 어워드",
           "organizer": "유럽 문화교육협회"
+        },
+        "facts": {
+          "title": "ArgenRubi",
+          "materials": "은박지, 풍선",
+          "dimensions": "41 × 32 × 34 cm"
         }
       },
       "pay-tribute": {
         "title": "Pay Tribute",
         "category": "설치미술",
         "description": "상상 속 미래에서 나는 고고학자이자 예술 애호가로서 고대의 ‘난폭한 곰’의 두개골 유해를 발견합니다. 오래전에 사라진 이 생물에 매료되어, 예술적으로 재해석한 작품을 통해 경의를 표하고자 했습니다.",
-        "details": "크기: 36.5 × 38.1 × 24.7 cm. 재료: 폴리에스터 섬유, 쇠사슬, 철사, 나무 막대, LED 스트립 조명.",
         "narrative": {
           "background": {
             "title": "작업 배경",
@@ -1001,17 +1262,45 @@ window.STUDIO_LOCALES = {
           "fibreDetail": "Pay Tribute — 섬유와 철망의 세부 모습",
           "structureDetail": "Pay Tribute — 사슬과 골조의 세부 모습",
           "wovenEye": "Pay Tribute — 엮어 만든 눈과 사슬의 세부 모습"
+        },
+        "facts": {
+          "title": "Pay Tribute",
+          "materials": "폴리에스터 섬유, 쇠사슬, 철사, 나무 막대, LED 스트립 조명",
+          "dimensions": "36.5 × 38.1 × 24.7 cm"
         }
       },
       "future-transmitter": {
         "title": "Future Fibre Optic Transmitter",
         "category": "입체구성",
         "description": "Future Fibre Optic Transmitter는 강력한 에너지를 품은 미래의 입자 방출 장치를 상상한 작품입니다. 파란색 부분은 입자 방출 시스템을 나타내며, 입자 빔을 정밀하게 제어하고 가속해 기본 입자의 성질과 상호작용을 깊이 탐구합니다. 노란색 부분은 장치 내부에 담긴 에너지를 표현합니다. 이 상상 속 미래에서 장치는 핵폐기물을 처리하고, 유해한 물질을 분해해 무해한 물질로 바꿀 수 있습니다. 위험에 처했을 때는 스스로를 방어하고 침입자에게 반격하는 기능도 갖추고 있습니다.",
-        "details": "크기: 26.6 × 20.3 × 18.4 cm. 재료: 셰브론 보드, 래커.",
         "gallery": {
           "full": "Future Fibre Optic Transmitter — 작품 전체 모습",
           "effect": "Future Fibre Optic Transmitter — 방사형 빛 표현",
           "angle": "Future Fibre Optic Transmitter — 빛의 궤적과 함께 본 측면"
+        },
+        "facts": {
+          "title": "Future Fibre Optic Transmitter",
+          "materials": "셰브론 보드, 래커",
+          "dimensions": "26.6 × 20.3 × 18.4 cm"
+        }
+      },
+      "cyber-aurora": {
+        "title": "Cyber Aurora",
+        "category": "사진 / 라이트 페인팅",
+        "description": "13초 노출로 빛의 궤적을 담아낸 라이트 페인팅 작품입니다.",
+        "facts": {
+          "title": "Cyber Aurora",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "수동",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13초"
+        },
+        "gallery": {
+          "full": "Cyber Aurora — 푸른빛이 도는 흰색과 금색의 빛 궤적"
         }
       }
     },
@@ -1019,7 +1308,7 @@ window.STUDIO_LOCALES = {
     "filterIndustrial": "산업·제품",
     "filterPhotography": "사진",
     "filterInstallation": "설치미술",
-    "detailsLabel": "재료와 제작",
+    "detailsLabel": "작품 정보",
     "galleryLabel": "작품 이미지",
     "archiveLabel": "작품 아카이브",
     "galleryPrevious": "이전 이미지",
@@ -1033,6 +1322,22 @@ window.STUDIO_LOCALES = {
     "backToWorks": "작품으로 돌아가기",
     "awardsMetaTitle": "수상 내역 — Steven Studio",
     "awardsMetaDescription": "2024 글로벌 아트 크리에이션 어워드에서 Frostfade가 받은 금상, Color Sphere Marine Blossoms가 받은 은상, ArgenRubi가 받은 동상을 포함한 Steven Studio의 수상 내역입니다.",
-    "filterComposition": "입체구성"
+    "filterComposition": "입체구성",
+    "factLabels": {
+      "title": "작품명",
+      "year": "제작 연도",
+      "materials": "재료",
+      "dimensions": "크기",
+      "modelDimensions": "모형 크기",
+      "presentation": "표현 형식",
+      "equipment": "카메라 모델",
+      "colorSpace": "색 공간",
+      "focalLength": "초점 거리",
+      "aperture": "조리개",
+      "exposureProgram": "노출 모드",
+      "resolution": "이미지 크기",
+      "iso": "ISO 감도",
+      "exposureTime": "노출 시간"
+    }
   }
 };

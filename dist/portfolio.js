@@ -191,5 +191,19 @@ window.STUDIO_WORKS = {
         1500
       ]
     ]
+  },
+  "cyber-aurora": {
+    "category": "photography",
+    "source": "Owner-supplied photograph and camera settings",
+    "assetPath": "assets/works/cyber-aurora",
+    "cover": "cyber-aurora-01",
+    "images": [
+      [
+        "cyber-aurora-01",
+        "full",
+        2400,
+        1600
+      ]
+    ]
   }
 };
