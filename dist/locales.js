@@ -1,4 +1,4 @@
-// Complete translations for the text-only work archive.
+// Complete visitor-facing copy and polished scene introductions in five languages.
 window.STUDIO_LOCALES = {
   "en": {
     "metaTitle": "Steven Studio — Art, design & everything in between",
@@ -33,7 +33,7 @@ window.STUDIO_LOCALES = {
     "workTitle": "Across disciplines",
     "workSubtitle": "Projects & explorations",
     "workNote": "Different disciplines. The same curiosity.",
-    "workNotice": "Selected works from my A1 portfolio, organised by design discipline.",
+    "workNotice": "An exploration of form, material and space.",
     "filterLabel": "Filter projects by discipline",
     "filterAll": "All works",
     "filterVisual": "Visual communication",
@@ -49,8 +49,8 @@ window.STUDIO_LOCALES = {
     "awardsDistinction": "DISTINCTION",
     "awardsProject": "PROJECT",
     "awardsEmpty": "No project awards documented.",
-    "awardsDescription": "The supplied A1 portfolio does not identify a named award for these works.",
-    "awardsPending": "A1 PORTFOLIO",
+    "awardsDescription": "No project awards have been added to this archive.",
+    "awardsPending": "AWARDS",
     "studioEyebrow": "03 / BEHIND THE STUDIO",
     "studioLine1": "One curiosity.",
     "studioLine2": "Many expressions.",
@@ -73,76 +73,51 @@ window.STUDIO_LOCALES = {
     "dialogLabel": "WORK DETAILS",
     "dialogClose": "Close",
     "dialogCloseLabel": "Close project details",
-    "dialogNotice": "From the owner-supplied A1 · Skill Development portfolio. Spatial scenes are conceptual photomontages of physical models.",
     "dialogNext": "Next work",
     "projects": {
       "silver-wings": {
         "title": "Adversity Silver Wings",
-        "category": "Architecture & spatial concept",
+        "category": "Architectural design / Concept",
         "description": "A spatial study of determination and the self. Gestures become triangles and short, straight lines; three physical models lead to a silver, wing-like form, with a silhouette recalling a grand piano. The selected model is imagined in urban and landscape settings.",
         "details": "2023 · Acrylic board, wood strips and mirror paper. Model: 19.3 × 10.4 × 5.55 in. Physical model and conceptual photomontages; an unbuilt spatial proposal.",
-        "gallery": {}
-      },
-      "paper-spaces": {
-        "title": "Paper into Space",
-        "category": "Architecture & spatial concept",
-        "description": "Paper cutting, folding and repeated elements become a series of small spatial models. The workshop develops three imagined settings: The Plain of Red Ripples, Desert Dream Sanctuary and The Source of Childlike Innocence.",
-        "details": "Paper models, drawings and Photoshop scene studies. A material-led exploration of sculpture, shelter and play, documented in the A1 paper sculpture workshop.",
-        "gallery": {}
-      },
-      "snake-scale": {
-        "title": "Snake Scale Tableware",
-        "category": "Industrial & product design",
-        "description": "A coordinated tableware study built around the snake and the letter S. A coiled clay teapot, a carved wooden spoon and a metal fork carry the same serpentine language across three materials.",
-        "details": "Hand-built clay, carved wood and brass. Includes SerpentScale Elegance Teapot, SerpentSculpted Spoon and SerpentSong Fork. Handcrafted study prototypes.",
-        "gallery": {}
-      },
-      "futureform": {
-        "title": "Futureform Architects",
-        "category": "Visual communication / Identity",
-        "description": "A self-initiated identity exercise for an imagined architectural practice. The initials F and A become a geometric, architectural mark, developed through sketches, carving, print tests and colour experiments.",
-        "details": "Logo design, relief printing and colour tests. The A1 portfolio documents four design directions and a final black print.",
-        "gallery": {}
-      },
-      "light-painting": {
-        "title": "Light Painting",
-        "category": "Photography",
-        "description": "Long exposures turn coloured light into figures and abstract gestures. Five selected photographs explore belief, fantasy and a mysterious sense of presence; Cyber Aurora and Spiritum Projections are shown here.",
-        "details": "Sony ILCE-7M4. Cyber Aurora: 44 mm, f/22, ISO 125, 13 s. Spiritum Projections: 41 mm, f/18, ISO 125, 20 s.",
-        "gallery": {}
-      },
-      "fibre-transmitter": {
-        "title": "Future Fibre Optic Transmitter",
-        "category": "Sculpture / Speculative object",
-        "description": "A fictional transmitter assembled from cut and rejoined cubes. Blue and yellow surfaces suggest a machine and its energy source, translating a science-fiction story into a sculptural object.",
-        "details": "Painted Chevron board. 26.6 × 20.3 × 18.4 cm. A speculative sculpture developed in the A1 Cubes workshop.",
-        "gallery": {}
-      },
-      "pay-tribute": {
-        "title": "Pay Tribute",
-        "category": "Installation / Textile sculpture",
-        "description": "A bear-like form imagined as an archaeological find from the future. Woven blue fibres, chain and wire create the structure, while blue LEDs give the piece an electric presence. A study responding to Mori Chack and Adela Andea.",
-        "details": "Polyester fibre, iron chain, wire, wooden strips and LED light strip. 36.5 × 38.1 × 24.7 cm.",
-        "gallery": {}
-      },
-      "future-plants": {
-        "title": "Future Plants",
-        "category": "Installation / Speculative sculpture",
-        "description": "Three imagined plants respond to environmental change: Frostfade, ColorSphere Marine Blossoms and ArgenRubi. Each uses a different combination of colour, texture and everyday materials to tell a speculative story of adaptation.",
-        "details": "Frostfade: 3D pen materials and flower-making liquid, 28 × 20 × 16 cm. ColorSphere: foam balls, modelling clay and 3D pen materials, 26 × 15 × 17 cm. ArgenRubi: tinfoil and balloons, 41 × 32 × 34 cm.",
-        "gallery": {}
+        "gallery": {
+          "city": "At the subway exit",
+          "snow": "Within the snowy landscape",
+          "square": "In the heart of the square",
+          "mountain": "A future energy hub"
+        },
+        "scenes": {
+          "city": {
+            "title": "At the subway exit",
+            "description": "This inviting art space at the exit of a subway station embodies my unwavering spirit. With its sleek silver silhouette and tranquil atmosphere, it offers a restorative sanctuary for weary travellers. Silver combines sophistication with strength, reflecting my own stoic nature. I imagine this space within the everyday scenes surrounding a subway station, inviting visitors to pause and find a sense of ease within themselves. Through this experience, the installation expresses the power of perseverance in the face of challenges. Adversity Silver Wings brings strength and tranquillity together, reflecting the city’s energy and indomitable spirit."
+          },
+          "snow": {
+            "title": "Within the snowy landscape",
+            "description": "This evocative art space is set within a tranquil, snow-covered landscape. Its ethereal form embodies my unwavering resilience, echoing the steadfast character of the surrounding winter scenery. Shimmering silver tones blend with the pristine snow, inviting weary explorers to find comfort and shelter within the space. As visitors pause to rest and reflect, Adversity Silver Wings brings determination and serenity together. In this quiet encounter between the installation and its surroundings, the work becomes a testament to perseverance in the face of nature’s challenges."
+          },
+          "square": {
+            "title": "In the heart of the square",
+            "description": "This landmark stands at the centre of a bustling square. The vibrant space grew out of my exploration of my own character and serves as a testament to the enduring strength within each of us. Its refined silver silhouettes invite visitors to step inside and explore the space. In Adversity Silver Wings, silver becomes a symbol of resilience. As visitors move through its corridors, they are invited on a journey of self-discovery, and the art space encourages them to reflect on and reconnect with their inner strength."
+          },
+          "mountain": {
+            "title": "A future energy hub",
+            "description": "This innovative art installation is imagined within a futuristic world, serving as an energy supply hub on the outskirts of a bustling city centre. The visionary space grew out of my exploration of my own character and embodies my unwavering resilience. With its sleek silver silhouette, it becomes a beacon of endurance within the urban landscape. In Adversity Silver Wings, a vision of the future and the spirit of perseverance come together, expressing the strength to endure challenges and keep moving forward."
+          }
+        }
       }
     },
-    "filterArchitecture": "Architecture & space",
+    "filterArchitecture": "Architectural design",
     "filterIndustrial": "Industrial & product",
     "filterPhotography": "Photography",
     "filterInstallation": "Installation & sculpture",
-    "sourceLabel": "Portfolio source",
-    "sourceText": "A1 · Skill Development · PDF pages {pages}",
     "detailsLabel": "Materials & process",
     "galleryLabel": "Selected images",
     "archiveLabel": "WORK ARCHIVE",
-    "sourceShort": "A1 PORTFOLIO"
+    "galleryPrevious": "Previous image",
+    "galleryNext": "Next image",
+    "galleryHelp": "Swipe, drag, or use the arrows to explore.",
+    "galleryPosition": "Image {current} of {total}",
+    "galleryImage": "View image {number}"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -177,7 +152,7 @@ window.STUDIO_LOCALES = {
     "workTitle": "跨越领域",
     "workSubtitle": "项目与创作探索",
     "workNote": "不同领域，同一种好奇心。",
-    "workNotice": "从 A1 作品集中选取的作品，按设计领域分类呈现。",
+    "workNotice": "关于形态、材料与空间的探索。",
     "filterLabel": "按项目类别筛选",
     "filterAll": "全部作品",
     "filterVisual": "视觉传达",
@@ -193,8 +168,8 @@ window.STUDIO_LOCALES = {
     "awardsDistinction": "奖项",
     "awardsProject": "项目",
     "awardsEmpty": "暂无已记载的项目奖项。",
-    "awardsDescription": "所提供的 A1 作品集未列明这些作品的具体奖项。",
-    "awardsPending": "A1 作品集",
+    "awardsDescription": "作品档案暂未添加项目奖项。",
+    "awardsPending": "荣誉",
     "studioEyebrow": "03 / 关于工作室",
     "studioLine1": "一种好奇心，",
     "studioLine2": "很多种表达。",
@@ -217,76 +192,51 @@ window.STUDIO_LOCALES = {
     "dialogLabel": "作品详情",
     "dialogClose": "关闭",
     "dialogCloseLabel": "关闭项目详情",
-    "dialogNotice": "作品来自本人提供的《A1 · 技能发展》作品集。空间场景为实体模型的概念合成图。",
     "dialogNext": "下一件作品",
     "projects": {
       "silver-wings": {
         "title": "逆境银翼",
-        "category": "建筑与空间概念",
+        "category": "建筑设计 / 概念研究",
         "description": "围绕「坚定」与「自我」展开的空间探索。身体姿态转化为三角形与短直线，经过三个实体模型的比较，最终发展出银色翼状形体，轮廓带有三角钢琴的联想，并被置入城市与自然场景。",
         "details": "2023 年。亚克力板、木条、镜面纸。模型尺寸：19.3 × 10.4 × 5.55 英寸。实体模型与概念合成图，属于未建成的空间提案。",
-        "gallery": {}
-      },
-      "paper-spaces": {
-        "title": "从纸到空间",
-        "category": "建筑与空间概念",
-        "description": "通过切割、折叠与重复排列，将纸张发展为一组小型空间模型。工作坊进一步构想了「红色涟漪之原」「沙漠梦境庇护所」与「童心之源」三个场景。",
-        "details": "纸模型、草图与 Photoshop 场景实验。从材料出发探索雕塑、庇护空间与游乐场景，记录于 A1 纸雕工作坊。",
-        "gallery": {}
-      },
-      "snake-scale": {
-        "title": "蛇鳞餐具系列",
-        "category": "工业与产品设计",
-        "description": "以蛇形与字母 S 为线索的成套餐具研究。盘筑陶壶、木雕餐勺与金属餐叉，将同一种蜿蜒的造型语言延伸至三种材料。",
-        "details": "手工陶土、木材与黄铜。包含蛇鳞茶壶、蛇形木勺与蛇歌餐叉，为手工制作的学习原型。",
-        "gallery": {}
-      },
-      "futureform": {
-        "title": "Futureform Architects 品牌标识",
-        "category": "视觉传达 / 品牌识别",
-        "description": "为想象中的建筑事务所开展的自主品牌练习。F 与 A 两个首字母被发展为具有建筑感的几何标识，经过草图、刻版、印刷测试与色彩实验逐步完成。",
-        "details": "标识设计、凸版印刷与色彩测试。A1 作品集记录了四个设计方向以及最终黑色印刷稿。",
-        "gallery": {}
-      },
-      "light-painting": {
-        "title": "光绘摄影",
-        "category": "摄影",
-        "description": "通过长曝光，将彩色光线转化为人物与抽象姿态。五幅最终照片探索信念、幻想与神秘的在场感，此处选展《赛博极光》与《灵魂投影》。",
-        "details": "索尼 ILCE-7M4。《赛博极光》：44 毫米、f/22、ISO 125、13 秒。《灵魂投影》：41 毫米、f/18、ISO 125、20 秒。",
-        "gallery": {}
-      },
-      "fibre-transmitter": {
-        "title": "未来光纤发射器",
-        "category": "雕塑 / 思辨器物",
-        "description": "通过切割与重新拼接立方体，构成一台虚构的未来发射器。蓝色与黄色分别暗示机器与能量，将科幻叙事转化为雕塑形体。",
-        "details": "雪弗板、喷漆。26.6 × 20.3 × 18.4 厘米。来自 A1 立方体工作坊的思辨雕塑。",
-        "gallery": {}
-      },
-      "pay-tribute": {
-        "title": "致敬",
-        "category": "装置 / 纤维雕塑",
-        "description": "将熊形想象为未来考古中的发现。蓝色纤维、铁链与铁丝形成结构，蓝色 LED 带来发光的视觉效果。这是一项回应森查克与阿德拉·安德亚作品的学习创作。",
-        "details": "聚酯纤维、铁链、铁丝、木条、LED 灯带。36.5 × 38.1 × 24.7 厘米。",
-        "gallery": {}
-      },
-      "future-plants": {
-        "title": "未来植物",
-        "category": "装置 / 思辨雕塑",
-        "description": "以三种想象中的植物回应环境变化：《霜褪》《彩球海洋之花》与《银红》。不同的色彩、肌理与日常材料构成关于适应与变异的思辨叙事。",
-        "details": "《霜褪》：3D 打印笔材料、造花液，28 × 20 × 16 厘米。《彩球海洋之花》：泡沫球、塑形土、3D 打印笔材料，26 × 15 × 17 厘米。《银红》：锡纸、气球，41 × 32 × 34 厘米。",
-        "gallery": {}
+        "gallery": {
+          "city": "地铁站出口",
+          "snow": "静谧雪境",
+          "square": "广场中心",
+          "mountain": "未来能量枢纽"
+        },
+        "scenes": {
+          "city": {
+            "title": "地铁站出口",
+            "description": "这是一处设想于地铁站出口的艺术空间，寄托着我坚定不移的精神。流畅的银色轮廓与宁静的氛围相互映衬，为疲惫的旅人提供一处休憩与恢复活力的庇护所。银色兼具精致与力量，也映照着我沉着而坚韧的性格。我将这一空间融入地铁站周边的日常场景，希望人们在行进途中稍作停留，重新感受到内心的安定。通过这样的体验，装置传达出面对挑战时坚持不懈的力量。《逆境银翼》将坚强与宁静融为一体，回应着城市的活力，以及其中不屈不挠的精神。"
+          },
+          "snow": {
+            "title": "静谧雪境",
+            "description": "这处富有想象力的艺术空间坐落于一片静谧的雪景之中。轻盈而空灵的形体承载着我坚定的韧性，与周围冬日景色所展现的坚毅相互呼应。闪耀的银色与纯净的积雪自然交融，邀请疲惫的探索者在此寻得慰藉与庇护。当人们停下脚步、休憩并沉思时，《逆境银翼》让坚定与平和在空间中相遇。在装置与自然环境的这场安静对话中，作品成为面对自然挑战时依然坚持向前的见证。"
+          },
+          "square": {
+            "title": "广场中心",
+            "description": "这是一处位于繁华广场中心的地标性艺术空间。它源于我对自身性格与精神特质的探索，也寄托着对每个人内在持久力量的认同。精致的银色轮廓邀请人们走入其中，亲身探索空间的层次与深处。在《逆境银翼》中，银色成为坚韧的象征。当访客穿行于廊道之间时，一段关于自我发现的旅程也随之展开。这个艺术空间希望启发人们重新审视自己，与内心深处的力量建立联系。"
+          },
+          "mountain": {
+            "title": "未来能量枢纽",
+            "description": "这是一件设想于未来世界的创新艺术装置，在繁忙城市中心的外围承担能源供应枢纽的角色。这个充满前瞻性的空间源于我对自身精神特质的探索，体现着我坚定不移的韧性。流畅的银色轮廓让它成为城市景观中一座象征持久与坚守的灯塔。在《逆境银翼》中，对未来的想象与坚持不懈的精神相互交融，共同表达面对挑战、持续前行的力量。"
+          }
+        }
       }
     },
-    "filterArchitecture": "建筑与空间",
+    "filterArchitecture": "建筑设计",
     "filterIndustrial": "工业与产品",
     "filterPhotography": "摄影",
     "filterInstallation": "装置与雕塑",
-    "sourceLabel": "作品集出处",
-    "sourceText": "A1 · 技能发展 · PDF 第 {pages} 页",
     "detailsLabel": "材料与过程",
     "galleryLabel": "作品图像",
     "archiveLabel": "作品档案",
-    "sourceShort": "A1 作品集"
+    "galleryPrevious": "上一张图片",
+    "galleryNext": "下一张图片",
+    "galleryHelp": "左右滑动、拖动，或使用箭头浏览。",
+    "galleryPosition": "第 {current} 张，共 {total} 张",
+    "galleryImage": "查看第 {number} 张图片"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -321,7 +271,7 @@ window.STUDIO_LOCALES = {
     "workTitle": "跨越領域",
     "workSubtitle": "專案與創作探索",
     "workNote": "不同領域，同一種好奇心。",
-    "workNotice": "從 A1 作品集中選取的作品，按設計領域分類呈現。",
+    "workNotice": "關於形態、材料與空間的探索。",
     "filterLabel": "依專案類別篩選",
     "filterAll": "全部作品",
     "filterVisual": "視覺傳達",
@@ -337,8 +287,8 @@ window.STUDIO_LOCALES = {
     "awardsDistinction": "獎項",
     "awardsProject": "專案",
     "awardsEmpty": "暫無已記載的項目獎項。",
-    "awardsDescription": "所提供的 A1 作品集未列明這些作品的具體獎項。",
-    "awardsPending": "A1 作品集",
+    "awardsDescription": "作品檔案暫未添加項目獎項。",
+    "awardsPending": "榮譽",
     "studioEyebrow": "03 / 關於工作室",
     "studioLine1": "一種好奇心，",
     "studioLine2": "很多種表達。",
@@ -361,76 +311,51 @@ window.STUDIO_LOCALES = {
     "dialogLabel": "作品詳情",
     "dialogClose": "關閉",
     "dialogCloseLabel": "關閉專案詳情",
-    "dialogNotice": "作品來自本人提供的《A1 · 技能發展》作品集。空間場景為實體模型的概念合成圖。",
     "dialogNext": "下一件作品",
     "projects": {
       "silver-wings": {
         "title": "逆境銀翼",
-        "category": "建築與空間概念",
+        "category": "建築設計 / 概念研究",
         "description": "圍繞「堅定」與「自我」展開的空間探索。身體姿態轉化為三角形與短直線，經過三個實體模型的比較，最終發展出銀色翼狀形體，輪廓帶有三角鋼琴的聯想，並被置入城市與自然場景。",
         "details": "2023 年。壓克力板、木條、鏡面紙。模型尺寸：19.3 × 10.4 × 5.55 英寸。實體模型與概念合成圖，屬於未建成的空間提案。",
-        "gallery": {}
-      },
-      "paper-spaces": {
-        "title": "從紙到空間",
-        "category": "建築與空間概念",
-        "description": "透過切割、折疊與重複排列，將紙張發展為一組小型空間模型。工作坊進一步構想了「紅色漣漪之原」「沙漠夢境庇護所」與「童心之源」三個場景。",
-        "details": "紙模型、草圖與 Photoshop 場景實驗。從材料出發探索雕塑、庇護空間與遊樂場景，記錄於 A1 紙雕工作坊。",
-        "gallery": {}
-      },
-      "snake-scale": {
-        "title": "蛇鱗餐具系列",
-        "category": "工業與產品設計",
-        "description": "以蛇形與字母 S 為線索的成套餐具研究。盤築陶壺、木雕餐勺與金屬餐叉，將同一種蜿蜒的造型語言延伸至三種材料。",
-        "details": "手工陶土、木材與黃銅。包含蛇鱗茶壺、蛇形木勺與蛇歌餐叉，為手工製作的學習原型。",
-        "gallery": {}
-      },
-      "futureform": {
-        "title": "Futureform Architects 品牌標識",
-        "category": "視覺傳達 / 品牌識別",
-        "description": "為想像中的建築事務所開展的自主品牌練習。F 與 A 兩個首字母被發展為具有建築感的幾何標識，經過草圖、刻版、印刷測試與色彩實驗逐步完成。",
-        "details": "標識設計、凸版印刷與色彩測試。A1 作品集記錄了四個設計方向以及最終黑色印刷稿。",
-        "gallery": {}
-      },
-      "light-painting": {
-        "title": "光繪攝影",
-        "category": "攝影",
-        "description": "透過長曝光，將彩色光線轉化為人物與抽象姿態。五幅最終照片探索信念、幻想與神秘的在場感，此處選展《賽博極光》與《靈魂投影》。",
-        "details": "索尼 ILCE-7M4。《賽博極光》：44 毫米、f/22、ISO 125、13 秒。《靈魂投影》：41 毫米、f/18、ISO 125、20 秒。",
-        "gallery": {}
-      },
-      "fibre-transmitter": {
-        "title": "未來光纖發射器",
-        "category": "雕塑 / 思辨器物",
-        "description": "透過切割與重新拼接立方體，構成一台虛構的未來發射器。藍色與黃色分別暗示機器與能量，將科幻敘事轉化為雕塑形體。",
-        "details": "雪弗板、噴漆。26.6 × 20.3 × 18.4 公分。來自 A1 立方體工作坊的思辨雕塑。",
-        "gallery": {}
-      },
-      "pay-tribute": {
-        "title": "致敬",
-        "category": "裝置 / 纖維雕塑",
-        "description": "將熊形想像為未來考古中的發現。藍色纖維、鐵鏈與鐵絲形成結構，藍色 LED 帶來發光的視覺效果。這是一項回應森查克與阿德拉·安德亞作品的學習創作。",
-        "details": "聚酯纖維、鐵鏈、鐵絲、木條、LED 燈帶。36.5 × 38.1 × 24.7 公分。",
-        "gallery": {}
-      },
-      "future-plants": {
-        "title": "未來植物",
-        "category": "裝置 / 思辨雕塑",
-        "description": "以三種想像中的植物回應環境變化：《霜褪》《彩球海洋之花》與《銀紅》。不同的色彩、肌理與日常材料構成關於適應與變異的思辨敘事。",
-        "details": "《霜褪》：3D 列印筆材料、造花液，28 × 20 × 16 公分。《彩球海洋之花》：泡沫球、塑形土、3D 列印筆材料，26 × 15 × 17 公分。《銀紅》：錫紙、氣球，41 × 32 × 34 公分。",
-        "gallery": {}
+        "gallery": {
+          "city": "地鐵站出口",
+          "snow": "靜謐雪境",
+          "square": "廣場中心",
+          "mountain": "未來能量樞紐"
+        },
+        "scenes": {
+          "city": {
+            "title": "地鐵站出口",
+            "description": "這是一處設想於地鐵站出口的藝術空間，寄託著我堅定不移的精神。流暢的銀色輪廓與寧靜的氛圍相互映襯，為疲憊的旅人提供一處休憩與恢復活力的庇護所。銀色兼具精緻與力量，也映照著我沉著而堅韌的性格。我將這一空間融入地鐵站周邊的日常場景，希望人們在行進途中稍作停留，重新感受到內心的安定。透過這樣的體驗，裝置傳達出面對挑戰時堅持不懈的力量。《逆境銀翼》將堅強與寧靜融為一體，回應著城市的活力，以及其中不屈不撓的精神。"
+          },
+          "snow": {
+            "title": "靜謐雪境",
+            "description": "這處富有想像力的藝術空間坐落於一片靜謐的雪景之中。輕盈而空靈的形體承載著我堅定的韌性，與周圍冬日景色所展現的堅毅相互呼應。閃耀的銀色與純淨的積雪自然交融，邀請疲憊的探索者在此尋得慰藉與庇護。當人們停下腳步、休憩並沉思時，《逆境銀翼》讓堅定與平和在空間中相遇。在裝置與自然環境的這場安靜對話中，作品成為面對自然挑戰時依然堅持向前的見證。"
+          },
+          "square": {
+            "title": "廣場中心",
+            "description": "這是一處位於繁華廣場中心的地標性藝術空間。它源於我對自身性格與精神特質的探索，也寄託著對每個人內在持久力量的認同。精緻的銀色輪廓邀請人們走入其中，親身探索空間的層次與深處。在《逆境銀翼》中，銀色成為堅韌的象徵。當訪客穿行於廊道之間時，一段關於自我發現的旅程也隨之展開。這個藝術空間希望啟發人們重新審視自己，與內心深處的力量建立聯繫。"
+          },
+          "mountain": {
+            "title": "未來能量樞紐",
+            "description": "這是一件設想於未來世界的創新藝術裝置，在繁忙城市中心的外圍承擔能源供應樞紐的角色。這個充滿前瞻性的空間源於我對自身精神特質的探索，體現著我堅定不移的韌性。流暢的銀色輪廓讓它成為城市景觀中一座象徵持久與堅守的燈塔。在《逆境銀翼》中，對未來的想像與堅持不懈的精神相互交融，共同表達面對挑戰、持續前行的力量。"
+          }
+        }
       }
     },
-    "filterArchitecture": "建築與空間",
+    "filterArchitecture": "建築設計",
     "filterIndustrial": "工業與產品",
     "filterPhotography": "攝影",
     "filterInstallation": "裝置與雕塑",
-    "sourceLabel": "作品集出處",
-    "sourceText": "A1 · 技能發展 · PDF 第 {pages} 頁",
     "detailsLabel": "材料與過程",
     "galleryLabel": "作品圖像",
     "archiveLabel": "作品檔案",
-    "sourceShort": "A1 作品集"
+    "galleryPrevious": "上一張圖片",
+    "galleryNext": "下一張圖片",
+    "galleryHelp": "左右滑動、拖動，或使用箭頭瀏覽。",
+    "galleryPosition": "第 {current} 張，共 {total} 張",
+    "galleryImage": "查看第 {number} 張圖片"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -465,7 +390,7 @@ window.STUDIO_LOCALES = {
     "workTitle": "領域を超えて",
     "workSubtitle": "プロジェクトと創作の探求",
     "workNote": "領域は違っても、好奇心はひとつ。",
-    "workNotice": "A1 ポートフォリオの作品を、デザイン分野別に紹介します。",
+    "workNotice": "形、素材、空間の探求。",
     "filterLabel": "分野でプロジェクトを絞り込む",
     "filterAll": "すべての作品",
     "filterVisual": "ビジュアルデザイン",
@@ -481,8 +406,8 @@ window.STUDIO_LOCALES = {
     "awardsDistinction": "賞・評価",
     "awardsProject": "プロジェクト",
     "awardsEmpty": "作品の受賞記録はありません。",
-    "awardsDescription": "提供された A1 ポートフォリオには、これらの作品の具体的な受賞名は記載されていません。",
-    "awardsPending": "A1 ポートフォリオ",
+    "awardsDescription": "作品の受賞情報はまだ追加されていません。",
+    "awardsPending": "受賞",
     "studioEyebrow": "03 / スタジオについて",
     "studioLine1": "ひとつの好奇心。",
     "studioLine2": "多彩な表現。",
@@ -505,76 +430,51 @@ window.STUDIO_LOCALES = {
     "dialogLabel": "作品詳細",
     "dialogClose": "閉じる",
     "dialogCloseLabel": "プロジェクトの詳細を閉じる",
-    "dialogNotice": "本人提供の「A1 · スキル開発」ポートフォリオより。空間の場面画像は実物模型を用いた構想のフォトモンタージュです。",
     "dialogNext": "次の作品",
     "projects": {
       "silver-wings": {
         "title": "逆境の銀翼",
-        "category": "建築・空間コンセプト",
+        "category": "建築デザイン / コンセプト",
         "description": "「決意」と自己をめぐる空間の探求。身体の動きを三角形や短い直線へ変換し、三つの模型を比較して、グランドピアノを思わせる銀色の翼状の形へ展開しました。都市や自然の風景への配置も構想しています。",
         "details": "2023 年。アクリル板、木材、ミラー紙。模型寸法：19.3 × 10.4 × 5.55 インチ。実物模型とフォトモンタージュによる未建設の空間提案。",
-        "gallery": {}
-      },
-      "paper-spaces": {
-        "title": "紙から空間へ",
-        "category": "建築・空間コンセプト",
-        "description": "切る、折る、繰り返すという操作から生まれた小さな空間模型。「赤い波紋の平原」「砂漠の夢の避難所」「子ども心の源」という三つの場面へと展開しました。",
-        "details": "紙模型、スケッチ、Photoshop による空間の検討。A1 の紙彫刻ワークショップで、彫刻、シェルター、遊び場を探求。",
-        "gallery": {}
-      },
-      "snake-scale": {
-        "title": "蛇鱗のテーブルウェア",
-        "category": "工業・プロダクトデザイン",
-        "description": "蛇と文字 S を共通のモチーフとする食器の試作。紐づくりのティーポット、木彫のスプーン、金属のフォークを通じて、うねる形を三種類の素材で表現しました。",
-        "details": "粘土、木、真鍮。蛇鱗のティーポット、蛇形のスプーン、蛇の歌のフォークによる手作りの習作。",
-        "gallery": {}
-      },
-      "futureform": {
-        "title": "Futureform Architects",
-        "category": "ビジュアルデザイン / ブランド",
-        "description": "架空の建築設計事務所のための自主的なアイデンティティ演習。F と A を建築的な幾何学のマークへ展開し、スケッチ、彫版、印刷、色彩実験を行いました。",
-        "details": "ロゴデザイン、凸版印刷、色彩の検討。A1 には四つのデザイン案と最終的な黒い印刷作品を記録。",
-        "gallery": {}
-      },
-      "light-painting": {
-        "title": "ライトペインティング",
-        "category": "写真",
-        "description": "長時間露光で色の光を人物や抽象的な動きへ変換した写真シリーズ。五つの完成作品から、信念や幻想を探る「サイバーオーロラ」と「魂の投影」を紹介します。",
-        "details": "Sony ILCE-7M4。サイバーオーロラ：44 mm、f/22、ISO 125、13 秒。魂の投影：41 mm、f/18、ISO 125、20 秒。",
-        "gallery": {}
-      },
-      "fibre-transmitter": {
-        "title": "未来の光ファイバー送信機",
-        "category": "彫刻 / 思弁的オブジェ",
-        "description": "切断し再構成した立方体による架空の送信機。青と黄色が機械とエネルギーを示唆し、SF の物語を彫刻へと置き換えています。",
-        "details": "塗装した PVC フォームボード。26.6 × 20.3 × 18.4 cm。A1 の立方体ワークショップによる思弁的な彫刻。",
-        "gallery": {}
-      },
-      "pay-tribute": {
-        "title": "オマージュ",
-        "category": "インスタレーション / 繊維彫刻",
-        "description": "未来の考古学で発見されたクマのような姿を想像した作品。青い繊維、鎖、針金で構造を作り、青色 LED で光を与えました。森チャックとアデラ・アンデアの作品に応答する習作です。",
-        "details": "ポリエステル繊維、鉄鎖、針金、木材、LED テープ。36.5 × 38.1 × 24.7 cm。",
-        "gallery": {}
-      },
-      "future-plants": {
-        "title": "未来の植物",
-        "category": "インスタレーション / 思弁的彫刻",
-        "description": "環境の変化に応じる三つの架空の植物。「フロストフェード」「カラースフィア・マリンブロッサムズ」「アルジェンルビ」が、色、質感、身近な素材で適応の物語を語ります。",
-        "details": "フロストフェード：3D ペン素材と造花液、28 × 20 × 16 cm。カラースフィア：発泡球、粘土、3D ペン素材、26 × 15 × 17 cm。アルジェンルビ：アルミ箔と風船、41 × 32 × 34 cm。",
-        "gallery": {}
+        "gallery": {
+          "city": "地下鉄駅の出口で",
+          "snow": "静かな雪景色の中で",
+          "square": "にぎわう広場の中心で",
+          "mountain": "未来のエネルギー拠点"
+        },
+        "scenes": {
+          "city": {
+            "title": "地下鉄駅の出口で",
+            "description": "地下鉄駅の出口に構想したこのアートスペースには、私自身の揺るがない意志を込めています。滑らかな銀色の輪郭と穏やかな雰囲気が、疲れた旅人にひと息つき、活力を取り戻せる場所をもたらします。銀色には洗練と強さが共存し、私の冷静で粘り強い性格を映し出しています。駅の周囲に広がる日常の風景にこの空間を重ね、人々が移動の途中で足を止め、心の安らぎを取り戻せる場を思い描きました。その体験を通じて、困難に直面しても歩み続ける力を伝えたいと考えています。「逆境の銀翼」は強さと静けさを一つにし、都市の活気と、そこに息づく不屈の精神に呼応する作品です。"
+          },
+          "snow": {
+            "title": "静かな雪景色の中で",
+            "description": "この幻想的なアートスペースは、静かな雪景色の中に構想したものです。軽やかで空気をまとうような形には、私自身の揺るがない粘り強さを込め、周囲の冬の風景が見せる毅然とした佇まいに重ねています。きらめく銀色は純白の雪に溶け込み、疲れた探索者を、安らぎと身を休める場所へと迎え入れます。訪れる人が足を止め、休息し、自分を見つめるとき、「逆境の銀翼」は決意と穏やかさが交わる空間になります。作品と自然環境が静かに対話するそのひとときに、自然の厳しさに向き合いながら歩み続ける姿勢を表現しています。"
+          },
+          "square": {
+            "title": "にぎわう広場の中心で",
+            "description": "にぎわう広場の中心に置かれたこの作品は、人々の目印となるアートスペースです。自分自身の性格や精神性を探る過程から生まれ、一人ひとりの内側にある、尽きることのない強さへの思いを託しています。洗練された銀色の輪郭は、訪れる人を内部へと誘い、空間の奥行きや重なりを体験するよう促します。「逆境の銀翼」において、銀色は困難にしなやかに向き合う強さの象徴です。通路を歩く体験は、自分自身を発見する旅へとつながっていきます。このアートスペースを通じて、自らを見つめ直し、内に秘めた力と再びつながるきっかけを生み出したいと考えています。"
+          },
+          "mountain": {
+            "title": "未来のエネルギー拠点",
+            "description": "未来の世界に構想したこの革新的なアートインスタレーションは、活気ある都心の外縁でエネルギー供給の拠点を担う存在です。この先を見据えた空間は、自分自身の精神性を探る過程から生まれ、私の揺るがない粘り強さを表しています。滑らかな銀色の輪郭は、都市の風景の中で、耐え抜き、進み続ける意志を示す灯台のように立ち現れます。「逆境の銀翼」では、未来への想像力と諦めずに歩む姿勢が結びつき、困難に向き合いながら前へ進む力を表現しています。"
+          }
+        }
       }
     },
-    "filterArchitecture": "建築・空間",
+    "filterArchitecture": "建築デザイン",
     "filterIndustrial": "工業・プロダクト",
     "filterPhotography": "写真",
     "filterInstallation": "インスタレーション・彫刻",
-    "sourceLabel": "ポートフォリオ出典",
-    "sourceText": "A1 · スキル開発 · PDF {pages} ページ",
     "detailsLabel": "素材と制作",
     "galleryLabel": "作品画像",
     "archiveLabel": "作品アーカイブ",
-    "sourceShort": "A1 ポートフォリオ"
+    "galleryPrevious": "前の画像",
+    "galleryNext": "次の画像",
+    "galleryHelp": "スワイプ、ドラッグ、または矢印でご覧ください。",
+    "galleryPosition": "画像 {current} / {total}",
+    "galleryImage": "画像 {number} を表示"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -609,7 +509,7 @@ window.STUDIO_LOCALES = {
     "workTitle": "분야를 넘어서",
     "workSubtitle": "프로젝트와 창작 탐구",
     "workNote": "서로 다른 분야, 같은 호기심.",
-    "workNotice": "A1 포트폴리오의 작품을 디자인 분야별로 소개합니다.",
+    "workNotice": "형태, 재료, 공간에 관한 탐구。",
     "filterLabel": "분야별 프로젝트 필터",
     "filterAll": "모든 작품",
     "filterVisual": "시각 디자인",
@@ -625,8 +525,8 @@ window.STUDIO_LOCALES = {
     "awardsDistinction": "수상 내역",
     "awardsProject": "프로젝트",
     "awardsEmpty": "기록된 작품 수상 내역이 없습니다.",
-    "awardsDescription": "제공된 A1 포트폴리오에는 이 작품들의 구체적인 수상명이 기재되어 있지 않습니다.",
-    "awardsPending": "A1 포트폴리오",
+    "awardsDescription": "아직 작품 수상 정보가 추가되지 않았습니다.",
+    "awardsPending": "수상",
     "studioEyebrow": "03 / 스튜디오 소개",
     "studioLine1": "하나의 호기심.",
     "studioLine2": "다양한 표현.",
@@ -649,75 +549,50 @@ window.STUDIO_LOCALES = {
     "dialogLabel": "작품 상세",
     "dialogClose": "닫기",
     "dialogCloseLabel": "프로젝트 상세 닫기",
-    "dialogNotice": "본인이 제공한 「A1 · 기술 개발」 포트폴리오의 작품입니다. 공간 장면은 실물 모형을 활용한 개념 포토몽타주입니다.",
     "dialogNext": "다음 작품",
     "projects": {
       "silver-wings": {
         "title": "역경의 은빛 날개",
-        "category": "건축·공간 개념",
+        "category": "건축 디자인 / 콘셉트",
         "description": "결의와 자아를 탐구하는 공간 작업입니다. 몸의 자세를 삼각형과 짧은 직선으로 바꾸고 세 모형을 비교하여, 그랜드피아노를 연상시키는 은빛 날개 형태로 발전시켰습니다. 도시와 자연 풍경 속 배치도 구상했습니다.",
         "details": "2023년. 아크릴판, 목재, 거울 종이. 모형 크기: 19.3 × 10.4 × 5.55인치. 실물 모형과 개념 합성 이미지로 제시한 미시공 공간 제안입니다.",
-        "gallery": {}
-      },
-      "paper-spaces": {
-        "title": "종이에서 공간으로",
-        "category": "건축·공간 개념",
-        "description": "자르기, 접기, 반복을 통해 종이를 작은 공간 모형으로 발전시켰습니다. 붉은 물결의 평원, 사막 꿈의 쉼터, 동심의 원천이라는 세 장면을 구상했습니다.",
-        "details": "종이 모형, 스케치, Photoshop 장면 실험. A1 종이 조각 워크숍에서 조각, 쉼터, 놀이 공간을 탐구했습니다.",
-        "gallery": {}
-      },
-      "snake-scale": {
-        "title": "뱀 비늘 테이블웨어",
-        "category": "산업·제품 디자인",
-        "description": "뱀과 글자 S를 공통 모티프로 삼은 식기 연구입니다. 코일링한 찻주전자, 나무 숟가락, 금속 포크에 같은 곡선의 조형 언어를 적용했습니다.",
-        "details": "점토, 목재, 황동. 뱀 비늘 찻주전자, 뱀 형태의 숟가락, 뱀의 노래 포크로 구성한 수제 학습 시제품입니다.",
-        "gallery": {}
-      },
-      "futureform": {
-        "title": "Futureform Architects",
-        "category": "시각 디자인 / 브랜드",
-        "description": "가상의 건축사무소를 위한 자율 브랜드 연습입니다. 머리글자 F와 A를 건축적인 기하학 마크로 발전시키며 스케치, 조각, 인쇄, 색상 실험을 진행했습니다.",
-        "details": "로고 디자인, 볼록판 인쇄, 색상 테스트. A1에는 네 가지 디자인 방향과 최종 검은색 인쇄물이 기록되어 있습니다.",
-        "gallery": {}
-      },
-      "light-painting": {
-        "title": "라이트 페인팅",
-        "category": "사진",
-        "description": "장노출로 색색의 빛을 인물과 추상적인 동작으로 바꾼 사진 시리즈입니다. 완성작 다섯 점 가운데 믿음과 환상을 탐구하는 「사이버 오로라」와 「영혼의 투영」을 소개합니다.",
-        "details": "Sony ILCE-7M4. 사이버 오로라: 44mm, f/22, ISO 125, 13초. 영혼의 투영: 41mm, f/18, ISO 125, 20초.",
-        "gallery": {}
-      },
-      "fibre-transmitter": {
-        "title": "미래의 광섬유 송신기",
-        "category": "조각 / 사변적 사물",
-        "description": "잘라서 재조합한 정육면체로 만든 가상의 송신기입니다. 파랑과 노랑이 기계와 에너지를 암시하며 공상과학 이야기를 조각으로 옮깁니다.",
-        "details": "도색한 PVC 폼보드. 26.6 × 20.3 × 18.4cm. A1 정육면체 워크숍의 사변적 조각입니다.",
-        "gallery": {}
-      },
-      "pay-tribute": {
-        "title": "오마주",
-        "category": "설치 / 섬유 조각",
-        "description": "미래의 고고학에서 발견한 곰 같은 형상을 상상했습니다. 파란 섬유, 사슬, 철사로 구조를 만들고 파란 LED로 빛을 더했습니다. 모리 척과 아델라 안데아의 작품에 응답하는 학습 작업입니다.",
-        "details": "폴리에스터 섬유, 철제 사슬, 철사, 나무 막대, LED 스트립. 36.5 × 38.1 × 24.7cm.",
-        "gallery": {}
-      },
-      "future-plants": {
-        "title": "미래 식물",
-        "category": "설치 / 사변적 조각",
-        "description": "환경 변화에 반응하는 세 가상 식물, 프로스트페이드, 컬러스피어 마린 블로섬스, 아르젠루비입니다. 색상, 질감, 일상 재료로 적응에 관한 상상 속 이야기를 전합니다.",
-        "details": "프로스트페이드: 3D 펜 재료와 조화 제작액, 28 × 20 × 16cm. 컬러스피어: 폼볼, 점토, 3D 펜 재료, 26 × 15 × 17cm. 아르젠루비: 포일과 풍선, 41 × 32 × 34cm.",
-        "gallery": {}
+        "gallery": {
+          "city": "지하철역 출구에서",
+          "snow": "고요한 설경 속에서",
+          "square": "분주한 광장의 중심에서",
+          "mountain": "미래의 에너지 거점"
+        },
+        "scenes": {
+          "city": {
+            "title": "지하철역 출구에서",
+            "description": "지하철역 출구에 구상한 이 예술 공간에는 흔들리지 않는 저의 의지를 담았습니다. 매끄러운 은빛 윤곽과 고요한 분위기는 지친 여행자에게 잠시 쉬며 활력을 되찾을 수 있는 안식처를 제공합니다. 은색은 세련됨과 강인함을 함께 지니며, 차분하고 끈기 있는 저의 성격을 비춥니다. 저는 이 공간을 역 주변의 일상적인 풍경 속에 배치하여, 사람들이 이동하는 도중에 걸음을 멈추고 내면의 편안함을 되찾는 모습을 상상했습니다. 이러한 경험을 통해 이 설치 작품은 어려움 앞에서도 꾸준히 나아가는 힘을 전합니다. 「역경의 은빛 날개」는 강인함과 평온함을 하나로 엮으며, 도시의 활력과 그 안에 살아 있는 불굴의 정신에 응답합니다."
+          },
+          "snow": {
+            "title": "고요한 설경 속에서",
+            "description": "이 환상적인 예술 공간은 고요하게 눈 덮인 풍경 속에 자리하도록 구상했습니다. 가볍고 신비로운 형태에는 흔들리지 않는 저의 회복력을 담았으며, 주변의 겨울 풍경이 보여 주는 굳건한 모습과 서로 호응합니다. 반짝이는 은빛은 깨끗한 눈과 자연스럽게 어우러져, 지친 탐험가들이 위안과 쉼을 찾을 수 있도록 이끕니다. 사람들이 잠시 멈추어 쉬고 자신을 돌아볼 때, 「역경의 은빛 날개」는 결의와 평온함이 만나는 공간이 됩니다. 작품과 자연환경이 나누는 이 조용한 대화에는, 자연의 도전 앞에서도 포기하지 않고 나아가는 태도를 담았습니다."
+          },
+          "square": {
+            "title": "분주한 광장의 중심에서",
+            "description": "활기찬 광장의 중심에 놓인 이 작품은 사람들의 이정표가 되는 예술 공간입니다. 저 자신의 성격과 정신적 특성을 탐구하는 과정에서 출발했으며, 우리 각자의 내면에 오래도록 남아 있는 힘에 대한 믿음을 담고 있습니다. 세련된 은빛 윤곽은 방문객이 안으로 들어와 공간의 깊이와 겹을 직접 탐색하도록 이끕니다. 「역경의 은빛 날개」에서 은색은 어려움을 견디고 다시 일어서는 힘을 상징합니다. 통로를 따라 걷는 경험은 자신을 발견하는 여정으로 이어집니다. 이 예술 공간이 사람들이 스스로를 돌아보고 내면 깊은 곳의 힘과 다시 연결되는 계기가 되기를 바랍니다."
+          },
+          "mountain": {
+            "title": "미래의 에너지 거점",
+            "description": "미래 세계를 배경으로 구상한 이 혁신적인 예술 설치 작품은 분주한 도심의 외곽에서 에너지를 공급하는 거점 역할을 합니다. 앞날을 내다보는 이 공간은 저 자신의 정신적 특성을 탐구하는 과정에서 탄생했으며, 흔들리지 않는 저의 회복력을 담고 있습니다. 매끄러운 은빛 윤곽은 도시 풍경 속에서 인내와 굳건한 의지를 보여 주는 등대 같은 존재가 됩니다. 「역경의 은빛 날개」에서는 미래를 향한 상상력과 끈기 있게 나아가는 정신이 만나, 도전을 견디며 계속 전진하는 힘을 표현합니다."
+          }
+        }
       }
     },
-    "filterArchitecture": "건축·공간",
+    "filterArchitecture": "건축 디자인",
     "filterIndustrial": "산업·제품",
     "filterPhotography": "사진",
     "filterInstallation": "설치·조각",
-    "sourceLabel": "포트폴리오 출처",
-    "sourceText": "A1 · 기술 개발 · PDF {pages}쪽",
     "detailsLabel": "재료와 제작",
     "galleryLabel": "작품 이미지",
     "archiveLabel": "작품 아카이브",
-    "sourceShort": "A1 포트폴리오"
+    "galleryPrevious": "이전 이미지",
+    "galleryNext": "다음 이미지",
+    "galleryHelp": "좌우로 스와이프하거나 드래그 또는 화살표를 사용하세요.",
+    "galleryPosition": "이미지 {current} / {total}",
+    "galleryImage": "이미지 {number} 보기"
   }
 };

@@ -1,35 +1,24 @@
 # Steven Studio
 
-Steven Studio is Ruixi (Steven) Feng's personal art and design portfolio. It is a responsive, buildless HTML/CSS/JavaScript site.
+Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsive HTML, CSS and JavaScript with no build dependencies.
 
-## Current content
+## Current work
 
-The supplied **Feng Ruixi A1.pdf** is the source for eight work groups. A1 is a portfolio source, not a design category. Work is organised by discipline:
+Only **Adversity Silver Wings** is published, classified as **Architectural design** at the owner's direction. Other unfinished work entries have been removed. New works and their classifications will be supplied by the owner individually.
 
-| Discipline | Work | Source PDF pages |
-| --- | --- | --- |
-| Architecture & space | Adversity Silver Wings | 179–183, 193–197 |
-| Architecture & space | Paper into Space | 35–52 |
-| Industrial & product | Snake Scale Tableware | 59–84 |
-| Visual communication | Futureform Architects | 19–34 |
-| Photography | Light Painting | 8–18 |
-| Installation & sculpture | Future Fibre Optic Transmitter | 53–58 |
-| Installation & sculpture | Pay Tribute | 85–95 |
-| Installation & sculpture | Future Plants | 96–109 |
+The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
-The website currently uses typographic covers without project images.
+Only the cover appears in the work grid. The other three images are created in the gallery after the work is opened. Optimised images are stored as `dist/assets/a1/silver-wings-01.webp` through `04.webp`. No PDF screenshots are used.
 
-The eight groups include workshop studies and a final spatial proposal within one supplied portfolio. Work names, materials, dimensions, camera settings and descriptions are grounded in those pages. “Paper into Space”, “Snake Scale Tableware”, “Light Painting” and “Future Plants” are editorial group titles. The PDF's original names are retained in the descriptions where useful.
+The 2023 study uses acrylic board, wood strips and mirror paper. Model dimensions are 19.3 × 10.4 × 5.55 inches. The four scenes are conceptual photomontages of models, not completed buildings. Internal reference: the owner-supplied Feng Ruixi A1.pdf, pages 179–183 and 193–197. Provenance stays in source metadata and this README; portfolio source names, PDF page numbers and A1 tags are not displayed to visitors.
 
-**Adversity Silver Wings** is explicitly dated 2023 in the source. Dates are not invented for the other works. Architectural scenes are labelled as conceptual photomontages of physical models, not completed buildings. Futureform is an imagined practice used for an identity exercise. The transmitter and plants are speculative artworks, not functioning devices or scientific claims. Pay Tribute is identified as a study responding to Mori Chack and Adela Andea.
-
-The provided PDF does not identify a named award for Steven's projects. Artist-research awards are not attributed to Steven. Page 144 mentions piano Grade 9 and unspecified childhood competition awards; neither is presented as a project award. The recognition section states the current evidence limit.
+No named project awards have been supplied. Artist-research awards are not attributed to Steven. Awards can be added when details are provided.
 
 ## Identity and languages
 
-The existing SF monogram, Steven Studio wordmark, and self-hosted Cormorant Garamond display fonts are preserved. Font licensing is included in `dist/assets/fonts/`.
+The SF monogram, Steven Studio wordmark and self-hosted Cormorant Garamond display fonts are preserved. Font licensing is included in `dist/assets/fonts/`.
 
-English is the default. Complete Simplified Chinese, Traditional Chinese, Japanese and Korean dictionaries include project details, filter labels, image captions, alt text, source references, metadata and accessibility labels. Language choice persists locally. A valid `?lang=` parameter takes precedence over storage.
+English is the default. Simplified Chinese, Traditional Chinese, Japanese and Korean dictionaries include work content, gallery captions and controls, alt text, metadata and accessibility labels. Language choice persists locally; a valid `?lang=` parameter takes precedence.
 
 ## Preview and checks
 
@@ -38,23 +27,22 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
 npm run check
 ```
 
-Checks cover source-page references, discipline filters, navigation, complete dictionaries and English HTML. Browser QA covers filters and locales, work dialogs, deep links, keyboard dismissal and responsive layouts.
+Checks cover the work archive, cover selection, four-image ordering, images limited to work details, internal provenance kept out of rendered markup, local assets, navigation and complete translations. Browser QA covers the gallery controls, image loading, keyboard interaction, mobile dimensions, five languages and direct links.
 
 ## Editing
 
-- `dist/index.html`: page sections and real-work cards.
-- `dist/portfolio.js`: work IDs, discipline assignments, source-page references and empty image slots for future owner-supplied assets.
-- `dist/locales.js`: complete visitor-facing content in five languages.
-- `dist/app.js`: filtering, language selection, navigation, accessible dialogs and shareable `#project/<id>` links. “Next work” stays within the selected discipline.
-- `dist/style.css`: responsive design and original editorial visual system.
-The archive is intentionally text-only at the owner’s request. No project images, PDF screenshots, or derived image assets are deployed. The owner will supply publication images separately. The existing SF brand assets are retained. The original PDF is not included in deployment.
+- `dist/index.html`: navigation, page sections, cover and work dialog.
+- `dist/portfolio.js`: owner-assigned category, internal provenance, cover and ordered image metadata.
+- `dist/locales.js`: visitor content in five languages.
+- `dist/app.js`: filters, language selection, navigation, dialogs and image gallery.
+- `dist/style.css`: responsive visual system and gallery layout.
 
-To add more work, add metadata and images, insert its card and provide matching content in all five languages. Classify by the actual design discipline. Keep the current A1 work attached to its source and add separate provenance for later portfolios.
+Work links use `#project/silver-wings`. Future works should be added only when supplied, with the category specified by the owner and matching copy in all five languages.
 
 ## Publishing
 
-`.openai/hosting.json` preserves the existing Steven Studio project ID and serves `dist/`. The user-owned GitHub source is [Arcionyx/steven-studio](https://github.com/Arcionyx/steven-studio). Existing owner-private audience settings are preserved.
+`.openai/hosting.json` preserves the existing Site identity and serves `dist/`. GitHub source: [Arcionyx/steven-studio](https://github.com/Arcionyx/steven-studio). Preserve the current owner-private access settings.
 
 Live site: https://steven-studio-arcionyx.steven0574.chatgpt.site
 
-The confirmed contact destination remains the GitHub profile. No messages or payments are submitted by this site.
+The contact destination remains the confirmed GitHub profile. The site submits no messages or payments.

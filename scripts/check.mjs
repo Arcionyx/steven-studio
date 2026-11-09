@@ -31,9 +31,20 @@ for (const [id,work] of Object.entries(works)) {
   for (const [image,caption,width,height] of work.images) {
     await access(new URL('../dist/assets/a1/'+image+'.webp',import.meta.url));
     assert.ok(width>0 && height>0, `${image} is missing image dimensions`);
-    for (const [language,dictionary] of Object.entries(locales)) assert.ok(dictionary.projects[id].gallery[caption], `${language}.${id} is missing a caption`);
+    for (const [language,dictionary] of Object.entries(locales)) {
+      assert.ok(dictionary.projects[id].gallery[caption], `${language}.${id} is missing a caption`);
+      assert.ok(dictionary.projects[id].scenes[caption].title && dictionary.projects[id].scenes[caption].description, `${language}.${id} is missing its scene introduction`);
+    }
   }
 }
+const silver = works['silver-wings'];
+assert.equal(silver.images.length,4,'Silver Wings must contain the four owner-supplied images');
+assert.equal(silver.cover,silver.images[0][0],'The first image must be the cover');
+assert.ok(html.includes(`src="assets/a1/${silver.cover}.webp"`),'Cover must appear in the work grid');
+for (const [file] of silver.images.slice(1)) assert.ok(!html.includes(`src="assets/a1/${file}.webp"`),'Additional images must appear only inside work details');
+for (const [id,work] of Object.entries(works)) if(id!=='silver-wings') assert.equal(work.images.length,0,`${id} must remain image-free`);
+assert.ok(!/source-reference|id="dialog-source"|Portfolio source|PDF pages|A1 PORTFOLIO/.test(html),'Internal provenance must not be rendered');
+assert.ok(ids.includes('gallery-prev') && ids.includes('gallery-next'),'Gallery navigation is missing');
 assert.ok(!/Form &amp; Feeling|Soft Objects|Between the Lines|Serious About Play/.test(html),'Demo projects must be removed');
 if (Object.values(works).every(work => work.images.length === 0)) {
   const imageSources = [...html.matchAll(/<img\b[^>]*src="([^"]+)"/g)].map(match=>match[1]);

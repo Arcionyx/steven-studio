@@ -8,8 +8,12 @@ const cards = [...document.querySelectorAll('.project')];
 const menuButton = document.querySelector('.menu-toggle');
 const mobileNav = document.querySelector('#mobile-nav');
 const dialog = document.querySelector('#project-dialog');
+const gallery = document.querySelector('#dialog-gallery');
+const gallerySection = document.querySelector('#project-gallery');
 let currentLocale = 'en';
 let currentIndex = 0;
+let currentSlide = 0;
+let drag = null;
 let opener = null;
 
 function supportedLocale(value) {
@@ -45,7 +49,7 @@ function applyLocale(value, updateUrl = false) {
   languageSelector.value = currentLocale;
   updateFilterStatus();
   updateMenuLabel();
-  if (dialog.open) renderProject(currentIndex);
+  if (dialog.open) renderProject(currentIndex, currentSlide);
   try { localStorage.setItem(storageKey, currentLocale); } catch { /* Storage is optional. */ }
   if (updateUrl) {
     const url = new URL(location.href);
@@ -76,7 +80,73 @@ menuButton.addEventListener('click', () => {
 mobileNav.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', event => { if (event.key === 'Escape') closeMenu(); });
 window.matchMedia('(min-width:761px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
-function renderProject(index) {
+function updateSlideState(index) {
+  const total = works[projectIds[currentIndex]].images.length;
+  currentSlide = Math.max(0, Math.min(index, total - 1));
+  const position = document.querySelector('#gallery-position');
+  position.textContent = `${currentSlide + 1} / ${total}`;
+  position.setAttribute('aria-label', format(text('galleryPosition'), {current: currentSlide + 1, total}));
+  const imageKey = works[projectIds[currentIndex]].images[currentSlide]?.[1];
+  const scene = imageKey && text(`projects.${projectIds[currentIndex]}.scenes`)[imageKey];
+  if (scene) {
+    document.querySelector('#gallery-scene-title').textContent = scene.title;
+    const description = document.querySelector('#gallery-scene-description');
+    if (description.textContent !== scene.description) description.textContent = scene.description;
+  }
+  document.querySelector('#gallery-prev').disabled = currentSlide === 0;
+  document.querySelector('#gallery-next').disabled = currentSlide >= total - 1;
+  document.querySelectorAll('.gallery-dot').forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+    dot.setAttribute('aria-pressed', String(i === currentSlide));
+  });
+}
+function goToSlide(index, smooth = true) {
+  const total = works[projectIds[currentIndex]].images.length;
+  if (!total) return;
+  updateSlideState(index);
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  gallery.scrollTo({left: currentSlide * gallery.clientWidth, behavior: smooth && !reduced ? 'smooth' : 'auto'});
+}
+gallery.addEventListener('scroll', () => {
+  if (!gallery.clientWidth) return;
+  updateSlideState(Math.round(gallery.scrollLeft / gallery.clientWidth));
+}, {passive:true});
+document.querySelector('#gallery-prev').addEventListener('click', () => goToSlide(currentSlide - 1));
+document.querySelector('#gallery-next').addEventListener('click', () => goToSlide(currentSlide + 1));
+gallery.addEventListener('keydown', event => {
+  const destinations = {ArrowLeft:currentSlide - 1, ArrowRight:currentSlide + 1, Home:0, End:works[projectIds[currentIndex]].images.length - 1};
+  if (Object.hasOwn(destinations, event.key)) {
+    event.preventDefault();
+    goToSlide(destinations[event.key]);
+  }
+});
+gallery.addEventListener('dragstart', event => event.preventDefault());
+gallery.addEventListener('pointerdown', event => {
+  if (event.pointerType !== 'mouse' || event.button !== 0) return;
+  drag = {start:event.clientX, left:gallery.scrollLeft, moved:false};
+  gallery.setPointerCapture(event.pointerId);
+});
+gallery.addEventListener('pointermove', event => {
+  if (!drag) return;
+  const delta = event.clientX - drag.start;
+  if (Math.abs(delta) > 5) drag.moved = true;
+  if (!drag.moved) return;
+  event.preventDefault();
+  gallery.classList.add('is-dragging');
+  gallery.scrollLeft = drag.left - delta;
+});
+function finishDrag(event) {
+  if (!drag) return;
+  const moved = drag.moved;
+  drag = null;
+  if (gallery.hasPointerCapture(event.pointerId)) gallery.releasePointerCapture(event.pointerId);
+  gallery.classList.remove('is-dragging');
+  if (moved) goToSlide(Math.round(gallery.scrollLeft / gallery.clientWidth));
+}
+gallery.addEventListener('pointerup', finishDrag);
+gallery.addEventListener('pointercancel', finishDrag);
+window.addEventListener('resize', () => { if (dialog.open) goToSlide(currentSlide, false); });
+function renderProject(index, slide = 0) {
   currentIndex = index;
   const id = projectIds[index];
   const work = works[id];
@@ -85,9 +155,10 @@ function renderProject(index) {
   document.querySelector('#dialog-category').textContent = copy.category;
   document.querySelector('#dialog-description').textContent = copy.description;
   document.querySelector('#dialog-details').textContent = copy.details;
-  document.querySelector('#dialog-source').textContent = format(text('sourceText'), {pages:work.pages});
   const figures = work.images.map(([file, captionKey, width, height], imageIndex) => {
     const figure = document.createElement('figure');
+    figure.setAttribute('role', 'group');
+    figure.setAttribute('aria-label', format(text('galleryPosition'), {current:imageIndex + 1, total:work.images.length}));
     const image = document.createElement('img');
     image.src = `assets/a1/${file}.webp`;
     image.alt = copy.gallery[captionKey];
@@ -99,9 +170,19 @@ function renderProject(index) {
     figure.append(image, caption);
     return figure;
   });
-  const gallery = document.querySelector('#dialog-gallery');
   gallery.replaceChildren(...figures);
-  gallery.hidden = figures.length === 0;
+  gallerySection.hidden = figures.length === 0;
+  const dots = work.images.map((_, imageIndex) => {
+    const dot = document.createElement('button');
+    dot.type = 'button';
+    dot.className = 'gallery-dot';
+    dot.setAttribute('aria-label', format(text('galleryImage'), {number:imageIndex + 1}));
+    dot.addEventListener('click', () => goToSlide(imageIndex));
+    return dot;
+  });
+  document.querySelector('#gallery-dots').replaceChildren(...dots);
+  if (figures.length) goToSlide(slide, false);
+  else currentSlide = 0;
   const visible = cards.filter(card => !card.hidden);
   document.querySelector('#next-project').hidden = visible.length < 2;
   dialog.scrollTop = 0;
@@ -110,6 +191,7 @@ function openProject(id, updateHash = true) {
   if (!Object.hasOwn(works, id)) return;
   renderProject(projectIds.indexOf(id));
   if (!dialog.open) dialog.showModal();
+  requestAnimationFrame(() => { if (dialog.open) goToSlide(currentSlide, false); });
   document.body.classList.add('modal-open');
   if (updateHash) {
     const url = new URL(location.href);
