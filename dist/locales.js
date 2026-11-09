@@ -249,6 +249,25 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Blucosix — blue and warm white light loops"
         }
+      },
+      "red-flame-demon-god": {
+        "title": "Red Flame Demon God",
+        "category": "Photography / Light painting",
+        "description": "Light-painting photography captured over a 13-second exposure.",
+        "facts": {
+          "title": "Red Flame Demon God",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "Manual",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13 s"
+        },
+        "gallery": {
+          "full": "Red Flame Demon God — red light trails against a dark background"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -535,6 +554,25 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "Blucosix — 蓝色与暖白色的环绕光轨"
+        }
+      },
+      "red-flame-demon-god": {
+        "title": "Red Flame Demon God",
+        "category": "摄影 / 光绘",
+        "description": "以 13 秒曝光记录光迹的光绘摄影作品。",
+        "facts": {
+          "title": "Red Flame Demon God",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "手动",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13 秒"
+        },
+        "gallery": {
+          "full": "Red Flame Demon God — 深色背景中的红色光轨"
         }
       }
     },
@@ -823,6 +861,25 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Blucosix — 藍色與暖白色的環繞光軌"
         }
+      },
+      "red-flame-demon-god": {
+        "title": "Red Flame Demon God",
+        "category": "攝影 / 光繪",
+        "description": "以 13 秒曝光記錄光跡的光繪攝影作品。",
+        "facts": {
+          "title": "Red Flame Demon God",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "手動",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13 秒"
+        },
+        "gallery": {
+          "full": "Red Flame Demon God — 深色背景中的紅色光軌"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1110,6 +1167,25 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Blucosix — 青と暖かな白い光のループ"
         }
+      },
+      "red-flame-demon-god": {
+        "title": "Red Flame Demon God",
+        "category": "写真 / ライトペインティング",
+        "description": "13秒の露光で光の軌跡を描いたライトペインティング作品。",
+        "facts": {
+          "title": "Red Flame Demon God",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "マニュアル",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13秒"
+        },
+        "gallery": {
+          "full": "Red Flame Demon God — 暗い背景に浮かぶ赤い光の軌跡"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -1396,6 +1472,25 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "Blucosix — 파란빛과 따뜻한 흰빛이 그리는 고리"
+        }
+      },
+      "red-flame-demon-god": {
+        "title": "Red Flame Demon God",
+        "category": "사진 / 라이트 페인팅",
+        "description": "13초 노출로 빛의 궤적을 담아낸 라이트 페인팅 작품입니다.",
+        "facts": {
+          "title": "Red Flame Demon God",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "44 mm",
+          "aperture": "F/22",
+          "exposureProgram": "수동",
+          "resolution": "3504 × 2336 px",
+          "iso": "125",
+          "exposureTime": "13초"
+        },
+        "gallery": {
+          "full": "Red Flame Demon God — 어두운 배경 위에 그려진 붉은 빛의 궤적"
         }
       }
     },

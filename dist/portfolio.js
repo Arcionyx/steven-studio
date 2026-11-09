@@ -219,5 +219,19 @@ window.STUDIO_WORKS = {
         1968
       ]
     ]
+  },
+  "red-flame-demon-god": {
+    "category": "photography",
+    "source": "Owner-supplied photograph and camera settings",
+    "assetPath": "assets/works/red-flame-demon-god",
+    "cover": "red-flame-demon-god-01",
+    "images": [
+      [
+        "red-flame-demon-god-01",
+        "full",
+        2400,
+        1600
+      ]
+    ]
   }
 };
