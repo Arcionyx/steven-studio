@@ -353,6 +353,42 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Maglev Ground — Complete concept drawing"
         }
+      },
+      "bicycle-sketch": {
+        "title": "Bicycle Sketch",
+        "category": "Painting / Sketch",
+        "description": "A sketch of a bicycle wheel, chain and gearing above a reflective surface.",
+        "facts": {
+          "title": "Bicycle Sketch",
+          "category": "Painting / Sketch"
+        },
+        "gallery": {
+          "full": "Bicycle Sketch — Complete view"
+        }
+      },
+      "still-life-sketch-01": {
+        "title": "Still Life Sketch 01",
+        "category": "Painting / Sketch",
+        "description": "A still-life sketch with fruit, glassware, eyeglasses and a sculpted mouth study.",
+        "facts": {
+          "title": "Still Life Sketch 01",
+          "category": "Painting / Sketch"
+        },
+        "gallery": {
+          "full": "Still Life Sketch 01 — Complete view"
+        }
+      },
+      "still-life-sketch-02": {
+        "title": "Still Life Sketch 02",
+        "category": "Painting / Sketch",
+        "description": "A still-life sketch combining a reflective kettle, fruit, draped fabric and geometric objects.",
+        "facts": {
+          "title": "Still Life Sketch 02",
+          "category": "Painting / Sketch"
+        },
+        "gallery": {
+          "full": "Still Life Sketch 02 — Complete view"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -750,6 +786,42 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "磁浮街境 — 完整概念图"
+        }
+      },
+      "bicycle-sketch": {
+        "title": "自行车素描",
+        "category": "绘画 / 素描",
+        "description": "以自行车车轮、链条与齿轮为主体，呈现机械细节及地面的倒影。",
+        "facts": {
+          "title": "自行车素描",
+          "category": "绘画 / 素描"
+        },
+        "gallery": {
+          "full": "自行车素描 — 完整画面"
+        }
+      },
+      "still-life-sketch-01": {
+        "title": "静物素描 01",
+        "category": "绘画 / 素描",
+        "description": "由水果、玻璃杯、眼镜与嘴部雕塑模型构成的静物素描。",
+        "facts": {
+          "title": "静物素描 01",
+          "category": "绘画 / 素描"
+        },
+        "gallery": {
+          "full": "静物素描 01 — 完整画面"
+        }
+      },
+      "still-life-sketch-02": {
+        "title": "静物素描 02",
+        "category": "绘画 / 素描",
+        "description": "以反光水壶、水果、衬布与几何形体组成的静物素描。",
+        "facts": {
+          "title": "静物素描 02",
+          "category": "绘画 / 素描"
+        },
+        "gallery": {
+          "full": "静物素描 02 — 完整画面"
         }
       }
     },
@@ -1149,6 +1221,42 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "磁浮街境 — 完整概念圖"
         }
+      },
+      "bicycle-sketch": {
+        "title": "自行車素描",
+        "category": "繪畫 / 素描",
+        "description": "以自行車車輪、鏈條與齒輪為主體，呈現機械細節及地面的倒影。",
+        "facts": {
+          "title": "自行車素描",
+          "category": "繪畫 / 素描"
+        },
+        "gallery": {
+          "full": "自行車素描 — 完整畫面"
+        }
+      },
+      "still-life-sketch-01": {
+        "title": "靜物素描 01",
+        "category": "繪畫 / 素描",
+        "description": "由水果、玻璃杯、眼鏡與嘴部雕塑模型構成的靜物素描。",
+        "facts": {
+          "title": "靜物素描 01",
+          "category": "繪畫 / 素描"
+        },
+        "gallery": {
+          "full": "靜物素描 01 — 完整畫面"
+        }
+      },
+      "still-life-sketch-02": {
+        "title": "靜物素描 02",
+        "category": "繪畫 / 素描",
+        "description": "以反光水壺、水果、襯布與幾何形體組成的靜物素描。",
+        "facts": {
+          "title": "靜物素描 02",
+          "category": "繪畫 / 素描"
+        },
+        "gallery": {
+          "full": "靜物素描 02 — 完整畫面"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1547,6 +1655,42 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Maglev Ground — コンセプト図全体"
         }
+      },
+      "bicycle-sketch": {
+        "title": "自転車のデッサン",
+        "category": "絵画 / デッサン",
+        "description": "自転車の車輪、チェーン、歯車と、地面に映る反射を描いたデッサン。",
+        "facts": {
+          "title": "自転車のデッサン",
+          "category": "絵画 / デッサン"
+        },
+        "gallery": {
+          "full": "自転車のデッサン — 全体像"
+        }
+      },
+      "still-life-sketch-01": {
+        "title": "静物デッサン 01",
+        "category": "絵画 / デッサン",
+        "description": "果物、グラス、眼鏡、口の彫刻模型を組み合わせた静物デッサン。",
+        "facts": {
+          "title": "静物デッサン 01",
+          "category": "絵画 / デッサン"
+        },
+        "gallery": {
+          "full": "静物デッサン 01 — 全体像"
+        }
+      },
+      "still-life-sketch-02": {
+        "title": "静物デッサン 02",
+        "category": "絵画 / デッサン",
+        "description": "光を反射するやかん、果物、布、幾何学的な形を組み合わせた静物デッサン。",
+        "facts": {
+          "title": "静物デッサン 02",
+          "category": "絵画 / デッサン"
+        },
+        "gallery": {
+          "full": "静物デッサン 02 — 全体像"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -1944,6 +2088,42 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "Maglev Ground — 콘셉트 도면 전체"
+        }
+      },
+      "bicycle-sketch": {
+        "title": "자전거 소묘",
+        "category": "회화 / 소묘",
+        "description": "자전거 바퀴와 체인, 기어의 세부 모습과 바닥에 비친 반사를 그린 소묘입니다.",
+        "facts": {
+          "title": "자전거 소묘",
+          "category": "회화 / 소묘"
+        },
+        "gallery": {
+          "full": "자전거 소묘 — 작품 전체 모습"
+        }
+      },
+      "still-life-sketch-01": {
+        "title": "정물 소묘 01",
+        "category": "회화 / 소묘",
+        "description": "과일, 유리잔, 안경과 입 모형을 배치한 정물 소묘입니다.",
+        "facts": {
+          "title": "정물 소묘 01",
+          "category": "회화 / 소묘"
+        },
+        "gallery": {
+          "full": "정물 소묘 01 — 작품 전체 모습"
+        }
+      },
+      "still-life-sketch-02": {
+        "title": "정물 소묘 02",
+        "category": "회화 / 소묘",
+        "description": "빛을 반사하는 주전자, 과일, 천과 기하학적 형태를 배치한 정물 소묘입니다.",
+        "facts": {
+          "title": "정물 소묘 02",
+          "category": "회화 / 소묘"
+        },
+        "gallery": {
+          "full": "정물 소묘 02 — 작품 전체 모습"
         }
       }
     },

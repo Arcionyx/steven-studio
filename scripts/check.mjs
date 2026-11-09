@@ -1,6 +1,7 @@
 import {readFile, access} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
+import {createHash} from 'node:crypto';
 const html = await readFile(new URL('../dist/index.html',import.meta.url),'utf8');
 const manifest = JSON.parse(await readFile(new URL('../.openai/hosting.json',import.meta.url),'utf8'));
 assert.equal(manifest.static.directory,'dist');
@@ -8,7 +9,7 @@ assert.ok(manifest.project_id);
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
 assert.equal(ids.length,new Set(ids).size,'Duplicate element IDs');
 for (const [,id] of html.matchAll(/href="#([^"]+)"/g)) if (!id.startsWith('project/')) assert.ok(ids.includes(id),`Missing section: ${id}`);
-for (const [,asset] of html.matchAll(/(?:src|href)="([^"#]+\.(?:js|css|svg|png|webp|woff2))"/g)) await access(new URL('../dist/'+asset,import.meta.url));
+for (const [,asset] of html.matchAll(/(?:src|href)="([^"?#]+\.(?:js|css|svg|png|webp|woff2))(?:\?[^"#]*)?"/g)) await access(new URL('../dist/'+asset,import.meta.url));
 assert.ok(ids.includes('awards'));
 assert.ok([...html.matchAll(/data-project="/g)].length > 0);
 assert.ok(html.includes('<html lang="en">'),'English must be the static default');
@@ -66,6 +67,15 @@ for (const [id,work] of Object.entries(works)) {
 }
 assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image must not be published');
 const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
+for (const asset of ['locales.js','portfolio.js','app.js','style.css']) {
+  const content = await readFile(new URL('../dist/'+asset,import.meta.url));
+  const expected = createHash('sha256').update(content).digest('hex').slice(0,12);
+  for (const [page,markup] of [['index.html',html],['awards.html',awardsHtml]]) {
+    const references = [...markup.matchAll(/\b(?:src|href)="([^"]+)"/g)].map(match=>match[1]).filter(reference=>reference.split('?')[0]===asset);
+    assert.equal(references.length,1,`${page} must reference ${asset} exactly once`);
+    assert.equal(new URLSearchParams(references[0].split('?')[1]).get('v'),expected,`${page} has an outdated ${asset} version; run npm run version:assets`);
+  }
+}
 const tribute=works['pay-tribute'];
 assert.equal(tribute.category,'installation');
 assert.deepEqual(Array.from(tribute.images,image=>image[0]),['pay-tribute-01','pay-tribute-02','pay-tribute-03','pay-tribute-04','pay-tribute-05','pay-tribute-06'],'Pay Tribute must retain all six supplied photos in order');

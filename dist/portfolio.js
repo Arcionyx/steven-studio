@@ -337,5 +337,50 @@ window.STUDIO_WORKS = {
         1799
       ]
     ]
+  },
+  "bicycle-sketch": {
+    "category": "painting",
+    "subcategory": "sketch",
+    "source": "Owner-supplied sketch image and classification. Descriptive display title follows the visible subject; no medium, physical dimensions, date or award was supplied.",
+    "assetPath": "assets/works/bicycle-sketch",
+    "cover": "bicycle-sketch-01",
+    "images": [
+      [
+        "bicycle-sketch-01",
+        "full",
+        1280,
+        1719
+      ]
+    ]
+  },
+  "still-life-sketch-01": {
+    "category": "painting",
+    "subcategory": "sketch",
+    "source": "Owner-supplied sketch image and classification. Descriptive display title follows the visible subject; no medium, physical dimensions, date or award was supplied.",
+    "assetPath": "assets/works/still-life-sketch-01",
+    "cover": "still-life-sketch-01-01",
+    "images": [
+      [
+        "still-life-sketch-01-01",
+        "full",
+        1815,
+        1280
+      ]
+    ]
+  },
+  "still-life-sketch-02": {
+    "category": "painting",
+    "subcategory": "sketch",
+    "source": "Owner-supplied sketch image and classification. Descriptive display title follows the visible subject; no medium, physical dimensions, date or award was supplied.",
+    "assetPath": "assets/works/still-life-sketch-02",
+    "cover": "still-life-sketch-02-01",
+    "images": [
+      [
+        "still-life-sketch-02-01",
+        "full",
+        1354,
+        962
+      ]
+    ]
   }
 };

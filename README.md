@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Sixteen owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, **Red Flame Demon God** (Photography / Light painting), **Portrait Sketch** (Painting / Sketch), five numbered **Digital Art** works (Painting / Digital art), and **Maglev Ground** (Urban planning). Categories are assigned by the owner. Unfinished work entries remain removed.
+Nineteen owner-supplied works are published across Architectural design, Urban planning, Installation, Three-dimensional composition, Photography and Painting. Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -38,11 +38,13 @@ The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bro
 
 Five digital artworks are separate entries under Painting / Digital art, using neutral display names Digital Art 01–05 in the supplied order: Untitled_Artwork.png, Untitled_Artwork 4.png, Untitled_Artwork 5.png, Untitled_Artwork 1.png, Untitled_Artwork 3.png. Each uses its own complete image as cover and detail view. The original composition, signatures and embedded colour profile are preserved. The five-language descriptions describe visible content; no software, dates, physical dimensions or awards are inferred.
 
-Selecting Painting reveals filters for all six paintings, the one sketch and the five digital artworks. Changing the main discipline resets the painting subtype filter. Work navigation follows the visible selection.
+Selecting Painting reveals filters for all nine paintings, the four sketches and the five digital artworks. Changing the main discipline resets the painting subtype filter. Work navigation follows the visible selection.
 
 **Maglev Ground**, displayed in Chinese as **磁浮街境**, is an owner-classified Urban planning concept. The English name preserves the title visible in the supplied drawing; the Chinese name was suggested for the site. The complete drawing is both cover and detail image. Its five-language description summarises the street perspective, modular paving section and proposed control of vehicle movement, without claiming engineering validation or a built project.
 
-All sixteen works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
+Three additional sketches, **Bicycle Sketch**, **Still Life Sketch 01** and **Still Life Sketch 02**, are separate entries under Painting / Sketch. Each uses its own complete owner-supplied image for the cover and detail view. Their five-language display names and descriptions reflect the visible subjects; unprovided dates, media, physical dimensions and awards are omitted.
+
+All nineteen works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
 
 ## Identity and languages
 
@@ -54,6 +56,7 @@ English is the default. Simplified Chinese, Traditional Chinese, Japanese and Ko
 
 ```sh
 python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
+npm run version:assets
 npm run check
 ```
 
@@ -61,12 +64,15 @@ Checks cover the work archive, cover selection, four-image ordering, images limi
 
 ## Editing
 
+After editing local JavaScript or CSS, run `npm run version:assets` before checks. Both pages reference content-versioned assets so updated markup requests the matching resources. Checks reject outdated asset versions.
+
 - `dist/index.html`: navigation, page sections, covers and work dialog.
 - `dist/awards.html`: dedicated awards and honours page, including organiser information and a work link.
 - `dist/portfolio.js`: owner-assigned category, internal provenance, cover and ordered image metadata.
 - `dist/locales.js`: visitor content in five languages.
 - `dist/app.js`: filters, language selection, navigation, dialogs and image gallery.
 - `dist/style.css`: responsive visual system and gallery layout.
+- `scripts/version-assets.mjs`: refreshes the asset versions in both HTML pages.
 
 Work links use `#project/silver-wings`. Future works should be added only when supplied, with the category specified by the owner and matching copy in all five languages.
 

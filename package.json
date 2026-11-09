@@ -4,6 +4,7 @@
   "private": true,
   "description": "Steven Studio — a multidisciplinary art and design portfolio",
   "scripts": {
+    "version:assets": "node scripts/version-assets.mjs",
     "check": "node --check dist/app.js && node scripts/check.mjs"
   }
 }
