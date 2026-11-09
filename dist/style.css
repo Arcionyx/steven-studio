@@ -207,3 +207,10 @@ html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
 /* Painting types remain within the owner-assigned Painting category. */
 .painting-filters{margin-top:-12px;margin-bottom:28px;gap:24px}
 .painting-filters button{font-size:11px}
+
+/* The archive adapts from four columns on wide screens to one on phones. */
+.project-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.project-grid>.project{min-width:0}
+@media(max-width:1279px){.project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:959px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:599px){.project-grid{grid-template-columns:minmax(0,1fr)}}
