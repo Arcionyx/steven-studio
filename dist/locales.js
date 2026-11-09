@@ -1,4 +1,3 @@
-// Complete visitor copy in five languages. English is the default.
 window.STUDIO_LOCALES = {
   "en": {
     "metaTitle": "Steven Studio — Art, design & everything in between",
@@ -502,6 +501,26 @@ window.STUDIO_LOCALES = {
             "body": "This installation explores time's fluidity and memory's distortion through a multi-layered composition. A large glass panel, adorned with clock faces drawn in oil markers, forms the base. Covered by ice and overlaid with a mosaic structure, the piece evolves as the ice melts, causing the clock numerals to shift and blur beneath the mosaic's veil.\n\nThe melting ice symbolizes time's irreversible passage, while the mosaic represents our fragmented perception of time and memories. As the clock faces transform, they mirror the fading clarity of our experiences.\n\nBy integrating elements of kinetic, environmental, and conceptual art, this piece invites contemplation on the nature of perception, memory's reliability, and our ability to capture fleeting moments. It challenges viewers to engage with the present while reflecting on time's ceaseless flow."
           }
         }
+      },
+      "temporal-palimpsest": {
+        "title": "Temporal Palimpsest",
+        "category": "Performance art",
+        "description": "This process-based performance explores the temporal dimension of human experience through a dynamic, evolving artwork. The uncertainty and complexity of life are reflected in the repeated application and removal of tape on the canvas, the seemingly misplaced camera, and a series of obstructions. Through these actions, I create a visual metaphor for the relentless passage of time and the fast pace of contemporary life. The resulting palimpsest-like surface embodies the accumulation and erasure of moments, reflecting our complex relationship with time.\n\nThis work is a meditation on the tension between productivity and rest in an increasingly accelerated society. It expresses my desire for an abundance of time, while inviting viewers to reconsider how they allocate their own time and seek a balance between rest and the demands of modern life.",
+        "videoLabel": "Temporal Palimpsest — performance video",
+        "facts": {
+          "title": "Temporal Palimpsest",
+          "year": "2024",
+          "materials": "Floor marking tape, 2.8 × 3 m backdrop frame and 3 × 5 m white curtain"
+        },
+        "gallery": {
+          "cover": "Temporal Palimpsest — performance with marking tape and clock numerals on a white curtain"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "Introduction",
+            "body": "This process-based performance explores the temporal dimension of human experience through a dynamic, evolving artwork. The uncertainty and complexity of life are reflected in the repeated application and removal of tape on the canvas, the seemingly misplaced camera, and a series of obstructions. Through these actions, I create a visual metaphor for the relentless passage of time and the fast pace of contemporary life. The resulting palimpsest-like surface embodies the accumulation and erasure of moments, reflecting our complex relationship with time.\n\nThis work is a meditation on the tension between productivity and rest in an increasingly accelerated society. It expresses my desire for an abundance of time, while inviting viewers to reconsider how they allocate their own time and seek a balance between rest and the demands of modern life."
+          }
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -552,7 +571,8 @@ window.STUDIO_LOCALES = {
     "comingSoonDescription": "New projects will be shared here soon.",
     "comingSoonStatus": "{category} — Coming soon",
     "workVideoLabel": "Work video",
-    "videoFallback": "Your browser does not support video playback."
+    "videoFallback": "Your browser does not support video playback.",
+    "filterPerformance": "Performance art"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -1056,6 +1076,26 @@ window.STUDIO_LOCALES = {
             "body": "这件装置通过多层叠加的构成，探索时间的流动性与记忆的变形。作品以绘有油性记号笔钟面的大片玻璃为基础，其上覆盖冰层，并叠放马赛克结构。随着冰逐渐融化，作品不断变化：钟面数字在马赛克的遮蔽之下发生位移，逐渐模糊。\n\n融化的冰象征时间不可逆转的流逝，而马赛克则呈现出我们对时间与记忆的碎片化感知。不断变动的钟面，映照着经历在记忆中逐渐失去清晰轮廓的过程。\n\n作品融合动态艺术、环境艺术与观念艺术的元素，邀请观者思考感知的本质、记忆的可靠性，以及我们捕捉转瞬即逝之时刻的可能。它鼓励人们在体会时间持续流动的同时，重新关注当下。"
           }
         }
+      },
+      "temporal-palimpsest": {
+        "title": "Temporal Palimpsest",
+        "category": "行为艺术",
+        "description": "这件以过程为核心、不断变化的行为艺术作品，探索了人类经验中的时间维度。我在画面上反复粘贴、揭除胶带，结合看似错位的摄影机位置与一系列遮挡，将生活中的不确定性与复杂性转化为可见的行动。这些动作构成了一种视觉隐喻，呈现时间无休止的流逝，以及当代生活不断加快的节奏。最终形成的表面如同一张被反复书写、擦除的重写本，让每个瞬间的积累与消退同时留下痕迹，映照出我们与时间之间复杂的关系。\n\n这件作品也是对当今社会中效率与休息之间张力的一次思考。在生活节奏日益加速的环境里，它表达了我对拥有充裕时间的渴望，同时邀请观众重新审视自己的时间分配，在休息的需要与现代生活的生存要求之间寻找平衡。",
+        "videoLabel": "Temporal Palimpsest — 行为艺术视频",
+        "facts": {
+          "title": "Temporal Palimpsest",
+          "year": "2024",
+          "materials": "地面标识胶带、2.8 × 3 米背景架、3 × 5 米白色幕布"
+        },
+        "gallery": {
+          "cover": "Temporal Palimpsest — 在白色幕布上以标识胶带与时钟数字进行的行为表演"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "作品介绍",
+            "body": "这件以过程为核心、不断变化的行为艺术作品，探索了人类经验中的时间维度。我在画面上反复粘贴、揭除胶带，结合看似错位的摄影机位置与一系列遮挡，将生活中的不确定性与复杂性转化为可见的行动。这些动作构成了一种视觉隐喻，呈现时间无休止的流逝，以及当代生活不断加快的节奏。最终形成的表面如同一张被反复书写、擦除的重写本，让每个瞬间的积累与消退同时留下痕迹，映照出我们与时间之间复杂的关系。\n\n这件作品也是对当今社会中效率与休息之间张力的一次思考。在生活节奏日益加速的环境里，它表达了我对拥有充裕时间的渴望，同时邀请观众重新审视自己的时间分配，在休息的需要与现代生活的生存要求之间寻找平衡。"
+          }
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -1106,7 +1146,8 @@ window.STUDIO_LOCALES = {
     "comingSoonDescription": "新作品将陆续在这里发布。",
     "comingSoonStatus": "{category} — 即将上线",
     "workVideoLabel": "作品视频",
-    "videoFallback": "你的浏览器不支持视频播放。"
+    "videoFallback": "你的浏览器不支持视频播放。",
+    "filterPerformance": "行为艺术"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -1610,6 +1651,26 @@ window.STUDIO_LOCALES = {
             "body": "這件裝置透過多層疊加的構成，探索時間的流動性與記憶的變形。作品以繪有油性記號筆鐘面的大片玻璃為基礎，其上覆蓋冰層，並疊放馬賽克結構。隨著冰逐漸融化，作品不斷變化：鐘面數字在馬賽克的遮蔽之下發生位移，逐漸模糊。\n\n融化的冰象徵時間不可逆轉的流逝，而馬賽克則呈現出我們對時間與記憶的碎片化感知。不斷變動的鐘面，映照著經歷在記憶中逐漸失去清晰輪廓的過程。\n\n作品融合動態藝術、環境藝術與觀念藝術的元素，邀請觀者思考感知的本質、記憶的可靠性，以及我們捕捉轉瞬即逝之時刻的可能。它鼓勵人們在體會時間持續流動的同時，重新關注當下。"
           }
         }
+      },
+      "temporal-palimpsest": {
+        "title": "Temporal Palimpsest",
+        "category": "行為藝術",
+        "description": "這件以過程為核心、不斷變化的行為藝術作品，探索了人類經驗中的時間維度。我在畫面上反覆黏貼、揭除膠帶，結合看似錯位的攝影機位置與一系列遮擋，將生活中的不確定性與複雜性轉化為可見的行動。這些動作構成了一種視覺隱喻，呈現時間無休止的流逝，以及當代生活不斷加快的節奏。最終形成的表面如同一張被反覆書寫、擦除的重寫本，讓每個瞬間的累積與消退同時留下痕跡，映照出我們與時間之間複雜的關係。\n\n這件作品也是對當今社會中效率與休息之間張力的一次思考。在生活步調日益加速的環境裡，它表達了我對擁有充裕時間的渴望，同時邀請觀眾重新審視自己的時間分配，在休息的需要與現代生活的生存要求之間尋找平衡。",
+        "videoLabel": "Temporal Palimpsest — 行為藝術影片",
+        "facts": {
+          "title": "Temporal Palimpsest",
+          "year": "2024",
+          "materials": "地面標示膠帶、2.8 × 3 公尺背景架、3 × 5 公尺白色幕布"
+        },
+        "gallery": {
+          "cover": "Temporal Palimpsest — 在白色幕布上以標示膠帶與時鐘數字進行的行為表演"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "作品介紹",
+            "body": "這件以過程為核心、不斷變化的行為藝術作品，探索了人類經驗中的時間維度。我在畫面上反覆黏貼、揭除膠帶，結合看似錯位的攝影機位置與一系列遮擋，將生活中的不確定性與複雜性轉化為可見的行動。這些動作構成了一種視覺隱喻，呈現時間無休止的流逝，以及當代生活不斷加快的節奏。最終形成的表面如同一張被反覆書寫、擦除的重寫本，讓每個瞬間的累積與消退同時留下痕跡，映照出我們與時間之間複雜的關係。\n\n這件作品也是對當今社會中效率與休息之間張力的一次思考。在生活步調日益加速的環境裡，它表達了我對擁有充裕時間的渴望，同時邀請觀眾重新審視自己的時間分配，在休息的需要與現代生活的生存要求之間尋找平衡。"
+          }
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1660,7 +1721,8 @@ window.STUDIO_LOCALES = {
     "comingSoonDescription": "新作品將陸續在這裡發佈。",
     "comingSoonStatus": "{category} — 即將上線",
     "workVideoLabel": "作品影片",
-    "videoFallback": "你的瀏覽器不支援影片播放。"
+    "videoFallback": "你的瀏覽器不支援影片播放。",
+    "filterPerformance": "行為藝術"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -2164,6 +2226,26 @@ window.STUDIO_LOCALES = {
             "body": "このインスタレーションは、幾層にも重なる構成を通して、時間の流動性と記憶の変容を探る作品です。油性マーカーで時計の文字盤を描いた大きなガラス板を土台とし、その上を氷とモザイク状の構造が覆っています。氷が溶けるにつれて作品は姿を変え、モザイクに遮られた文字盤の数字が移動し、ぼやけていきます。\n\n溶ける氷は取り戻すことのできない時間の経過を、モザイクは時間や記憶を断片的に捉える私たちの知覚を表しています。変化し続ける文字盤には、体験の鮮明さが記憶の中で少しずつ失われていく過程が重なります。\n\nキネティック・アート、環境芸術、コンセプチュアル・アートの要素を取り入れたこの作品は、知覚の本質、記憶の確かさ、そして一瞬を捉えることの可能性について考えるきっかけをつくります。絶えず流れる時間を見つめながら、今この瞬間に意識を向けることを観る人に促します。"
           }
         }
+      },
+      "temporal-palimpsest": {
+        "title": "Temporal Palimpsest",
+        "category": "パフォーマンス・アート",
+        "description": "この作品は、行為の過程とともに変化していくパフォーマンスを通して、人間の経験における時間のあり方を探るものです。画面にテープを貼っては剥がす反復動作、一見すると位置を誤ったように見えるカメラ、そして視界を遮るさまざまな要素に、人生の不確かさと複雑さを重ねました。これらの行為によって、絶え間なく流れる時間と、加速し続ける現代生活のリズムを視覚的な比喩として表現しています。何度も書かれ、消される重ね書きの写本のように、完成した表面には瞬間の蓄積と消失が刻まれ、私たちと時間との複雑な関係が浮かび上がります。\n\nこの作品は、社会の速度が増すなかで、生産性と休息のあいだに生まれる緊張について考える試みでもあります。そこには、時間に追われず、ゆとりを持って生きたいという私自身の願いが込められています。同時に、鑑賞者にも自分の時間の使い方を見つめ直し、休息の必要性と現代社会で生きるための要求とのあいだに、どのような均衡を見いだせるのかを問いかけています。",
+        "videoLabel": "Temporal Palimpsest — パフォーマンス映像",
+        "facts": {
+          "title": "Temporal Palimpsest",
+          "year": "2024",
+          "materials": "床用マーキングテープ、2.8 × 3 m の背景用フレーム、3 × 5 m の白いカーテン"
+        },
+        "gallery": {
+          "cover": "Temporal Palimpsest — 白いカーテンにマーキングテープと時計の数字を用いたパフォーマンス"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "作品紹介",
+            "body": "この作品は、行為の過程とともに変化していくパフォーマンスを通して、人間の経験における時間のあり方を探るものです。画面にテープを貼っては剥がす反復動作、一見すると位置を誤ったように見えるカメラ、そして視界を遮るさまざまな要素に、人生の不確かさと複雑さを重ねました。これらの行為によって、絶え間なく流れる時間と、加速し続ける現代生活のリズムを視覚的な比喩として表現しています。何度も書かれ、消される重ね書きの写本のように、完成した表面には瞬間の蓄積と消失が刻まれ、私たちと時間との複雑な関係が浮かび上がります。\n\nこの作品は、社会の速度が増すなかで、生産性と休息のあいだに生まれる緊張について考える試みでもあります。そこには、時間に追われず、ゆとりを持って生きたいという私自身の願いが込められています。同時に、鑑賞者にも自分の時間の使い方を見つめ直し、休息の必要性と現代社会で生きるための要求とのあいだに、どのような均衡を見いだせるのかを問いかけています。"
+          }
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -2214,7 +2296,8 @@ window.STUDIO_LOCALES = {
     "comingSoonDescription": "新しい作品を順次公開していきます。",
     "comingSoonStatus": "{category} — 近日公開",
     "workVideoLabel": "作品映像",
-    "videoFallback": "お使いのブラウザーは動画の再生に対応していません。"
+    "videoFallback": "お使いのブラウザーは動画の再生に対応していません。",
+    "filterPerformance": "パフォーマンス・アート"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -2718,6 +2801,26 @@ window.STUDIO_LOCALES = {
             "body": "이 설치 작품은 여러 층이 겹치는 구성을 통해 시간의 유동성과 기억의 변형을 탐구합니다. 유성 마커로 시계 문자판을 그린 커다란 유리판을 바탕으로, 그 위에 얼음과 모자이크 구조를 겹쳐 놓았습니다. 얼음이 녹으면서 작품은 계속 변화하고, 모자이크에 가려진 시계 숫자들은 위치가 바뀌며 점차 흐릿해집니다.\n\n녹아내리는 얼음은 되돌릴 수 없는 시간의 흐름을, 모자이크는 시간과 기억을 파편적으로 받아들이는 우리의 지각을 상징합니다. 변해 가는 문자판은 경험의 선명함이 기억 속에서 조금씩 사라지는 과정을 비춥니다.\n\n키네틱 아트와 환경미술, 개념미술의 요소를 결합한 이 작품은 지각의 본질과 기억의 신뢰성, 그리고 찰나의 순간을 붙잡을 수 있는 가능성을 생각하게 합니다. 끊임없이 흐르는 시간을 돌아보면서도, 지금 이 순간에 주의를 기울이도록 관객을 초대합니다."
           }
         }
+      },
+      "temporal-palimpsest": {
+        "title": "Temporal Palimpsest",
+        "category": "행위예술",
+        "description": "이 작품은 행위의 과정에 따라 끊임없이 변화하는 퍼포먼스를 통해 인간의 경험 속에 존재하는 시간의 차원을 탐구합니다. 화면에 테이프를 붙였다 떼어 내는 반복적인 동작, 언뜻 잘못 놓인 듯한 카메라의 위치, 그리고 시야를 가리는 여러 요소에 삶의 불확실성과 복잡성을 담았습니다. 이러한 행위는 멈추지 않고 흐르는 시간과 빠르게 돌아가는 현대 생활의 속도를 시각적인 은유로 드러냅니다. 그 결과 남은 표면은 글을 쓰고 지우기를 거듭한 겹쳐 쓰기의 흔적처럼, 순간이 쌓이고 사라지는 과정을 보여 주며 우리가 시간과 맺고 있는 복잡한 관계를 비춥니다.\n\n이 작품은 점점 더 빨라지는 사회에서 생산성과 휴식 사이에 생겨나는 긴장을 돌아보는 작업이기도 합니다. 시간에 쫓기기보다 충분한 시간을 누리고 싶다는 저의 바람을 담는 동시에, 관객에게도 자신의 시간 배분을 다시 살펴보도록 제안합니다. 이를 통해 휴식의 필요와 현대 사회에서 살아가기 위한 요구 사이에서 어떤 균형을 찾을 수 있는지 함께 생각하고자 합니다.",
+        "videoLabel": "Temporal Palimpsest — 행위예술 영상",
+        "facts": {
+          "title": "Temporal Palimpsest",
+          "year": "2024",
+          "materials": "바닥 표시용 테이프, 2.8 × 3 m 배경 프레임, 3 × 5 m 흰색 커튼"
+        },
+        "gallery": {
+          "cover": "Temporal Palimpsest — 흰색 커튼에 표시용 테이프와 시계 숫자를 활용한 퍼포먼스"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "작품 소개",
+            "body": "이 작품은 행위의 과정에 따라 끊임없이 변화하는 퍼포먼스를 통해 인간의 경험 속에 존재하는 시간의 차원을 탐구합니다. 화면에 테이프를 붙였다 떼어 내는 반복적인 동작, 언뜻 잘못 놓인 듯한 카메라의 위치, 그리고 시야를 가리는 여러 요소에 삶의 불확실성과 복잡성을 담았습니다. 이러한 행위는 멈추지 않고 흐르는 시간과 빠르게 돌아가는 현대 생활의 속도를 시각적인 은유로 드러냅니다. 그 결과 남은 표면은 글을 쓰고 지우기를 거듭한 겹쳐 쓰기의 흔적처럼, 순간이 쌓이고 사라지는 과정을 보여 주며 우리가 시간과 맺고 있는 복잡한 관계를 비춥니다.\n\n이 작품은 점점 더 빨라지는 사회에서 생산성과 휴식 사이에 생겨나는 긴장을 돌아보는 작업이기도 합니다. 시간에 쫓기기보다 충분한 시간을 누리고 싶다는 저의 바람을 담는 동시에, 관객에게도 자신의 시간 배분을 다시 살펴보도록 제안합니다. 이를 통해 휴식의 필요와 현대 사회에서 살아가기 위한 요구 사이에서 어떤 균형을 찾을 수 있는지 함께 생각하고자 합니다."
+          }
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -2768,6 +2871,7 @@ window.STUDIO_LOCALES = {
     "comingSoonDescription": "새로운 작품을 순차적으로 공개할 예정입니다.",
     "comingSoonStatus": "{category} — 공개 예정",
     "workVideoLabel": "작품 영상",
-    "videoFallback": "이 브라우저는 동영상 재생을 지원하지 않습니다."
+    "videoFallback": "이 브라우저는 동영상 재생을 지원하지 않습니다.",
+    "filterPerformance": "행위예술"
   }
 };

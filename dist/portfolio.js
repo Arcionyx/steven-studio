@@ -513,5 +513,20 @@ window.STUDIO_WORKS = {
       "height": 544,
       "duration": 10.032
     }
+  },
+  "temporal-palimpsest": {
+    "category": "performance",
+    "source": "Owner-supplied original cover photograph, original MP4, title, introduction, materials and year; performance-art classification assigned by owner",
+    "year": "2024",
+    "assetPath": "assets/works/temporal-palimpsest",
+    "cover": "temporal-palimpsest-cover",
+    "images": [],
+    "video": {
+      "src": "assets/works/temporal-palimpsest/temporal-palimpsest.mp4",
+      "mimeType": "video/mp4",
+      "width": 720,
+      "height": 1024,
+      "duration": 18.298
+    }
   }
 };
