@@ -394,5 +394,45 @@ window.STUDIO_WORKS = {
         962
       ]
     ]
+  },
+  "sacred-illumination-chair": {
+    "category": "industrial",
+    "source": "Owner-supplied Feng Ruixi A2.pdf and five original work photographs",
+    "pages": "6, 18, 35–58, 59, 62–69",
+    "year": "2024",
+    "assetPath": "assets/works/sacred-illumination-chair",
+    "cover": "sacred-illumination-chair-01",
+    "images": [
+      [
+        "sacred-illumination-chair-01",
+        "shadow",
+        1899,
+        2400
+      ],
+      [
+        "sacred-illumination-chair-02",
+        "projection",
+        1600,
+        2400
+      ],
+      [
+        "sacred-illumination-chair-03",
+        "outdoor",
+        1800,
+        2400
+      ],
+      [
+        "sacred-illumination-chair-04",
+        "angle",
+        1800,
+        2400
+      ],
+      [
+        "sacred-illumination-chair-05",
+        "front",
+        1800,
+        2400
+      ]
+    ]
   }
 };

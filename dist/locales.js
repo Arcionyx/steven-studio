@@ -391,6 +391,43 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Still Life Sketch 02 — Complete view"
         }
+      },
+      "sacred-illumination-chair": {
+        "title": "Sacred Celestial Illumination Chair",
+        "category": "Product design / Furniture",
+        "description": "A chair design that brings light, Christian symbolism and everyday rituals together. A cross-shaped opening in its white wooden backrest and a transparent acrylic seat turn a familiar object into a study of material, shadow and spiritual reflection.",
+        "narrative": {
+          "background": {
+            "title": "Background",
+            "body": "Developed in response to the International Day of Light, this project grew from my Christian faith and an investigation into the role of seating in worship. Visits to local churches led me to consider how a chair could support ordinary activities such as prayer, Bible reading and reflection while also carrying a spiritual identity. I wanted to bring these functions and meanings together in a piece of furniture whose relationship with light is central to its design."
+          },
+          "concept": {
+            "title": "Light, form and faith",
+            "body": "Four white wooden panels define a tall backrest, leaving a cross-shaped opening between them. Inspired by Tadao Ando’s Church of the Light, I explored how an absence of material could become the design’s strongest visual element. When illuminated, the chair produces cross-shaped patterns of light and shadow that extend beyond its physical outline. The high backrest suggests a feeling of protection, while the wider seat is intended to accommodate the gestures and objects associated with prayer, including resting hands and placing a Bible."
+          },
+          "development": {
+            "title": "Materials and development",
+            "body": "Transparent acrylic forms the seat and lower structure, contrasting with the white-painted wood of the backrest. For me, the acrylic’s clarity evokes purity and openness, while the wood connects the design with tradition and continuity. The development moved through sketches, cardboard studies, wood and acrylic models, ergonomic and proportion research, and experiments with mortise-and-tenon connections. Separate full-size joint studies examined how the different parts might meet. The final outcome presented here is a 30 × 14 × 10.6 cm physical model, developed to explore the furniture’s form, materials and optical effects."
+          },
+          "experience": {
+            "title": "Experience and meaning",
+            "body": "I photographed the model under directed light in a dark environment and in direct sunlight to study how the cross appears under different conditions. In the darker photographs, a projected cross becomes a point of focus; in daylight, the chair casts a changing geometric shadow into its surroundings. Through these encounters with light, I wanted a familiar object to offer a quiet invitation to pause. Sacred Celestial Illumination Chair expresses my understanding of faith as a source of guidance, hope and inner reflection."
+          }
+        },
+        "facts": {
+          "title": "Sacred Celestial Illumination Chair",
+          "year": "2024",
+          "materials": "Acrylic, wood and white paint",
+          "modelDimensions": "30 × 14 × 10.6 cm",
+          "presentation": "Furniture design concept and physical model"
+        },
+        "gallery": {
+          "shadow": "The chair model and its enlarged cross-shaped shadow under directed light",
+          "projection": "Light passing through the backrest creates a luminous cross",
+          "outdoor": "The model in daylight, showing the white wooden backrest and transparent acrylic structure",
+          "angle": "An elevated view of the seat, cross-shaped opening and geometric shadow",
+          "front": "Front view in sunlight, with the miniature Bible placed on the seat"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -830,6 +867,43 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "静物素描 02 — 完整画面"
+        }
+      },
+      "sacred-illumination-chair": {
+        "title": "Sacred Celestial Illumination Chair",
+        "category": "产品设计 / 家具",
+        "description": "这把椅子将光、基督教象征与日常仪式联系起来。白色木质靠背中的十字形镂空与透明亚克力座面相互呼应，让一件熟悉的家具成为对材料、光影与内在精神世界的探索。",
+        "narrative": {
+          "background": {
+            "title": "创作背景",
+            "body": "这个项目以国际光日为起点，源于我的基督教信仰，以及对座椅在礼拜活动中所扮演角色的观察。在走访当地教堂的过程中，我开始思考：一把椅子如何在承载祈祷、阅读《圣经》与静思等日常活动的同时，也传达精神层面的意义。我希望将这些实际用途与情感体验融入家具设计，并让光成为贯穿整个作品的核心。"
+          },
+          "concept": {
+            "title": "光、形态与信仰",
+            "body": "四块白色木板构成高耸的靠背，板块之间留出十字形的镂空。受到安藤忠雄「光之教堂」的启发，我尝试让材料之间的留白成为作品最鲜明的视觉语言。当光线穿过靠背时，十字形的光影延伸到椅子之外，使家具与周围空间产生联系。加高的靠背寄托着被守护、被包容的感受；适当加宽的座面则回应祈祷时的动作与使用需求，为倚放双手、放置《圣经》等留出空间。"
+          },
+          "development": {
+            "title": "材料与设计发展",
+            "body": "透明亚克力构成座面及下部结构，与涂成白色的木质靠背形成对照。对我而言，亚克力的清透象征纯净与开放，木材则让作品与传统和延续产生联系。设计经历了草图、纸板试作、木材与亚克力模型，以及人体工学、比例和榫卯连接的研究。我还制作了独立的原尺寸节点试件，探索不同部件的连接方式。这里呈现的最终成果是一件尺寸为 30 × 14 × 10.6 cm 的实体模型，用于研究家具的形态、材料关系与光学效果。"
+          },
+          "experience": {
+            "title": "体验与意义",
+            "body": "我分别在暗环境的定向光照与自然阳光下拍摄模型，观察十字形在不同光线中的呈现方式。在暗处，投射出的光之十字成为视觉焦点；在日光下，椅子则在周围投下随光线变化的几何阴影。我希望通过这些与光的相遇，让一件熟悉的日常物品为人们提供片刻安静与停留的契机。Sacred Celestial Illumination Chair 表达了我对信仰的理解：它是引导与希望的来源，也为内心的思考留出空间。"
+          }
+        },
+        "facts": {
+          "title": "Sacred Celestial Illumination Chair",
+          "year": "2024",
+          "materials": "亚克力、木材、白色涂料",
+          "modelDimensions": "30 × 14 × 10.6 cm",
+          "presentation": "家具设计概念与实体模型"
+        },
+        "gallery": {
+          "shadow": "定向光照下的椅子模型与放大的十字形阴影",
+          "projection": "光线穿过靠背，形成明亮的十字形投影",
+          "outdoor": "日光下的模型，呈现白色木质靠背与透明亚克力结构",
+          "angle": "俯视角度下的座面、十字形镂空与几何阴影",
+          "front": "阳光下的正面视图，座面上放置了微型《圣经》"
         }
       }
     },
@@ -1271,6 +1345,43 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "靜物素描 02 — 完整畫面"
         }
+      },
+      "sacred-illumination-chair": {
+        "title": "Sacred Celestial Illumination Chair",
+        "category": "產品設計 / 家具",
+        "description": "這把椅子將光、基督教象徵與日常儀式連結起來。白色木質椅背中的十字形鏤空與透明壓克力座面相互呼應，讓一件熟悉的家具成為對材料、光影與內在精神世界的探索。",
+        "narrative": {
+          "background": {
+            "title": "創作背景",
+            "body": "這個專案以國際光日為起點，源於我的基督教信仰，以及對座椅在禮拜活動中所扮演角色的觀察。在走訪當地教堂的過程中，我開始思考：一把椅子如何在承載祈禱、閱讀《聖經》與靜思等日常活動的同時，也傳達精神層面的意義。我希望將這些實際用途與情感體驗融入家具設計，並讓光成為貫穿整個作品的核心。"
+          },
+          "concept": {
+            "title": "光、形態與信仰",
+            "body": "四塊白色木板構成高聳的椅背，板塊之間留出十字形的鏤空。受到安藤忠雄「光之教堂」的啟發，我嘗試讓材料之間的留白成為作品最鮮明的視覺語言。當光線穿過椅背時，十字形的光影延伸到椅子之外，使家具與周圍空間產生連結。加高的椅背寄託著被守護、被包容的感受；適度加寬的座面則回應祈禱時的動作與使用需求，為倚放雙手、放置《聖經》等留出空間。"
+          },
+          "development": {
+            "title": "材料與設計發展",
+            "body": "透明壓克力構成座面及下部結構，與漆成白色的木質椅背形成對照。對我而言，壓克力的清透象徵純淨與開放，木材則讓作品與傳統和延續產生連結。設計經歷了草圖、紙板試作、木材與壓克力模型，以及人體工學、比例和榫卯接合的研究。我也製作了獨立的原尺寸接合試件，探索不同部件的連接方式。這裡呈現的最終成果是一件尺寸為 30 × 14 × 10.6 cm 的實體模型，用於研究家具的形態、材料關係與光學效果。"
+          },
+          "experience": {
+            "title": "體驗與意義",
+            "body": "我分別在暗環境的定向光照與自然陽光下拍攝模型，觀察十字形在不同光線中的呈現方式。在暗處，投射出的光之十字成為視覺焦點；在日光下，椅子則在周圍投下隨光線變化的幾何陰影。我希望透過這些與光的相遇，讓一件熟悉的日常物品為人們提供片刻安靜與停留的契機。Sacred Celestial Illumination Chair 表達了我對信仰的理解：它是引導與希望的來源，也為內心的思考留出空間。"
+          }
+        },
+        "facts": {
+          "title": "Sacred Celestial Illumination Chair",
+          "year": "2024",
+          "materials": "壓克力、木材、白色塗料",
+          "modelDimensions": "30 × 14 × 10.6 cm",
+          "presentation": "家具設計概念與實體模型"
+        },
+        "gallery": {
+          "shadow": "定向光照下的椅子模型與放大的十字形陰影",
+          "projection": "光線穿過椅背，形成明亮的十字形投影",
+          "outdoor": "日光下的模型，呈現白色木質椅背與透明壓克力結構",
+          "angle": "俯視角度下的座面、十字形鏤空與幾何陰影",
+          "front": "陽光下的正面視圖，座面上放置了微型《聖經》"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1711,6 +1822,43 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "静物デッサン 02 — 全体像"
         }
+      },
+      "sacred-illumination-chair": {
+        "title": "Sacred Celestial Illumination Chair",
+        "category": "プロダクトデザイン / 家具",
+        "description": "光、キリスト教の象徴、日々の祈りを結びつけた椅子のデザイン。白い木製の背もたれに設けた十字形の隙間と透明なアクリルの座面を通して、身近な家具と素材、光と影、内省の関係を探っています。",
+        "narrative": {
+          "background": {
+            "title": "制作の背景",
+            "body": "国際光デーを出発点としたこのプロジェクトは、私自身のキリスト教信仰と、礼拝における椅子の役割への関心から生まれました。地元の教会を訪れる中で、祈りや聖書を読む時間、静かな思索といった日常の行為を支えながら、精神的な意味も伝える椅子を考えるようになりました。こうした用途と感情を家具のデザインに重ね、光との関係を作品の中心に据えています。"
+          },
+          "concept": {
+            "title": "光、かたち、信仰",
+            "body": "背の高い背もたれは四枚の白い木板で構成され、その間に十字形の隙間を残しています。安藤忠雄の「光の教会」に着想を得て、素材のない部分を、最も印象的な視覚表現へと変えようとしました。光が当たると、十字形の光や影が椅子の輪郭を越え、周囲の空間へと広がります。高い背もたれには包まれ、守られる感覚を込めました。また、幅を広げた座面は、祈る際に手を置いたり、聖書を載せたりする動作を想定しています。"
+          },
+          "development": {
+            "title": "素材とデザインの展開",
+            "body": "座面と下部の構造には透明なアクリルを使い、白く塗装した木製の背もたれと対比させています。私にとってアクリルの透明感は純粋さや開かれた心を、木は伝統とその継承を表します。制作ではスケッチ、段ボールによる試作、木材とアクリルの模型、人間工学と寸法比率の研究、ほぞ接合の実験を重ねました。部材のつながり方を検討するため、接合部だけを実寸で制作する試みも行っています。ここで紹介する最終成果は、家具のかたち、素材の関係、光学的な効果を探るための、30 × 14 × 10.6 cm の実体模型です。"
+          },
+          "experience": {
+            "title": "体験と意味",
+            "body": "暗い空間で方向を定めた光を当てる撮影と、直射日光の下での撮影を行い、条件による十字形の見え方の違いを観察しました。暗い写真では投影された光の十字が視線を引きつけ、日中には幾何学的な影が周囲に広がり、光の変化とともに表情を変えます。こうした光との出会いを通して、身近な物が静かに立ち止まるきっかけになることを目指しました。Sacred Celestial Illumination Chair は、信仰を導きと希望、そして自分の内面を見つめるよりどころとして捉える、私自身の思いを表しています。"
+          }
+        },
+        "facts": {
+          "title": "Sacred Celestial Illumination Chair",
+          "year": "2024",
+          "materials": "アクリル、木材、白色塗料",
+          "modelDimensions": "30 × 14 × 10.6 cm",
+          "presentation": "家具デザインのコンセプトと実体模型"
+        },
+        "gallery": {
+          "shadow": "方向を定めた光で照らした椅子の模型と、拡大された十字形の影",
+          "projection": "背もたれを通る光が生み出す、明るい十字形の投影",
+          "outdoor": "白い木製の背もたれと透明なアクリルの構造を示す、日中の模型",
+          "angle": "座面、十字形の隙間、幾何学的な影を上方から捉えた写真",
+          "front": "座面に小さな聖書を置いた、日光下での正面写真"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -2150,6 +2298,43 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "정물 소묘 02 — 작품 전체 모습"
+        }
+      },
+      "sacred-illumination-chair": {
+        "title": "Sacred Celestial Illumination Chair",
+        "category": "제품 디자인 / 가구",
+        "description": "빛과 기독교의 상징, 일상의 기도 의식을 연결한 의자 디자인입니다. 흰색 목재 등받이의 십자가 모양 틈과 투명한 아크릴 좌판을 통해 익숙한 가구를 소재, 빛과 그림자, 내면의 성찰을 탐구하는 대상으로 바라봅니다.",
+        "narrative": {
+          "background": {
+            "title": "제작 배경",
+            "body": "국제 빛의 날을 출발점으로 삼은 이 프로젝트는 저의 기독교 신앙과 예배에서 의자가 맡는 역할에 대한 관심에서 시작되었습니다. 지역 교회들을 방문하며, 의자가 기도와 성경 읽기, 조용한 사색 같은 일상의 행위를 받쳐 주면서도 영적인 의미를 전할 수 있는 방법을 고민했습니다. 이러한 쓰임과 감정을 하나의 가구에 담고, 빛과의 관계를 디자인의 중심에 두고자 했습니다."
+          },
+          "concept": {
+            "title": "빛, 형태, 신앙",
+            "body": "네 장의 흰색 목재 패널로 높은 등받이를 만들고, 패널 사이에는 십자가 모양의 틈을 남겼습니다. 안도 다다오의 ‘빛의 교회’에서 영감을 받아, 소재가 비어 있는 부분이 오히려 가장 강한 시각적 요소가 될 수 있는지 탐구했습니다. 빛이 비치면 십자가 모양의 빛과 그림자가 의자의 윤곽을 넘어 주변 공간으로 확장됩니다. 높은 등받이에는 감싸이고 보호받는 느낌을 담았으며, 넓힌 좌판은 기도할 때 손을 기대거나 성경을 올려놓는 동작과 쓰임을 고려한 것입니다."
+          },
+          "development": {
+            "title": "소재와 디자인 발전",
+            "body": "좌판과 하부 구조에는 투명한 아크릴을 사용해 흰색으로 칠한 목재 등받이와 대비를 이루도록 했습니다. 저에게 아크릴의 투명함은 순수함과 열린 마음을, 목재는 전통과 그 계승을 의미합니다. 스케치와 골판지 습작, 목재 및 아크릴 모형을 거치며 인체공학과 비례를 조사하고 장부맞춤 접합을 실험했습니다. 각 부재가 만나는 방식을 검토하기 위해 접합부만 실제 크기로 제작하는 연구도 진행했습니다. 여기 소개하는 최종 결과물은 가구의 형태와 소재의 관계, 광학적 효과를 탐구하기 위한 30 × 14 × 10.6 cm 크기의 실물 모형입니다."
+          },
+          "experience": {
+            "title": "경험과 의미",
+            "body": "어두운 공간에서 방향을 정한 빛을 비추고, 직사광선 아래에서도 모형을 촬영하며 조건에 따라 십자가가 드러나는 방식을 관찰했습니다. 어두운 사진에서는 빛으로 투사된 십자가가 시선을 모으고, 낮에는 주변으로 뻗은 기하학적 그림자가 빛의 변화에 따라 다른 모습을 보여 줍니다. 이러한 빛과의 만남을 통해 익숙한 사물이 잠시 멈추고 고요함을 느낄 계기가 되기를 바랐습니다. Sacred Celestial Illumination Chair 는 신앙을 인도와 희망의 원천이자 내면을 돌아보는 바탕으로 이해하는 저의 생각을 담은 작품입니다."
+          }
+        },
+        "facts": {
+          "title": "Sacred Celestial Illumination Chair",
+          "year": "2024",
+          "materials": "아크릴, 목재, 흰색 도료",
+          "modelDimensions": "30 × 14 × 10.6 cm",
+          "presentation": "가구 디자인 콘셉트와 실물 모형"
+        },
+        "gallery": {
+          "shadow": "방향을 정한 빛 아래의 의자 모형과 확대된 십자가 모양 그림자",
+          "projection": "등받이를 통과한 빛이 만들어 내는 밝은 십자가 투영",
+          "outdoor": "흰색 목재 등받이와 투명한 아크릴 구조를 보여 주는 낮의 모형",
+          "angle": "좌판과 십자가 모양 틈, 기하학적 그림자를 위에서 내려다본 모습",
+          "front": "좌판에 작은 성경을 놓은, 햇빛 아래의 정면 모습"
         }
       }
     },
