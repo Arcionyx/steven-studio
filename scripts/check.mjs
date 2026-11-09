@@ -66,6 +66,16 @@ for (const [id,work] of Object.entries(works)) {
 }
 assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image must not be published');
 const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
+const tribute=works['pay-tribute'];
+assert.equal(tribute.category,'installation');
+assert.deepEqual(Array.from(tribute.images,image=>image[0]),['pay-tribute-01','pay-tribute-02','pay-tribute-04','pay-tribute-05','pay-tribute-06'],'Pay Tribute must omit photo 3 and retain the other five photos in order');
+assert.ok(!tribute.awards,'Pay Tribute has no award');
+assert.ok(!awardsHtml.includes('href="#project/pay-tribute"'),'Pay Tribute must not appear in the award list');
+for(const dictionary of Object.values(locales)) {
+  const project=dictionary.projects['pay-tribute'];
+  assert.ok(!project.award,'Pay Tribute must not claim recognition');
+  for(const section of ['background','introduction','significance']) assert.ok(project.narrative[section].title && project.narrative[section].body,'Pay Tribute must retain all three narrative sections');
+}
 assert.ok(awardsHtml.includes('European Association of Culture and Education'),'Award organiser is missing');
 assert.ok(awardsHtml.includes('href="#project/frostfade"'),'Award must link to the work');
 assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('Silver Medal') && awardsHtml.includes('Bronze Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');

@@ -1,4 +1,4 @@
-// Complete visitor-facing work, award and navigation content in five languages.
+// Complete visitor copy in five languages. English is the default.
 window.STUDIO_LOCALES = {
   "en": {
     "metaTitle": "Steven Studio — Art, design & everything in between",
@@ -145,6 +145,33 @@ window.STUDIO_LOCALES = {
           "level": "Bronze Medal",
           "name": "Global Art Creation Award",
           "organizer": "European Association of Culture and Education"
+        }
+      },
+      "pay-tribute": {
+        "title": "Pay Tribute",
+        "category": "Installation",
+        "description": "In an imagined future, I am an archaeologist and art lover who discovers the skull remains of an ancient “violent bear”. Fascinated by this long-lost creature, I set out to pay tribute to it through an artistic reinterpretation.",
+        "details": "Dimensions: 36.5 × 38.1 × 24.7 cm. Materials: polyester fibre, iron chain, iron wire, wooden strips and LED light strip.",
+        "narrative": {
+          "background": {
+            "title": "Background",
+            "body": "In an imagined future, I am an archaeologist and art lover who discovers the skull remains of an ancient “violent bear”. Fascinated by this long-lost creature, I set out to pay tribute to it through an artistic reinterpretation."
+          },
+          "introduction": {
+            "title": "Introduction",
+            "body": "I collected old wire, polyester fibre, iron chains, wooden strips and other materials as the foundation of the work. By bringing these aged materials together with my own techniques, I sought to create a compelling encounter between the ancient and the contemporary. I gave the piece two pairs of eyes, including one shaped like a lightning bolt. This eye represents both the electricity that powers today’s digital age and the destructive lightning of ancient times. A blue LED light strip is embedded within the bear’s body, casting a mysterious, striking glow across its structure. As darkness falls, the bear lights up in blue, appearing like a creature from the future."
+          },
+          "significance": {
+            "title": "Significance",
+            "body": "Pay Tribute honours the ancient “violent bear” while expressing a vision of future technology and innovation. By bringing ancient and futuristic elements together, the work develops a distinctive beauty and emotional presence. It invites viewers to reflect on the relationship between time, technology and art, and to consider how our understanding of the past shapes our imagination of the future."
+          }
+        },
+        "gallery": {
+          "full": "Pay Tribute — full view illuminated by blue LEDs",
+          "angle": "Pay Tribute — angled view",
+          "lightningEye": "Pay Tribute — lightning-bolt eye detail",
+          "fibreDetail": "Pay Tribute — fibre and wire mesh detail",
+          "structureDetail": "Pay Tribute — chain and framework detail"
         }
       }
     },
@@ -313,6 +340,33 @@ window.STUDIO_LOCALES = {
           "name": "全球艺术创作奖",
           "organizer": "欧洲文化与教育协会"
         }
+      },
+      "pay-tribute": {
+        "title": "Pay Tribute",
+        "category": "装置艺术",
+        "description": "在一个想象中的未来，我是一名考古学家，也是一位艺术爱好者。我发现了一只古代“暴力熊”的头骨遗骸，并被这个早已消逝的生物深深吸引。我决定通过艺术重新诠释它，向它致敬。",
+        "details": "尺寸：36.5 × 38.1 × 24.7 厘米。材料：聚酯纤维、铁链、铁丝、木条、LED 灯带。",
+        "narrative": {
+          "background": {
+            "title": "创作背景",
+            "body": "在一个想象中的未来，我是一名考古学家，也是一位艺术爱好者。我发现了一只古代“暴力熊”的头骨遗骸，并被这个早已消逝的生物深深吸引。我决定通过艺术重新诠释它，向它致敬。"
+          },
+          "introduction": {
+            "title": "作品介绍",
+            "body": "我收集了旧铁丝、聚酯纤维、铁链、木条等材料，作为创作的基础，并尝试将这些带有岁月痕迹的材料与自己的制作技法结合，让古老与当代在作品中相遇。我为作品设置了两对眼睛，其中一只呈闪电形，既象征当今数字时代的电力，也呼应远古时期具有破坏力的雷电灾害。蓝色 LED 灯带嵌入暴力熊的身体，为它的结构蒙上一层神秘而醒目的光芒。夜幕降临时，熊体泛起蓝光，仿佛一个来自未来的生物。"
+          },
+          "significance": {
+            "title": "创作意义",
+            "body": "Pay Tribute 在向古代“暴力熊”致敬的同时，也表达了我对未来科技与创新的想象。作品将古老与未来的元素结合，呈现独特的美感与情绪。它邀请观众思考时间、科技与艺术之间的关系，也希望激发人们对过去与未来的想象：我们如何理解过去，又如何以此构想未来。"
+          }
+        },
+        "gallery": {
+          "full": "Pay Tribute — 蓝色灯光下的全貌",
+          "angle": "Pay Tribute — 侧面视角",
+          "lightningEye": "Pay Tribute — 闪电形眼睛细节",
+          "fibreDetail": "Pay Tribute — 纤维与金属网细节",
+          "structureDetail": "Pay Tribute — 铁链与骨架细节"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -479,6 +533,33 @@ window.STUDIO_LOCALES = {
           "level": "銅獎",
           "name": "全球藝術創作獎",
           "organizer": "歐洲文化與教育協會"
+        }
+      },
+      "pay-tribute": {
+        "title": "Pay Tribute",
+        "category": "裝置藝術",
+        "description": "在一個想像中的未來，我是一名考古學家，也是一位藝術愛好者。我發現了一隻古代「暴力熊」的頭骨遺骸，並被這個早已消逝的生物深深吸引。我決定透過藝術重新詮釋牠，向牠致敬。",
+        "details": "尺寸：36.5 × 38.1 × 24.7 公分。材料：聚酯纖維、鐵鏈、鐵絲、木條、LED 燈帶。",
+        "narrative": {
+          "background": {
+            "title": "創作背景",
+            "body": "在一個想像中的未來，我是一名考古學家，也是一位藝術愛好者。我發現了一隻古代「暴力熊」的頭骨遺骸，並被這個早已消逝的生物深深吸引。我決定透過藝術重新詮釋牠，向牠致敬。"
+          },
+          "introduction": {
+            "title": "作品介紹",
+            "body": "我蒐集了舊鐵絲、聚酯纖維、鐵鏈、木條等材料，作為創作的基礎，並嘗試將這些帶有歲月痕跡的材料與自己的製作技法結合，讓古老與當代在作品中相遇。我為作品設置了兩對眼睛，其中一隻呈閃電形，既象徵當今數位時代的電力，也呼應遠古時期具有破壞力的雷電災害。藍色 LED 燈帶嵌入暴力熊的身體，為牠的結構蒙上一層神祕而醒目的光芒。夜幕降臨時，熊體泛起藍光，彷彿一個來自未來的生物。"
+          },
+          "significance": {
+            "title": "創作意義",
+            "body": "Pay Tribute 在向古代「暴力熊」致敬的同時，也表達了我對未來科技與創新的想像。作品將古老與未來的元素結合，呈現獨特的美感與情緒。它邀請觀眾思考時間、科技與藝術之間的關係，也希望激發人們對過去與未來的想像：我們如何理解過去，又如何以此構想未來。"
+          }
+        },
+        "gallery": {
+          "full": "Pay Tribute — 藍色燈光下的全貌",
+          "angle": "Pay Tribute — 側面視角",
+          "lightningEye": "Pay Tribute — 閃電形眼睛細節",
+          "fibreDetail": "Pay Tribute — 纖維與金屬網細節",
+          "structureDetail": "Pay Tribute — 鐵鏈與骨架細節"
         }
       }
     },
@@ -647,6 +728,33 @@ window.STUDIO_LOCALES = {
           "name": "グローバル・アート・クリエーション・アワード",
           "organizer": "欧州文化教育協会"
         }
+      },
+      "pay-tribute": {
+        "title": "Pay Tribute",
+        "category": "インスタレーション",
+        "description": "想像上の未来を舞台に、私は考古学者であり、芸術を愛する一人の人間として、古代の「暴力ベア」の頭骨の遺骸を発見します。遠い昔に生きたこの生き物に心をひかれ、芸術を通してその姿を解釈し直し、敬意を表そうと考えました。",
+        "details": "サイズ：36.5 × 38.1 × 24.7 cm。素材：ポリエステル繊維、鉄の鎖、針金、木の細材、LEDテープライト。",
+        "narrative": {
+          "background": {
+            "title": "制作の背景",
+            "body": "想像上の未来を舞台に、私は考古学者であり、芸術を愛する一人の人間として、古代の「暴力ベア」の頭骨の遺骸を発見します。遠い昔に生きたこの生き物に心をひかれ、芸術を通してその姿を解釈し直し、敬意を表そうと考えました。"
+          },
+          "introduction": {
+            "title": "作品について",
+            "body": "古い針金、ポリエステル繊維、鉄の鎖、木の細材などを集め、制作の土台としました。時を経た素材と自分自身の技法を組み合わせることで、古代と現代が出会う、見る人を引きつける作品を目指しました。作品には二対の目を設け、そのうちの一つを稲妻の形にしています。この目は、現代のデジタル社会を支える電気と、古代に災いをもたらした雷の両方を象徴しています。熊の体には青いLEDテープライトを組み込み、その構造を神秘的で鮮やかな光で照らしました。夜になると熊は青く輝き、未来から現れた生き物のように見えます。"
+          },
+          "significance": {
+            "title": "作品に込めた思い",
+            "body": "Pay Tributeは、古代の「暴力ベア」に敬意を表すとともに、未来の技術と革新への想像を形にした作品です。古代と未来の要素を重ね合わせることで、独自の美しさと情感を生み出しています。時間、技術、芸術の関係を見つめ直し、過去への理解が未来の想像にどのようにつながるのかを、鑑賞者とともに考えたいと思っています。"
+          }
+        },
+        "gallery": {
+          "full": "Pay Tribute — 青いLEDに照らされた全体像",
+          "angle": "Pay Tribute — 斜めからの眺め",
+          "lightningEye": "Pay Tribute — 稲妻形の目のディテール",
+          "fibreDetail": "Pay Tribute — 繊維と金網のディテール",
+          "structureDetail": "Pay Tribute — 鎖と骨組みのディテール"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -813,6 +921,33 @@ window.STUDIO_LOCALES = {
           "level": "동상",
           "name": "글로벌 아트 크리에이션 어워드",
           "organizer": "유럽 문화교육협회"
+        }
+      },
+      "pay-tribute": {
+        "title": "Pay Tribute",
+        "category": "설치미술",
+        "description": "상상 속 미래에서 나는 고고학자이자 예술 애호가로서 고대의 ‘난폭한 곰’의 두개골 유해를 발견합니다. 오래전에 사라진 이 생물에 매료되어, 예술적으로 재해석한 작품을 통해 경의를 표하고자 했습니다.",
+        "details": "크기: 36.5 × 38.1 × 24.7 cm. 재료: 폴리에스터 섬유, 쇠사슬, 철사, 나무 막대, LED 스트립 조명.",
+        "narrative": {
+          "background": {
+            "title": "작업 배경",
+            "body": "상상 속 미래에서 나는 고고학자이자 예술 애호가로서 고대의 ‘난폭한 곰’의 두개골 유해를 발견합니다. 오래전에 사라진 이 생물에 매료되어, 예술적으로 재해석한 작품을 통해 경의를 표하고자 했습니다."
+          },
+          "introduction": {
+            "title": "작품 소개",
+            "body": "오래된 철사와 폴리에스터 섬유, 쇠사슬, 나무 막대 등을 모아 작품의 바탕으로 삼았습니다. 시간의 흔적이 남은 재료에 나만의 제작 기법을 더해, 고대와 현대가 만나는 인상적인 작품을 만들고자 했습니다. 작품에는 두 쌍의 눈을 배치했으며, 그중 하나는 번개 모양으로 만들었습니다. 이 눈은 오늘날의 디지털 시대를 움직이는 전기와 고대에 재해를 일으켰던 번개를 동시에 상징합니다. 곰의 몸 안에 파란 LED 스트립 조명을 넣어 구조 전체에 신비롭고 선명한 빛이 흐르도록 했습니다. 밤이 되면 곰은 푸른빛을 내며, 마치 미래에서 온 생물처럼 모습을 드러냅니다."
+          },
+          "significance": {
+            "title": "작품의 의미",
+            "body": "Pay Tribute는 고대의 ‘난폭한 곰’에게 바치는 경의와 함께, 미래 기술과 혁신에 대한 상상을 담고 있습니다. 오래된 요소와 미래적인 요소를 결합하여 고유한 아름다움과 감정을 표현했습니다. 관람객이 시간과 기술, 예술의 관계를 되돌아보고, 과거에 대한 이해가 미래를 상상하는 방식에 어떻게 이어지는지 생각해 보기를 바랍니다."
+          }
+        },
+        "gallery": {
+          "full": "Pay Tribute — 푸른 LED로 밝힌 전체 모습",
+          "angle": "Pay Tribute — 비스듬히 바라본 모습",
+          "lightningEye": "Pay Tribute — 번개 모양 눈의 세부 모습",
+          "fibreDetail": "Pay Tribute — 섬유와 철망의 세부 모습",
+          "structureDetail": "Pay Tribute — 사슬과 골조의 세부 모습"
         }
       }
     },

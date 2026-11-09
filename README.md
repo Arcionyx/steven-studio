@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Four owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, and **ArgenRubi** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
+Five owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, and **Pay Tribute** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -23,6 +23,8 @@ Its separate **Global Art Creation Award — Silver Medal** is dated **30 Septem
 **ArgenRubi** follows the same owner-supplied workflow: the first photograph is its cover, and both work photographs appear in the detail gallery. Dimensions are 41 × 32 × 34 cm; materials are tinfoil and balloons. The full speculative narrative about metal pollution, silver structures and red fruit-like forms is polished in all five languages.
 
 The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bronze Medal**, dated **30 September 2024**, organised/issued by **European Association of Culture and Education**. Its certificate image, number and signatures are excluded. The Bronze Medal is a separate entry in the homepage awards section, dedicated awards page and work dialog; the existing Gold and Silver entries remain attached to their own works.
+
+**Pay Tribute** uses five owner-supplied photographs in their original order (photos 1, 2, 4, 5 and 6), with the first as its cover and the remaining four visible only in the work gallery. The owner requested that photo 3 be omitted for now. Its full narrative retains Background, Introduction and Significance sections, polished in all five languages. Dimensions are 36.5 × 38.1 × 24.7 cm; materials are polyester fibre, iron chain, iron wire, wooden strips and LED light strip. The owner states that this work has no award; it does not appear in Awards & honours.
 
 ## Identity and languages
 

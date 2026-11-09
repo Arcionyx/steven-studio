@@ -189,3 +189,10 @@ html:not([lang=en]) .award-row h3,html:not([lang=en]) .work-awards .award-level{
 .awards-page .award-row{padding:42px 0}
 html:not([lang=en]) .awards-page h1{font-family:inherit;font-size:clamp(36px,6vw,80px);letter-spacing:0}
 @media(max-width:760px){.awards-page-section{padding-top:30px;padding-bottom:70px}.awards-back{margin-bottom:48px}.awards-page-intro{margin-bottom:40px}.awards-page .award-row{padding:28px 0}}
+
+/* Full-length artwork narratives retain their original three-part structure. */
+.work-narrative section{margin:0 0 26px}
+.work-narrative h3{font-family:var(--display-font);font-size:30px;font-weight:600;line-height:1.2;margin:0 0 13px}
+.work-narrative p{font-size:13px;line-height:2;max-width:68ch;margin:0;text-wrap:pretty}
+html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
+@media(max-width:760px){.work-narrative h3{font-size:28px}.work-narrative p{font-size:12px;line-height:1.95}html:not([lang=en]) .work-narrative h3{font-size:21px}}

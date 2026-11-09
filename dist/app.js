@@ -156,7 +156,20 @@ function renderProject(index, slide = 0) {
   const copy = text(`projects.${id}`);
   document.querySelector('#dialog-title').textContent = copy.title;
   document.querySelector('#dialog-category').textContent = copy.category;
-  document.querySelector('#dialog-description').textContent = copy.description;
+  const description = document.querySelector('#dialog-description');
+  description.textContent = copy.description;
+  description.hidden = Boolean(copy.narrative);
+  const narrative = document.querySelector('#dialog-narrative');
+  narrative.hidden = !copy.narrative;
+  narrative.replaceChildren(...Object.values(copy.narrative || {}).map(section => {
+    const block = document.createElement('section');
+    const heading = document.createElement('h3');
+    heading.textContent = section.title;
+    const paragraph = document.createElement('p');
+    paragraph.textContent = section.body;
+    block.append(heading, paragraph);
+    return block;
+  }));
   document.querySelector('#dialog-details').textContent = copy.details;
   const awardSection = document.querySelector('#dialog-awards');
   awardSection.hidden = !copy.award;

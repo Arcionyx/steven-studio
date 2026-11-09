@@ -121,5 +121,43 @@ window.STUDIO_WORKS = {
         "evidence": "Owner-supplied Bronze Medal certificate issued to Feng Rui Xi; work association supplied by owner. Certificate image is excluded from publication."
       }
     ]
+  },
+  "pay-tribute": {
+    "category": "installation",
+    "source": "Owner-supplied images and description",
+    "assetPath": "assets/works/pay-tribute",
+    "cover": "pay-tribute-01",
+    "images": [
+      [
+        "pay-tribute-01",
+        "full",
+        1800,
+        2400
+      ],
+      [
+        "pay-tribute-02",
+        "angle",
+        1800,
+        2400
+      ],
+      [
+        "pay-tribute-04",
+        "lightningEye",
+        1277,
+        1704
+      ],
+      [
+        "pay-tribute-05",
+        "fibreDetail",
+        1375,
+        1832
+      ],
+      [
+        "pay-tribute-06",
+        "structureDetail",
+        1266,
+        1688
+      ]
+    ]
   }
 };
