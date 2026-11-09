@@ -482,6 +482,26 @@ window.STUDIO_LOCALES = {
             "growth": "Tree growth, shared interactions and session-ending rules"
           }
         }
+      },
+      "temporal-dissolution": {
+        "title": "Temporal Dissolution",
+        "category": "Installation",
+        "description": "This installation explores time's fluidity and memory's distortion through a multi-layered composition. A large glass panel, adorned with clock faces drawn in oil markers, forms the base. Covered by ice and overlaid with a mosaic structure, the piece evolves as the ice melts, causing the clock numerals to shift and blur beneath the mosaic's veil.\n\nThe melting ice symbolizes time's irreversible passage, while the mosaic represents our fragmented perception of time and memories. As the clock faces transform, they mirror the fading clarity of our experiences.\n\nBy integrating elements of kinetic, environmental, and conceptual art, this piece invites contemplation on the nature of perception, memory's reliability, and our ability to capture fleeting moments. It challenges viewers to engage with the present while reflecting on time's ceaseless flow.",
+        "videoLabel": "Temporal Dissolution — installation video",
+        "facts": {
+          "title": "Temporal Dissolution",
+          "year": "2024",
+          "materials": "Glass, ice, ceramic plate and whiteboard marker"
+        },
+        "gallery": {
+          "cover": "Temporal Dissolution — melting ice, clock numerals and glass mosaic"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "Introduction",
+            "body": "This installation explores time's fluidity and memory's distortion through a multi-layered composition. A large glass panel, adorned with clock faces drawn in oil markers, forms the base. Covered by ice and overlaid with a mosaic structure, the piece evolves as the ice melts, causing the clock numerals to shift and blur beneath the mosaic's veil.\n\nThe melting ice symbolizes time's irreversible passage, while the mosaic represents our fragmented perception of time and memories. As the clock faces transform, they mirror the fading clarity of our experiences.\n\nBy integrating elements of kinetic, environmental, and conceptual art, this piece invites contemplation on the nature of perception, memory's reliability, and our ability to capture fleeting moments. It challenges viewers to engage with the present while reflecting on time's ceaseless flow."
+          }
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -530,7 +550,9 @@ window.STUDIO_LOCALES = {
     "filterInteraction": "Interaction design",
     "comingSoon": "Coming soon",
     "comingSoonDescription": "New projects will be shared here soon.",
-    "comingSoonStatus": "{category} — Coming soon"
+    "comingSoonStatus": "{category} — Coming soon",
+    "workVideoLabel": "Work video",
+    "videoFallback": "Your browser does not support video playback."
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -1014,6 +1036,26 @@ window.STUDIO_LOCALES = {
             "growth": "树木成长、共同互动与结束机制"
           }
         }
+      },
+      "temporal-dissolution": {
+        "title": "Temporal Dissolution",
+        "category": "装置艺术",
+        "description": "这件装置通过多层叠加的构成，探索时间的流动性与记忆的变形。作品以绘有油性记号笔钟面的大片玻璃为基础，其上覆盖冰层，并叠放马赛克结构。随着冰逐渐融化，作品不断变化：钟面数字在马赛克的遮蔽之下发生位移，逐渐模糊。\n\n融化的冰象征时间不可逆转的流逝，而马赛克则呈现出我们对时间与记忆的碎片化感知。不断变动的钟面，映照着经历在记忆中逐渐失去清晰轮廓的过程。\n\n作品融合动态艺术、环境艺术与观念艺术的元素，邀请观者思考感知的本质、记忆的可靠性，以及我们捕捉转瞬即逝之时刻的可能。它鼓励人们在体会时间持续流动的同时，重新关注当下。",
+        "videoLabel": "Temporal Dissolution — 装置作品影像",
+        "facts": {
+          "title": "Temporal Dissolution",
+          "year": "2024",
+          "materials": "玻璃、冰、陶瓷盘、白板笔"
+        },
+        "gallery": {
+          "cover": "Temporal Dissolution — 融化的冰、钟面数字与玻璃马赛克"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "作品介绍",
+            "body": "这件装置通过多层叠加的构成，探索时间的流动性与记忆的变形。作品以绘有油性记号笔钟面的大片玻璃为基础，其上覆盖冰层，并叠放马赛克结构。随着冰逐渐融化，作品不断变化：钟面数字在马赛克的遮蔽之下发生位移，逐渐模糊。\n\n融化的冰象征时间不可逆转的流逝，而马赛克则呈现出我们对时间与记忆的碎片化感知。不断变动的钟面，映照着经历在记忆中逐渐失去清晰轮廓的过程。\n\n作品融合动态艺术、环境艺术与观念艺术的元素，邀请观者思考感知的本质、记忆的可靠性，以及我们捕捉转瞬即逝之时刻的可能。它鼓励人们在体会时间持续流动的同时，重新关注当下。"
+          }
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -1062,7 +1104,9 @@ window.STUDIO_LOCALES = {
     "filterInteraction": "交互设计",
     "comingSoon": "即将上线",
     "comingSoonDescription": "新作品将陆续在这里发布。",
-    "comingSoonStatus": "{category} — 即将上线"
+    "comingSoonStatus": "{category} — 即将上线",
+    "workVideoLabel": "作品视频",
+    "videoFallback": "你的浏览器不支持视频播放。"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -1546,6 +1590,26 @@ window.STUDIO_LOCALES = {
             "growth": "樹木成長、共同互動與結束機制"
           }
         }
+      },
+      "temporal-dissolution": {
+        "title": "Temporal Dissolution",
+        "category": "裝置藝術",
+        "description": "這件裝置透過多層疊加的構成，探索時間的流動性與記憶的變形。作品以繪有油性記號筆鐘面的大片玻璃為基礎，其上覆蓋冰層，並疊放馬賽克結構。隨著冰逐漸融化，作品不斷變化：鐘面數字在馬賽克的遮蔽之下發生位移，逐漸模糊。\n\n融化的冰象徵時間不可逆轉的流逝，而馬賽克則呈現出我們對時間與記憶的碎片化感知。不斷變動的鐘面，映照著經歷在記憶中逐漸失去清晰輪廓的過程。\n\n作品融合動態藝術、環境藝術與觀念藝術的元素，邀請觀者思考感知的本質、記憶的可靠性，以及我們捕捉轉瞬即逝之時刻的可能。它鼓勵人們在體會時間持續流動的同時，重新關注當下。",
+        "videoLabel": "Temporal Dissolution — 裝置作品影像",
+        "facts": {
+          "title": "Temporal Dissolution",
+          "year": "2024",
+          "materials": "玻璃、冰、陶瓷盤、白板筆"
+        },
+        "gallery": {
+          "cover": "Temporal Dissolution — 融化的冰、鐘面數字與玻璃馬賽克"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "作品介紹",
+            "body": "這件裝置透過多層疊加的構成，探索時間的流動性與記憶的變形。作品以繪有油性記號筆鐘面的大片玻璃為基礎，其上覆蓋冰層，並疊放馬賽克結構。隨著冰逐漸融化，作品不斷變化：鐘面數字在馬賽克的遮蔽之下發生位移，逐漸模糊。\n\n融化的冰象徵時間不可逆轉的流逝，而馬賽克則呈現出我們對時間與記憶的碎片化感知。不斷變動的鐘面，映照著經歷在記憶中逐漸失去清晰輪廓的過程。\n\n作品融合動態藝術、環境藝術與觀念藝術的元素，邀請觀者思考感知的本質、記憶的可靠性，以及我們捕捉轉瞬即逝之時刻的可能。它鼓勵人們在體會時間持續流動的同時，重新關注當下。"
+          }
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1594,7 +1658,9 @@ window.STUDIO_LOCALES = {
     "filterInteraction": "互動設計",
     "comingSoon": "即將上線",
     "comingSoonDescription": "新作品將陸續在這裡發佈。",
-    "comingSoonStatus": "{category} — 即將上線"
+    "comingSoonStatus": "{category} — 即將上線",
+    "workVideoLabel": "作品影片",
+    "videoFallback": "你的瀏覽器不支援影片播放。"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -2078,6 +2144,26 @@ window.STUDIO_LOCALES = {
             "growth": "木の成長、他者との交流、セッション終了の仕組み"
           }
         }
+      },
+      "temporal-dissolution": {
+        "title": "Temporal Dissolution",
+        "category": "インスタレーション",
+        "description": "このインスタレーションは、幾層にも重なる構成を通して、時間の流動性と記憶の変容を探る作品です。油性マーカーで時計の文字盤を描いた大きなガラス板を土台とし、その上を氷とモザイク状の構造が覆っています。氷が溶けるにつれて作品は姿を変え、モザイクに遮られた文字盤の数字が移動し、ぼやけていきます。\n\n溶ける氷は取り戻すことのできない時間の経過を、モザイクは時間や記憶を断片的に捉える私たちの知覚を表しています。変化し続ける文字盤には、体験の鮮明さが記憶の中で少しずつ失われていく過程が重なります。\n\nキネティック・アート、環境芸術、コンセプチュアル・アートの要素を取り入れたこの作品は、知覚の本質、記憶の確かさ、そして一瞬を捉えることの可能性について考えるきっかけをつくります。絶えず流れる時間を見つめながら、今この瞬間に意識を向けることを観る人に促します。",
+        "videoLabel": "Temporal Dissolution — インスタレーション映像",
+        "facts": {
+          "title": "Temporal Dissolution",
+          "year": "2024",
+          "materials": "ガラス、氷、陶器の皿、ホワイトボードマーカー"
+        },
+        "gallery": {
+          "cover": "Temporal Dissolution — 溶ける氷、文字盤の数字、ガラスのモザイク"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "作品紹介",
+            "body": "このインスタレーションは、幾層にも重なる構成を通して、時間の流動性と記憶の変容を探る作品です。油性マーカーで時計の文字盤を描いた大きなガラス板を土台とし、その上を氷とモザイク状の構造が覆っています。氷が溶けるにつれて作品は姿を変え、モザイクに遮られた文字盤の数字が移動し、ぼやけていきます。\n\n溶ける氷は取り戻すことのできない時間の経過を、モザイクは時間や記憶を断片的に捉える私たちの知覚を表しています。変化し続ける文字盤には、体験の鮮明さが記憶の中で少しずつ失われていく過程が重なります。\n\nキネティック・アート、環境芸術、コンセプチュアル・アートの要素を取り入れたこの作品は、知覚の本質、記憶の確かさ、そして一瞬を捉えることの可能性について考えるきっかけをつくります。絶えず流れる時間を見つめながら、今この瞬間に意識を向けることを観る人に促します。"
+          }
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -2126,7 +2212,9 @@ window.STUDIO_LOCALES = {
     "filterInteraction": "インタラクションデザイン",
     "comingSoon": "近日公開",
     "comingSoonDescription": "新しい作品を順次公開していきます。",
-    "comingSoonStatus": "{category} — 近日公開"
+    "comingSoonStatus": "{category} — 近日公開",
+    "workVideoLabel": "作品映像",
+    "videoFallback": "お使いのブラウザーは動画の再生に対応していません。"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -2610,6 +2698,26 @@ window.STUDIO_LOCALES = {
             "growth": "나무 성장, 공동 상호작용과 세션 종료 방식"
           }
         }
+      },
+      "temporal-dissolution": {
+        "title": "Temporal Dissolution",
+        "category": "설치미술",
+        "description": "이 설치 작품은 여러 층이 겹치는 구성을 통해 시간의 유동성과 기억의 변형을 탐구합니다. 유성 마커로 시계 문자판을 그린 커다란 유리판을 바탕으로, 그 위에 얼음과 모자이크 구조를 겹쳐 놓았습니다. 얼음이 녹으면서 작품은 계속 변화하고, 모자이크에 가려진 시계 숫자들은 위치가 바뀌며 점차 흐릿해집니다.\n\n녹아내리는 얼음은 되돌릴 수 없는 시간의 흐름을, 모자이크는 시간과 기억을 파편적으로 받아들이는 우리의 지각을 상징합니다. 변해 가는 문자판은 경험의 선명함이 기억 속에서 조금씩 사라지는 과정을 비춥니다.\n\n키네틱 아트와 환경미술, 개념미술의 요소를 결합한 이 작품은 지각의 본질과 기억의 신뢰성, 그리고 찰나의 순간을 붙잡을 수 있는 가능성을 생각하게 합니다. 끊임없이 흐르는 시간을 돌아보면서도, 지금 이 순간에 주의를 기울이도록 관객을 초대합니다.",
+        "videoLabel": "Temporal Dissolution — 설치 작품 영상",
+        "facts": {
+          "title": "Temporal Dissolution",
+          "year": "2024",
+          "materials": "유리, 얼음, 도자기 접시, 화이트보드 마커"
+        },
+        "gallery": {
+          "cover": "Temporal Dissolution — 녹는 얼음, 시계 숫자와 유리 모자이크"
+        },
+        "narrative": {
+          "introduction": {
+            "title": "작품 소개",
+            "body": "이 설치 작품은 여러 층이 겹치는 구성을 통해 시간의 유동성과 기억의 변형을 탐구합니다. 유성 마커로 시계 문자판을 그린 커다란 유리판을 바탕으로, 그 위에 얼음과 모자이크 구조를 겹쳐 놓았습니다. 얼음이 녹으면서 작품은 계속 변화하고, 모자이크에 가려진 시계 숫자들은 위치가 바뀌며 점차 흐릿해집니다.\n\n녹아내리는 얼음은 되돌릴 수 없는 시간의 흐름을, 모자이크는 시간과 기억을 파편적으로 받아들이는 우리의 지각을 상징합니다. 변해 가는 문자판은 경험의 선명함이 기억 속에서 조금씩 사라지는 과정을 비춥니다.\n\n키네틱 아트와 환경미술, 개념미술의 요소를 결합한 이 작품은 지각의 본질과 기억의 신뢰성, 그리고 찰나의 순간을 붙잡을 수 있는 가능성을 생각하게 합니다. 끊임없이 흐르는 시간을 돌아보면서도, 지금 이 순간에 주의를 기울이도록 관객을 초대합니다."
+          }
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -2658,6 +2766,8 @@ window.STUDIO_LOCALES = {
     "filterInteraction": "인터랙션 디자인",
     "comingSoon": "공개 예정",
     "comingSoonDescription": "새로운 작품을 순차적으로 공개할 예정입니다.",
-    "comingSoonStatus": "{category} — 공개 예정"
+    "comingSoonStatus": "{category} — 공개 예정",
+    "workVideoLabel": "작품 영상",
+    "videoFallback": "이 브라우저는 동영상 재생을 지원하지 않습니다."
   }
 };

@@ -4,7 +4,9 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Twenty-one owner-supplied works are published across Architectural design, Urban planning, Installation, Three-dimensional composition, Photography, Painting, Interaction design and Industrial & product design. Categories are assigned by the owner or the owner's project documentation. Unfinished work entries remain removed.
+Twenty-two owner-supplied works are published across Architectural design, Urban planning, Installation, Three-dimensional composition, Photography, Painting, Interaction design and Industrial & product design. Categories are assigned by the owner or the owner's project documentation. Unfinished work entries remain removed.
+
+**Temporal Dissolution** is a 2024 installation. The owner supplied a cover photograph, the original `637_1720999383.mp4`, a three-paragraph introduction and the materials list: glass, ice, ceramic plate and whiteboard marker. Its title is retained from A3 project 2. The supplied photograph appears only as the work-grid cover; opening the work displays the video directly, with native playback controls and no photo gallery or image poster. The MP4 is preserved byte for byte, including its original H.264 video and AAC audio (960 × 544, 10.032 seconds). Playback stops and the source is unloaded when details close or another work opens. The complete introduction is preserved in English and translated naturally into the other four languages, with paragraph breaks. This work has no supplied award.
 
 The homepage discipline list and work filters share the work categories. Both Interaction design and Industrial & product design now contain supplied projects and no longer display Coming soon. The reusable upcoming panel remains hidden. All category labels are translated into the five supported languages. The homepage discipline links select the corresponding work filter.
 

@@ -498,5 +498,20 @@ window.STUDIO_WORKS = {
         ]
       ]
     }
+  },
+  "temporal-dissolution": {
+    "category": "installation",
+    "source": "Owner-supplied cover photograph, original MP4, introduction, materials and year; work title retained from A3 project 2",
+    "year": "2024",
+    "assetPath": "assets/works/temporal-dissolution",
+    "cover": "temporal-dissolution-cover",
+    "images": [],
+    "video": {
+      "src": "assets/works/temporal-dissolution/temporal-dissolution.mp4",
+      "mimeType": "video/mp4",
+      "width": 960,
+      "height": 544,
+      "duration": 10.032
+    }
   }
 };

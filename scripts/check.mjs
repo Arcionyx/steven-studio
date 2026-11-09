@@ -29,6 +29,14 @@ assert.deepEqual(cardIds,Object.keys(works),'Cards must match the real work arch
 for (const [id,work] of Object.entries(works)) {
   assert.ok(work.pages || work.source, `${id} is missing internal provenance`);
   assert.ok(html.includes(`data-filter="${work.category}"`), `${id} has no discipline filter`);
+  if (work.video) {
+    const video=await readFile(new URL('../dist/'+work.video.src,import.meta.url));
+    assert.equal(video.subarray(4,8).toString(),'ftyp',`${id} is not an MP4 asset`);
+    assert.equal(work.video.mimeType,'video/mp4');
+    assert.ok(work.video.width>0 && work.video.height>0 && work.video.duration>0,`${id} is missing video metadata`);
+    assert.ok(!html.includes(`src="${work.video.src}"`),'Video should load when its work details open');
+    for (const dictionary of Object.values(locales)) assert.ok(dictionary.projects[id].videoLabel,`${id} needs a localized video label`);
+  }
   for (const [image,caption,width,height] of work.images) {
     await access(new URL('../dist/'+(work.assetPath || 'assets/a1')+'/'+image+'.webp',import.meta.url));
     assert.ok(width>0 && height>0, `${image} is missing image dimensions`);

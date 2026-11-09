@@ -14,6 +14,8 @@ const mobileNav = document.querySelector('#mobile-nav');
 const dialog = document.querySelector('#project-dialog');
 const gallery = document.querySelector('#dialog-gallery');
 const gallerySection = document.querySelector('#project-gallery');
+const projectVideoSection = document.querySelector('#project-video');
+const projectVideo = document.querySelector('#dialog-video');
 let currentLocale = 'en';
 let currentIndex = 0;
 let currentSlide = 0;
@@ -117,6 +119,7 @@ document.addEventListener('keydown', event => { if (event.key === 'Escape') clos
 window.matchMedia('(min-width:761px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 function updateSlideState(index) {
   const total = works[projectIds[currentIndex]].images.length;
+  if (!total) return;
   currentSlide = Math.max(0, Math.min(index, total - 1));
   const position = document.querySelector('#gallery-position');
   position.textContent = `${currentSlide + 1} / ${total}`;
@@ -182,11 +185,27 @@ function finishDrag(event) {
 gallery.addEventListener('pointerup', finishDrag);
 gallery.addEventListener('pointercancel', finishDrag);
 window.addEventListener('resize', () => { if (dialog.open) goToSlide(currentSlide, false); });
+function resetProjectVideo() {
+  projectVideo.pause();
+  if (projectVideo.hasAttribute('src')) {
+    projectVideo.removeAttribute('src');
+    projectVideo.load();
+  }
+  projectVideoSection.hidden = true;
+}
 function renderProject(index, slide = 0) {
   currentIndex = index;
   const id = projectIds[index];
   const work = works[id];
   const copy = text(`projects.${id}`);
+  resetProjectVideo();
+  if (work.video) {
+    projectVideo.src = work.video.src;
+    projectVideo.width = work.video.width;
+    projectVideo.height = work.video.height;
+    projectVideo.setAttribute('aria-label', copy.videoLabel);
+    projectVideoSection.hidden = false;
+  }
   document.querySelector('#dialog-title').textContent = copy.title;
   document.querySelector('#dialog-category').textContent = copy.category;
   const description = document.querySelector('#dialog-description');
@@ -296,6 +315,7 @@ dialog.addEventListener('click', event => {
   if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
 });
 dialog.addEventListener('close', () => {
+  resetProjectVideo();
   document.body.classList.remove('modal-open');
   if (location.hash.startsWith('#project/')) {
     const url = new URL(location.href); url.hash = 'work'; history.replaceState(null, '', url);

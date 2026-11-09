@@ -200,8 +200,12 @@ html:not([lang=en]) .awards-page h1{font-family:inherit;font-size:clamp(36px,6vw
 .work-narrative section{margin:0 0 26px}
 .work-narrative h3{font-family:var(--display-font);font-size:30px;font-weight:600;line-height:1.2;margin:0 0 13px}
 .work-narrative p{font-size:13px;line-height:2;max-width:68ch;margin:0;text-wrap:pretty}
+.work-narrative p{white-space:pre-line}
 html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
 @media(max-width:760px){.work-narrative h3{font-size:28px}.work-narrative p{font-size:12px;line-height:1.95}html:not([lang=en]) .work-narrative h3{font-size:21px}}
+.project-video{margin:24px 0 30px;min-width:0}
+.project-video video{display:block;width:100%;height:auto;max-height:min(65dvh,700px);object-fit:contain;background:#111}
+@media(max-width:760px){.project-video{margin:20px 0 25px}}
 
 /* Each work field has its own label line and value line. */
 #dialog-details{margin:18px 0 0;display:grid;gap:16px}
