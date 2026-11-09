@@ -434,5 +434,39 @@ window.STUDIO_WORKS = {
         2400
       ]
     ]
+  },
+  "tempus-forestum-retreat": {
+    "category": "interaction",
+    "source": "Owner-supplied A3 portfolio, project 3, and four scenario images",
+    "pages": "39–78, 81–84",
+    "year": "2024",
+    "assetPath": "assets/works/tempus-forestum-retreat",
+    "cover": "tempus-forestum-retreat-01",
+    "images": [
+      [
+        "tempus-forestum-retreat-01",
+        "home",
+        2400,
+        1350
+      ],
+      [
+        "tempus-forestum-retreat-02",
+        "chat",
+        2400,
+        1350
+      ],
+      [
+        "tempus-forestum-retreat-03",
+        "feedback",
+        2400,
+        1350
+      ],
+      [
+        "tempus-forestum-retreat-04",
+        "timer",
+        2400,
+        1350
+      ]
+    ]
   }
 };
