@@ -394,7 +394,7 @@ window.STUDIO_LOCALES = {
       }
     },
     "filterArchitecture": "Architectural design",
-    "filterIndustrial": "Industrial & product",
+    "filterIndustrial": "Industrial & product design",
     "filterPhotography": "Photography",
     "filterInstallation": "Installation",
     "detailsLabel": "Work information",
@@ -434,7 +434,11 @@ window.STUDIO_LOCALES = {
     "filterSketch": "Sketch",
     "filterAllPainting": "All paintings",
     "paintingFilterLabel": "Filter paintings by type",
-    "filterUrbanPlanning": "Urban planning"
+    "filterUrbanPlanning": "Urban planning",
+    "filterInteraction": "Interaction design",
+    "comingSoon": "Coming soon",
+    "comingSoonDescription": "New projects will be shared here soon.",
+    "comingSoonStatus": "{category} — Coming soon"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -830,7 +834,7 @@ window.STUDIO_LOCALES = {
       }
     },
     "filterArchitecture": "建筑设计",
-    "filterIndustrial": "工业与产品",
+    "filterIndustrial": "工业产品设计",
     "filterPhotography": "摄影",
     "filterInstallation": "装置艺术",
     "detailsLabel": "作品信息",
@@ -870,7 +874,11 @@ window.STUDIO_LOCALES = {
     "filterSketch": "素描",
     "filterAllPainting": "全部绘画",
     "paintingFilterLabel": "按绘画类型筛选",
-    "filterUrbanPlanning": "城市规划"
+    "filterUrbanPlanning": "城市规划",
+    "filterInteraction": "交互设计",
+    "comingSoon": "即将上线",
+    "comingSoonDescription": "新作品将陆续在这里发布。",
+    "comingSoonStatus": "{category} — 即将上线"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -1266,7 +1274,7 @@ window.STUDIO_LOCALES = {
       }
     },
     "filterArchitecture": "建築設計",
-    "filterIndustrial": "工業與產品",
+    "filterIndustrial": "工業產品設計",
     "filterPhotography": "攝影",
     "filterInstallation": "裝置藝術",
     "detailsLabel": "作品資訊",
@@ -1306,7 +1314,11 @@ window.STUDIO_LOCALES = {
     "filterSketch": "素描",
     "filterAllPainting": "全部繪畫",
     "paintingFilterLabel": "按繪畫類型篩選",
-    "filterUrbanPlanning": "城市規劃"
+    "filterUrbanPlanning": "城市規劃",
+    "filterInteraction": "互動設計",
+    "comingSoon": "即將上線",
+    "comingSoonDescription": "新作品將陸續在這裡發佈。",
+    "comingSoonStatus": "{category} — 即將上線"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -1702,7 +1714,7 @@ window.STUDIO_LOCALES = {
       }
     },
     "filterArchitecture": "建築デザイン",
-    "filterIndustrial": "工業・プロダクト",
+    "filterIndustrial": "インダストリアル・プロダクトデザイン",
     "filterPhotography": "写真",
     "filterInstallation": "インスタレーション",
     "detailsLabel": "作品情報",
@@ -1742,7 +1754,11 @@ window.STUDIO_LOCALES = {
     "filterSketch": "デッサン",
     "filterAllPainting": "すべての絵画",
     "paintingFilterLabel": "絵画の種類で絞り込む",
-    "filterUrbanPlanning": "都市計画"
+    "filterUrbanPlanning": "都市計画",
+    "filterInteraction": "インタラクションデザイン",
+    "comingSoon": "近日公開",
+    "comingSoonDescription": "新しい作品を順次公開していきます。",
+    "comingSoonStatus": "{category} — 近日公開"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -2138,7 +2154,7 @@ window.STUDIO_LOCALES = {
       }
     },
     "filterArchitecture": "건축 디자인",
-    "filterIndustrial": "산업·제품",
+    "filterIndustrial": "산업·제품 디자인",
     "filterPhotography": "사진",
     "filterInstallation": "설치미술",
     "detailsLabel": "작품 정보",
@@ -2178,6 +2194,10 @@ window.STUDIO_LOCALES = {
     "filterSketch": "소묘",
     "filterAllPainting": "전체 회화",
     "paintingFilterLabel": "회화 유형별 보기",
-    "filterUrbanPlanning": "도시계획"
+    "filterUrbanPlanning": "도시계획",
+    "filterInteraction": "인터랙션 디자인",
+    "comingSoon": "공개 예정",
+    "comingSoonDescription": "새로운 작품을 순차적으로 공개할 예정입니다.",
+    "comingSoonStatus": "{category} — 공개 예정"
   }
 };

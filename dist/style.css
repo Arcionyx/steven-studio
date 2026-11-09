@@ -119,12 +119,18 @@ html[lang=ko] :is(.hero h1,.section-heading h2,.about-content h2,.contact-sectio
 .awards-empty p{max-width:440px}.awards-empty h3{font-size:18px}
 @media(max-width:760px){.source-tag{font-size:7px;max-width:70px;line-height:1.7}.portfolio-hero{min-height:440px}.hero-project-image{height:77%;top:10%}.filter-bar{gap:23px}.dialog-body{padding:26px 22px 30px}.dialog-bar{padding:14px 22px}.work-gallery{gap:23px}.work-gallery figcaption{font-size:10px}.work-details p{font-size:11px}.project-meta h3{line-height:1.15}.project-meta{align-items:flex-start}.project-meta p{line-height:1.6}}
 
-/* Text-only presentation while the owner prepares project imagery. */
-.discipline-panel{background:#e4e5da;color:var(--ink);min-height:480px}
+/* The studio overview follows the owner's work categories. */
+.discipline-panel{background:#e4e5da;color:var(--ink);min-height:610px;display:flex;flex-direction:column;padding:24px 28px}
 .discipline-panel:after{box-shadow:none}
-.discipline-list{position:absolute;inset:70px 28px 100px;list-style:none;counter-reset:discipline;padding:0;margin:0;display:flex;flex-direction:column;justify-content:center}
-.discipline-list li{counter-increment:discipline;display:flex;align-items:baseline;gap:18px;padding:15px 0;border-bottom:1px solid #bdc1b1;font-family:var(--display-font);font-size:clamp(22px,2.4vw,38px);line-height:1.15}
+.discipline-panel .art-top,.discipline-panel .art-caption,.discipline-panel .art-index{position:static}
+.discipline-list{list-style:none;counter-reset:discipline;padding:0;margin:25px 0;display:flex;flex-direction:column;justify-content:center;flex:1}
+.discipline-list li{counter-increment:discipline;display:flex;align-items:baseline;gap:14px;padding:11px 0;border-bottom:1px solid #bdc1b1;font-family:var(--display-font);font-size:clamp(22px,2.2vw,34px);line-height:1.15}
 .discipline-list li:before{content:'0' counter(discipline);font:9px Arial,sans-serif;letter-spacing:1px;flex-shrink:0}
+.discipline-list a{display:flex;flex-direction:column;align-items:flex-start;gap:6px;flex:1;min-width:0}
+.discipline-name{overflow-wrap:anywhere}
+.discipline-list a:hover .discipline-name{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px}
+.discipline-footer{display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+.coming-soon-badge{display:inline-block;border:1px solid #adb49f;border-radius:20px;padding:4px 9px;font:500 9px/1.2 'DM Sans',Arial,sans-serif;letter-spacing:.3px;white-space:nowrap;color:#515b46}
 html:not([lang=en]) .discipline-list li{font-family:inherit;font-size:clamp(16px,1.6vw,25px)}
 .portfolio-cover{aspect-ratio:1.4;color:var(--ink);background:#e1e3d9;text-align:left}
 .category-industrial{background:#e5d8c2}.category-visual{background:#d5dce0}.category-photography{background:#343d39;color:var(--paper)}.category-installation{background:#ded4d1}
@@ -133,7 +139,7 @@ html:not([lang=en]) .discipline-list li{font-family:inherit;font-size:clamp(16px
 .work-cover-category{position:absolute;bottom:8%;left:7%;right:7%;font-size:9px;letter-spacing:.7px;line-height:1.6}
 html:not([lang=en]) .work-cover-title{font-family:inherit;font-size:clamp(25px,3.1vw,48px);line-height:1.3;letter-spacing:0}
 .work-gallery:empty{display:none}
-@media(max-width:760px){.discipline-panel{min-height:410px}.discipline-list{inset:65px 24px 95px}.discipline-list li{font-size:30px;padding:12px 0}html:not([lang=en]) .discipline-list li{font-size:20px}.portfolio-cover{aspect-ratio:1.4}.work-cover-title{font-size:12vw}html:not([lang=en]) .work-cover-title{font-size:8vw}.work-cover-category{font-size:9px}}
+@media(max-width:760px){.discipline-panel{min-height:0;padding:24px}.discipline-list{margin:25px 0}.discipline-list li{font-size:clamp(25px,6vw,34px);padding:12px 0}html:not([lang=en]) .discipline-list li{font-size:20px}.portfolio-cover{aspect-ratio:1.4}.work-cover-title{font-size:12vw}html:not([lang=en]) .work-cover-title{font-size:8vw}.work-cover-category{font-size:9px}}
 
 /* Owner-supplied cover and a swipeable, keyboard-accessible image gallery. */
 .portfolio-cover.has-work-image{background:#151815}
@@ -207,6 +213,16 @@ html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
 /* Painting types remain within the owner-assigned Painting category. */
 .painting-filters{margin-top:-12px;margin-bottom:28px;gap:24px}
 .painting-filters button{font-size:11px}
+
+/* Upcoming disciplines have their own state without placeholder works. */
+.filter-bar:not(.painting-filters){flex-wrap:wrap;gap:4px clamp(18px,2.6vw,42px);overflow:visible}
+.filter-bar button[data-coming-soon]{display:flex;align-items:baseline;gap:8px}
+.filter-bar .coming-soon-badge{font-size:8px;padding:3px 7px}
+.coming-soon-panel{min-height:340px;padding:clamp(32px,5vw,70px);border:1px solid var(--line);background:#e9ebe0;display:flex;flex-direction:column;align-items:flex-start;justify-content:center}
+.coming-soon-panel h3{font-family:var(--display-font);font-size:clamp(36px,4vw,64px);font-weight:500;line-height:1.1;letter-spacing:-.02em;margin:22px 0 16px;overflow-wrap:anywhere}
+.coming-soon-panel p{font-size:13px;line-height:1.8;color:var(--muted);margin:0}
+html:not([lang=en]) .coming-soon-panel h3{font-family:inherit;font-size:clamp(26px,3vw,42px);letter-spacing:0}
+@media(max-width:760px){.filter-bar:not(.painting-filters){column-gap:20px}.coming-soon-panel{min-height:280px;padding:30px 24px}}
 
 /* The archive adapts from four columns on wide screens to one on phones. */
 .project-grid{grid-template-columns:repeat(4,minmax(0,1fr))}

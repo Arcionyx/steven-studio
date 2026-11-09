@@ -91,9 +91,12 @@ assert.ok(awardsHtml.includes('href="#project/frostfade"'),'Award must link to t
 assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('Silver Medal') && awardsHtml.includes('Bronze Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');
 assert.ok(awardsHtml.includes('href="#project/color-sphere"'),'Silver award must link to Color Sphere');
 assert.ok(awardsHtml.includes('href="#project/argenrubi"'),'Bronze award must link to ArgenRubi');
-for(const [,category,count] of html.matchAll(/<button[^>]*data-filter="([^"]+)"[\s\S]*?<sup>(\d+)<\/sup><\/button>/g)) {
+for(const [,category,attributes,body] of html.matchAll(/<button[^>]*data-filter="([^"]+)"([^>]*)>([\s\S]*?)<\/button>/g)) {
   const expected=category==='all'?Object.keys(works).length:Object.values(works).filter(w=>w.category===category).length;
-  assert.equal(Number(count),expected,`Incorrect filter count for ${category}`);
+  if(attributes.includes('data-coming-soon')) {
+    assert.equal(expected,0,`${category} must remain upcoming until the owner supplies work`);
+    assert.ok(body.includes('data-i18n="comingSoon"'),`${category} is missing its upcoming status`);
+  } else assert.equal(Number(body.match(/<sup>(\d+)<\/sup>/)?.[1]),expected,`Incorrect filter count for ${category}`);
 }
 assert.ok(html.includes('href="awards.html"'),'Awards page must be reachable');
 const awardsIds=[...awardsHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);

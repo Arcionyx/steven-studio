@@ -6,6 +6,8 @@ const languageSelector = document.querySelector('#language-selector');
 const filterButtons = [...document.querySelectorAll('[data-filter]')];
 const paintingFilterBar = document.querySelector('#painting-filters');
 const paintingFilterButtons = [...document.querySelectorAll('[data-painting-filter]')];
+const comingSoonPanel = document.querySelector('#coming-soon-panel');
+const projectGrid = document.querySelector('.project-grid');
 const cards = [...document.querySelectorAll('.project')];
 const menuButton = document.querySelector('.menu-toggle');
 const mobileNav = document.querySelector('#mobile-nav');
@@ -35,7 +37,16 @@ function format(template, values) {
 }
 function updateFilterStatus() {
   const status = document.querySelector('#filter-status');
-  if (status) status.textContent = format(text('filterStatus'), {count: cards.filter(card => !card.hidden).length});
+  const selected = filterButtons.find(button => button.classList.contains('active'));
+  const upcoming = selected?.hasAttribute('data-coming-soon') || false;
+  if (comingSoonPanel) {
+    comingSoonPanel.hidden = !upcoming;
+    projectGrid.hidden = upcoming;
+    if (upcoming) document.querySelector('#coming-soon-title').textContent = text(selected.querySelector('[data-i18n]').dataset.i18n);
+  }
+  if (status) status.textContent = upcoming
+    ? format(text('comingSoonStatus'), {category: text(selected.querySelector('[data-i18n]').dataset.i18n)})
+    : format(text('filterStatus'), {count: cards.filter(card => !card.hidden).length});
 }
 function updateMenuLabel() {
   menuButton.setAttribute('aria-label', text(menuButton.getAttribute('aria-expanded') === 'true' ? 'menuClose' : 'menuOpen'));
@@ -75,6 +86,9 @@ filterButtons.forEach(button => button.addEventListener('click', () => {
   });
   cards.forEach(card => { card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter; });
   updateFilterStatus();
+}));
+document.querySelectorAll('[data-discipline]').forEach(link => link.addEventListener('click', () => {
+  filterButtons.find(button => button.dataset.filter === link.dataset.discipline)?.click();
 }));
 paintingFilterButtons.forEach(button => button.addEventListener('click', () => {
   paintingFilterButtons.forEach(item => {

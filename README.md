@@ -6,6 +6,8 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 Nineteen owner-supplied works are published across Architectural design, Urban planning, Installation, Three-dimensional composition, Photography and Painting. Categories are assigned by the owner. Unfinished work entries remain removed.
 
+The homepage discipline list and work filters share these six categories, followed by Interaction design and Industrial & product design. The latter two are marked Coming soon and open a dedicated upcoming state without adding placeholder works or inflating the work count. All labels and upcoming messages are translated into the five supported languages. The homepage discipline links select the corresponding work filter.
+
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
 Only the cover appears in the work grid. The other three images are created in the gallery after the work is opened. Optimised images are stored as `dist/assets/a1/silver-wings-01.webp` through `04.webp`. No PDF screenshots are used.
