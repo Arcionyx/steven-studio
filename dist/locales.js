@@ -131,6 +131,21 @@ window.STUDIO_LOCALES = {
           "name": "Global Art Creation Award",
           "organizer": "European Association of Culture and Education"
         }
+      },
+      "argenrubi": {
+        "title": "ArgenRubi",
+        "category": "Installation",
+        "description": "ArgenRubi imagines plants growing in large metal scrapyards, where intensive industrial refining and the waste of natural resources have transformed the environment. After absorbing large amounts of tin, zinc, iron and other elements, the plants undergo genetic mutations to adapt to these extreme conditions. Their silvery framework suggests structural changes in the cells on the surface of the leaves, allowing them to reflect sunlight and heat and reduce damage. The red fruits, in turn, may have evolved to attract pollinators or animals that disperse seeds. Their colour stands out against the backdrop of an abandoned industrial site, drawing insects and other organisms.",
+        "details": "Size: 41 × 32 × 34 cm. Materials: tinfoil and balloons.",
+        "gallery": {
+          "full": "ArgenRubi — full view",
+          "detail": "ArgenRubi — detail of the silver framework and red fruit-like forms"
+        },
+        "award": {
+          "level": "Bronze Medal",
+          "name": "Global Art Creation Award",
+          "organizer": "European Association of Culture and Education"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -150,7 +165,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "View awards & honours",
     "backToWorks": "Back to projects",
     "awardsMetaTitle": "Awards & honours — Steven Studio",
-    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade and Silver Medal for Color Sphere Marine Blossoms."
+    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade, Silver Medal for Color Sphere Marine Blossoms and Bronze Medal for ArgenRubi."
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -283,6 +298,21 @@ window.STUDIO_LOCALES = {
           "name": "全球艺术创作奖",
           "organizer": "欧洲文化与教育协会"
         }
+      },
+      "argenrubi": {
+        "title": "ArgenRubi",
+        "category": "装置艺术",
+        "description": "《ArgenRubi》构想了一类生长于大型金属废料场中的植物。在人类大规模工业冶炼与自然资源浪费的影响下，它们所处的环境发生了巨大变化。植物吸收了大量锡、锌、铁等元素，并通过基因变异适应这些极端条件。银色的骨架暗示着叶片表面细胞结构的变化，使其能够反射阳光与热量，减轻环境造成的损伤。红色果实则可能是一种吸引传粉者或种子传播者的进化策略：在废弃厂区的背景中，鲜明的红色更容易被看见，从而吸引昆虫及其他生物。",
+        "details": "尺寸：41 × 32 × 34 厘米。材料：锡纸、气球。",
+        "gallery": {
+          "full": "ArgenRubi——作品全貌",
+          "detail": "ArgenRubi——银色骨架与红色果实状形体的细节"
+        },
+        "award": {
+          "level": "铜奖",
+          "name": "全球艺术创作奖",
+          "organizer": "欧洲文化与教育协会"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -302,7 +332,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "查看奖项与荣誉",
     "backToWorks": "返回作品",
     "awardsMetaTitle": "奖项与荣誉 — Steven Studio",
-    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 获得的 2024 年全球艺术创作奖金奖，以及 Color Sphere Marine Blossoms 获得的银奖。"
+    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 的 2024 年全球艺术创作奖金奖、Color Sphere Marine Blossoms 的银奖与 ArgenRubi 的铜奖。"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -435,6 +465,21 @@ window.STUDIO_LOCALES = {
           "name": "全球藝術創作獎",
           "organizer": "歐洲文化與教育協會"
         }
+      },
+      "argenrubi": {
+        "title": "ArgenRubi",
+        "category": "裝置藝術",
+        "description": "《ArgenRubi》構想了一類生長於大型金屬廢料場中的植物。在人類大規模工業冶煉與自然資源浪費的影響下，它們所處的環境發生了巨大變化。植物吸收了大量錫、鋅、鐵等元素，並透過基因變異適應這些極端條件。銀色的骨架暗示著葉片表面細胞結構的變化，使其能夠反射陽光與熱量，減輕環境造成的損傷。紅色果實則可能是一種吸引傳粉者或種子傳播者的演化策略：在廢棄廠區的背景中，鮮明的紅色更容易被看見，從而吸引昆蟲及其他生物。",
+        "details": "尺寸：41 × 32 × 34 公分。材料：錫紙、氣球。",
+        "gallery": {
+          "full": "ArgenRubi——作品全貌",
+          "detail": "ArgenRubi——銀色骨架與紅色果實狀形體的細節"
+        },
+        "award": {
+          "level": "銅獎",
+          "name": "全球藝術創作獎",
+          "organizer": "歐洲文化與教育協會"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -454,7 +499,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "查看獎項與榮譽",
     "backToWorks": "返回作品",
     "awardsMetaTitle": "獎項與榮譽 — Steven Studio",
-    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 獲得的 2024 年全球藝術創作獎金獎，以及 Color Sphere Marine Blossoms 獲得的銀獎。"
+    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 的 2024 年全球藝術創作獎金獎、Color Sphere Marine Blossoms 的銀獎與 ArgenRubi 的銅獎。"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -587,6 +632,21 @@ window.STUDIO_LOCALES = {
           "name": "グローバル・アート・クリエーション・アワード",
           "organizer": "欧州文化教育協会"
         }
+      },
+      "argenrubi": {
+        "title": "ArgenRubi",
+        "category": "インスタレーション",
+        "description": "「ArgenRubi」は、大規模な金属スクラップ工場に生きる植物を構想した作品です。人間による集中的な工業精錬や天然資源の浪費によって、植物を取り巻く環境は大きく変わっています。スズ、亜鉛、鉄などの元素を大量に取り込んだ植物は、こうした過酷な条件に適応するため、遺伝的な変異を遂げます。銀色の骨格は葉の表面にある細胞構造の変化を示唆し、日光や熱を反射して損傷を和らげる働きを想像させます。一方、赤い果実は、花粉を媒介する生物や種子を運ぶ動物を引き寄せるために進化したものかもしれません。廃工場の風景の中で赤色はひときわ目立ち、昆虫をはじめとするさまざまな生物を誘います。",
+        "details": "寸法：41 × 32 × 34 cm。素材：金属箔、風船。",
+        "gallery": {
+          "full": "ArgenRubi — 作品全景",
+          "detail": "ArgenRubi — 銀色の骨格と赤い果実状の形のディテール"
+        },
+        "award": {
+          "level": "銅賞",
+          "name": "グローバル・アート・クリエーション・アワード",
+          "organizer": "欧州文化教育協会"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -606,7 +666,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "受賞一覧を見る",
     "backToWorks": "作品一覧へ戻る",
     "awardsMetaTitle": "受賞 — Steven Studio",
-    "awardsMetaDescription": "2024年グローバル・アート・クリエーション・アワードでの Frostfade の金賞、Color Sphere Marine Blossoms の銀賞など、Steven Studio の受賞情報。"
+    "awardsMetaDescription": "2024年グローバル・アート・クリエーション・アワードでの Frostfade の金賞、Color Sphere Marine Blossoms の銀賞、ArgenRubi の銅賞など、Steven Studio の受賞情報。"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -739,6 +799,21 @@ window.STUDIO_LOCALES = {
           "name": "글로벌 아트 크리에이션 어워드",
           "organizer": "유럽 문화교육협회"
         }
+      },
+      "argenrubi": {
+        "title": "ArgenRubi",
+        "category": "설치미술",
+        "description": "〈ArgenRubi〉는 대규모 금속 폐기물 처리장에서 살아가는 식물을 상상한 작품입니다. 인간의 집중적인 산업 제련과 천연자원의 낭비로 인해 이 식물들을 둘러싼 환경은 크게 달라졌습니다. 주석, 아연, 철 등의 원소를 다량 흡수한 식물은 이러한 극한 조건에 적응하기 위해 유전적 변이를 겪습니다. 은빛 골격은 잎 표면 세포의 구조적 변화를 암시하며, 햇빛과 열을 반사해 손상을 줄이는 적응 방식을 떠올리게 합니다. 한편 붉은 열매는 수분을 돕는 생물이나 씨앗을 퍼뜨리는 동물을 끌어들이기 위해 진화한 것일 수 있습니다. 폐산업시설을 배경으로 붉은색은 더욱 선명하게 드러나며, 곤충을 비롯한 다양한 생물의 관심을 끕니다.",
+        "details": "크기: 41 × 32 × 34cm. 재료: 은박지, 풍선.",
+        "gallery": {
+          "full": "ArgenRubi — 작품 전체 모습",
+          "detail": "ArgenRubi — 은빛 골격과 붉은 열매 형태의 세부 모습"
+        },
+        "award": {
+          "level": "동상",
+          "name": "글로벌 아트 크리에이션 어워드",
+          "organizer": "유럽 문화교육협회"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -758,6 +833,6 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "수상 내역 보기",
     "backToWorks": "작품으로 돌아가기",
     "awardsMetaTitle": "수상 내역 — Steven Studio",
-    "awardsMetaDescription": "2024 글로벌 아트 크리에이션 어워드에서 Frostfade가 받은 금상과 Color Sphere Marine Blossoms가 받은 은상을 포함한 Steven Studio의 수상 내역입니다."
+    "awardsMetaDescription": "2024 글로벌 아트 크리에이션 어워드에서 Frostfade가 받은 금상, Color Sphere Marine Blossoms가 받은 은상, ArgenRubi가 받은 동상을 포함한 Steven Studio의 수상 내역입니다."
   }
 };

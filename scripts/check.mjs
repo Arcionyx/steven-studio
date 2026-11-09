@@ -48,6 +48,11 @@ assert.equal(frost.images.length,2,'Only the two Frostfade work photos belong in
 assert.equal(frost.cover,frost.images[0][0]);
 assert.equal(frost.awards[0].distinction,'Gold Medal');
 assert.equal(frost.awards[0].date,'2024-09-30');
+const argen=works.argenrubi;
+assert.equal(argen.category,'installation');
+assert.equal(argen.images.length,2,'ArgenRubi must contain only the two work photos');
+assert.equal(argen.awards[0].distinction,'Bronze Medal');
+assert.equal(argen.awards[0].date,'2024-09-30');
 const color=works['color-sphere'];
 assert.equal(color.category,'installation');
 assert.equal(color.images.length,2,'Color Sphere must contain only the two work photos');
@@ -63,8 +68,9 @@ assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image
 const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
 assert.ok(awardsHtml.includes('European Association of Culture and Education'),'Award organiser is missing');
 assert.ok(awardsHtml.includes('href="#project/frostfade"'),'Award must link to the work');
-assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('Silver Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');
+assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('Silver Medal') && awardsHtml.includes('Bronze Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');
 assert.ok(awardsHtml.includes('href="#project/color-sphere"'),'Silver award must link to Color Sphere');
+assert.ok(awardsHtml.includes('href="#project/argenrubi"'),'Bronze award must link to ArgenRubi');
 for(const [,category,count] of html.matchAll(/<button[^>]*data-filter="([^"]+)"[\s\S]*?<sup>(\d+)<\/sup><\/button>/g)) {
   const expected=category==='all'?Object.keys(works).length:Object.values(works).filter(w=>w.category===category).length;
   assert.equal(Number(count),expected,`Incorrect filter count for ${category}`);

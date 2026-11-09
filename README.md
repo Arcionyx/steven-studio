@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Three owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade** (Installation), and **Color Sphere Marine Blossoms** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
+Four owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, and **ArgenRubi** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -19,6 +19,10 @@ Frostfade is associated by the owner with the **2024 Global Art Creation Award �
 **Color Sphere Marine Blossoms** uses two further owner-supplied photographs, with the first as its cover and the second only in the work gallery. The owner specifies the space between “Color” and “Sphere” in every language. Dimensions are 26 × 15 × 17 cm; materials are foam balls, modelling clay and 3D printing supplies. Its future marine ecology narrative is polished in all five languages.
 
 Its separate **Global Art Creation Award — Silver Medal** is dated **30 September 2024**, with the same named organiser, **European Association of Culture and Education**. The supplied certificate names Feng Rui Xi; the owner associates the award with this work. The certificate photograph, number and signatures are excluded. The Silver Medal appears as its own row beside Frostfade’s Gold Medal on the homepage and the dedicated awards page, and in its own work dialog.
+
+**ArgenRubi** follows the same owner-supplied workflow: the first photograph is its cover, and both work photographs appear in the detail gallery. Dimensions are 41 × 32 × 34 cm; materials are tinfoil and balloons. The full speculative narrative about metal pollution, silver structures and red fruit-like forms is polished in all five languages.
+
+The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bronze Medal**, dated **30 September 2024**, organised/issued by **European Association of Culture and Education**. Its certificate image, number and signatures are excluded. The Bronze Medal is a separate entry in the homepage awards section, dedicated awards page and work dialog; the existing Gold and Silver entries remain attached to their own works.
 
 ## Identity and languages
 
