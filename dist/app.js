@@ -32,7 +32,8 @@ function format(template, values) {
   return template.replace(/\{(\w+)\}/g, (_, key) => values[key]);
 }
 function updateFilterStatus() {
-  document.querySelector('#filter-status').textContent = format(text('filterStatus'), {count: cards.filter(card => !card.hidden).length});
+  const status = document.querySelector('#filter-status');
+  if (status) status.textContent = format(text('filterStatus'), {count: cards.filter(card => !card.hidden).length});
 }
 function updateMenuLabel() {
   menuButton.setAttribute('aria-label', text(menuButton.getAttribute('aria-expanded') === 'true' ? 'menuClose' : 'menuOpen'));
@@ -40,8 +41,9 @@ function updateMenuLabel() {
 function applyLocale(value, updateUrl = false) {
   currentLocale = supportedLocale(value) || 'en';
   document.documentElement.lang = currentLocale;
-  document.title = text('metaTitle');
-  document.querySelector('meta[name="description"]').content = text('metaDescription');
+  const awardsPage = document.body.dataset.page === 'awards';
+  document.title = text(awardsPage ? 'awardsMetaTitle' : 'metaTitle');
+  document.querySelector('meta[name="description"]').content = text(awardsPage ? 'awardsMetaDescription' : 'metaDescription');
   document.querySelectorAll('[data-i18n]').forEach(element => { element.textContent = text(element.dataset.i18n); });
   document.querySelectorAll('[data-i18n-aria-label]').forEach(element => { element.setAttribute('aria-label', text(element.dataset.i18nAriaLabel)); });
   document.querySelectorAll('[data-i18n-alt]').forEach(element => { element.alt = text(element.dataset.i18nAlt); });
@@ -87,7 +89,8 @@ function updateSlideState(index) {
   position.textContent = `${currentSlide + 1} / ${total}`;
   position.setAttribute('aria-label', format(text('galleryPosition'), {current: currentSlide + 1, total}));
   const imageKey = works[projectIds[currentIndex]].images[currentSlide]?.[1];
-  const scene = imageKey && text(`projects.${projectIds[currentIndex]}.scenes`)[imageKey];
+  const scene = imageKey && text(`projects.${projectIds[currentIndex]}`).scenes?.[imageKey];
+  document.querySelector('.gallery-story').hidden = !scene;
   if (scene) {
     document.querySelector('#gallery-scene-title').textContent = scene.title;
     const description = document.querySelector('#gallery-scene-description');
@@ -155,12 +158,21 @@ function renderProject(index, slide = 0) {
   document.querySelector('#dialog-category').textContent = copy.category;
   document.querySelector('#dialog-description').textContent = copy.description;
   document.querySelector('#dialog-details').textContent = copy.details;
+  const awardSection = document.querySelector('#dialog-awards');
+  awardSection.hidden = !copy.award;
+  if (copy.award) {
+    document.querySelector('#dialog-award-level').textContent = `${work.awards[0].year} · ${copy.award.level}`;
+    document.querySelector('#dialog-award-name').textContent = copy.award.name;
+    document.querySelector('#dialog-award-organizer').textContent = `${text('awardOrganizerLabel')}: ${copy.award.organizer}`;
+  }
+  const firstImage = work.images[0];
+  if (firstImage) gallery.style.setProperty('--gallery-aspect', `${firstImage[2]} / ${firstImage[3]}`);
   const figures = work.images.map(([file, captionKey, width, height], imageIndex) => {
     const figure = document.createElement('figure');
     figure.setAttribute('role', 'group');
     figure.setAttribute('aria-label', format(text('galleryPosition'), {current:imageIndex + 1, total:work.images.length}));
     const image = document.createElement('img');
-    image.src = `assets/a1/${file}.webp`;
+    image.src = `${work.assetPath || 'assets/a1'}/${file}.webp`;
     image.alt = copy.gallery[captionKey];
     image.width = width;
     image.height = height;

@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Only **Adversity Silver Wings** is published, classified as **Architectural design** at the owner's direction. Other unfinished work entries have been removed. New works and their classifications will be supplied by the owner individually.
+Two owner-supplied works are published: **Adversity Silver Wings** (Architectural design) and **Frostfade** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -12,7 +12,9 @@ Only the cover appears in the work grid. The other three images are created in t
 
 The 2023 study uses acrylic board, wood strips and mirror paper. Model dimensions are 19.3 × 10.4 × 5.55 inches. The four scenes are conceptual photomontages of models, not completed buildings. Internal reference: the owner-supplied Feng Ruixi A1.pdf, pages 179–183 and 193–197. Provenance stays in source metadata and this README; portfolio source names, PDF page numbers and A1 tags are not displayed to visitors.
 
-No named project awards have been supplied. Artist-research awards are not attributed to Steven. Awards can be added when details are provided.
+Frostfade uses two owner-supplied photographs: the first is its cover and the second is a detail visible only in its gallery. Dimensions are 28 × 20 × 16 cm; materials are 3D printing supplies and flower-making liquid. The five-language introduction preserves the speculative environmental narrative.
+
+Frostfade is associated by the owner with the **2024 Global Art Creation Award — Gold Medal**, dated **30 September 2024**, issued to Feng Rui Xi. The organiser/issuing institution is **European Association of Culture and Education**, as named on the supplied certificate. The certificate does not name the work; the work association is supplied by the owner. The certificate image, number and signatures are excluded from the site and repository. The separate `awards.html` page, homepage recognition row and work dialog list the award and institution. Only the confirmed Gold Medal is listed; the certificate’s future-tense reference to a European Teenagers Art Medal is not treated as another received award.
 
 ## Identity and languages
 
@@ -31,7 +33,8 @@ Checks cover the work archive, cover selection, four-image ordering, images limi
 
 ## Editing
 
-- `dist/index.html`: navigation, page sections, cover and work dialog.
+- `dist/index.html`: navigation, page sections, covers and work dialog.
+- `dist/awards.html`: dedicated awards and honours page, including organiser information and a work link.
 - `dist/portfolio.js`: owner-assigned category, internal provenance, cover and ordered image metadata.
 - `dist/locales.js`: visitor content in five languages.
 - `dist/app.js`: filters, language selection, navigation, dialogs and image gallery.

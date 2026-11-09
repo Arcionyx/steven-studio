@@ -7,7 +7,7 @@ assert.equal(manifest.static.directory,'dist');
 assert.ok(manifest.project_id);
 const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
 assert.equal(ids.length,new Set(ids).size,'Duplicate element IDs');
-for (const [,id] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(id),`Missing section: ${id}`);
+for (const [,id] of html.matchAll(/href="#([^"]+)"/g)) if (!id.startsWith('project/')) assert.ok(ids.includes(id),`Missing section: ${id}`);
 for (const [,asset] of html.matchAll(/(?:src|href)="([^"#]+\.(?:js|css|svg|png|webp|woff2))"/g)) await access(new URL('../dist/'+asset,import.meta.url));
 assert.ok(ids.includes('awards'));
 assert.ok([...html.matchAll(/data-project="/g)].length > 0);
@@ -26,14 +26,14 @@ const works = portfolioContext.window.STUDIO_WORKS;
 const cardIds = [...html.matchAll(/data-project="([^"]+)"/g)].map(match=>match[1]);
 assert.deepEqual(cardIds,Object.keys(works),'Cards must match the real work archive');
 for (const [id,work] of Object.entries(works)) {
-  assert.ok(work.pages, `${id} is missing source pages`);
+  assert.ok(work.pages || work.source, `${id} is missing internal provenance`);
   assert.ok(html.includes(`data-filter="${work.category}"`), `${id} has no discipline filter`);
   for (const [image,caption,width,height] of work.images) {
-    await access(new URL('../dist/assets/a1/'+image+'.webp',import.meta.url));
+    await access(new URL('../dist/'+(work.assetPath || 'assets/a1')+'/'+image+'.webp',import.meta.url));
     assert.ok(width>0 && height>0, `${image} is missing image dimensions`);
     for (const [language,dictionary] of Object.entries(locales)) {
       assert.ok(dictionary.projects[id].gallery[caption], `${language}.${id} is missing a caption`);
-      assert.ok(dictionary.projects[id].scenes[caption].title && dictionary.projects[id].scenes[caption].description, `${language}.${id} is missing its scene introduction`);
+      if (dictionary.projects[id].scenes) assert.ok(dictionary.projects[id].scenes[caption].title && dictionary.projects[id].scenes[caption].description, `${language}.${id} is missing its scene introduction`);
     }
   }
 }
@@ -42,7 +42,26 @@ assert.equal(silver.images.length,4,'Silver Wings must contain the four owner-su
 assert.equal(silver.cover,silver.images[0][0],'The first image must be the cover');
 assert.ok(html.includes(`src="assets/a1/${silver.cover}.webp"`),'Cover must appear in the work grid');
 for (const [file] of silver.images.slice(1)) assert.ok(!html.includes(`src="assets/a1/${file}.webp"`),'Additional images must appear only inside work details');
-for (const [id,work] of Object.entries(works)) if(id!=='silver-wings') assert.equal(work.images.length,0,`${id} must remain image-free`);
+const frost = works.frostfade;
+assert.equal(frost.category,'installation');
+assert.equal(frost.images.length,2,'Only the two Frostfade work photos belong in its gallery');
+assert.equal(frost.cover,frost.images[0][0]);
+assert.equal(frost.awards[0].distinction,'Gold Medal');
+assert.equal(frost.awards[0].date,'2024-09-30');
+for (const [id,work] of Object.entries(works)) {
+  const imageRoot=work.assetPath || 'assets/a1';
+  assert.ok(html.includes(`src="${imageRoot}/${work.cover}.webp"`),`${id} cover is missing`);
+  for (const [image] of work.images.slice(1)) assert.ok(!html.includes(`src="${imageRoot}/${image}.webp"`),`${id} detail image leaked into the work grid`);
+}
+assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image must not be published');
+const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
+assert.ok(awardsHtml.includes('European Association of Culture and Education'),'Award organiser is missing');
+assert.ok(awardsHtml.includes('href="#project/frostfade"'),'Award must link to the work');
+assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');
+assert.ok(html.includes('href="awards.html"'),'Awards page must be reachable');
+const awardsIds=[...awardsHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(awardsIds.length,new Set(awardsIds).size,'Duplicate awards-page IDs');
+for(const page of [html,awardsHtml]) for(const [,route] of page.matchAll(/href="#project\/([^"]+)"/g)) assert.ok(works[route],`Unknown linked work ${route}`);
 assert.ok(!/source-reference|id="dialog-source"|Portfolio source|PDF pages|A1 PORTFOLIO/.test(html),'Internal provenance must not be rendered');
 assert.ok(ids.includes('gallery-prev') && ids.includes('gallery-next'),'Gallery navigation is missing');
 assert.ok(!/Form &amp; Feeling|Soft Objects|Between the Lines|Serious About Play/.test(html),'Demo projects must be removed');
@@ -53,7 +72,7 @@ if (Object.values(works).every(work => work.images.length === 0)) {
 }
 const baseKeys = flatten(locales.en).map(([key])=>key).sort();
 const baseMessages = Object.fromEntries(flatten(locales.en));
-const usedKeys = [...html.matchAll(/data-i18n(?:-aria-label)?="([^"]+)"/g)].map(match=>match[1]);
+const usedKeys = [...(html+awardsHtml).matchAll(/data-i18n(?:-aria-label)?="([^"]+)"/g)].map(match=>match[1]);
 for (const [locale,messages] of Object.entries(locales)) {
   const flattened = Object.fromEntries(flatten(messages));
   assert.deepEqual(Object.keys(flattened).sort(),baseKeys,`${locale} has missing or extra translations`);

@@ -1,4 +1,4 @@
-// Complete visitor-facing copy and polished scene introductions in five languages.
+// Complete visitor-facing work, award and navigation content in five languages.
 window.STUDIO_LOCALES = {
   "en": {
     "metaTitle": "Steven Studio — Art, design & everything in between",
@@ -48,9 +48,6 @@ window.STUDIO_LOCALES = {
     "awardsYear": "YEAR",
     "awardsDistinction": "DISTINCTION",
     "awardsProject": "PROJECT",
-    "awardsEmpty": "No project awards documented.",
-    "awardsDescription": "No project awards have been added to this archive.",
-    "awardsPending": "AWARDS",
     "studioEyebrow": "03 / BEHIND THE STUDIO",
     "studioLine1": "One curiosity.",
     "studioLine2": "Many expressions.",
@@ -104,12 +101,27 @@ window.STUDIO_LOCALES = {
             "description": "This innovative art installation is imagined within a futuristic world, serving as an energy supply hub on the outskirts of a bustling city centre. The visionary space grew out of my exploration of my own character and embodies my unwavering resilience. With its sleek silver silhouette, it becomes a beacon of endurance within the urban landscape. In Adversity Silver Wings, a vision of the future and the spirit of perseverance come together, expressing the strength to endure challenges and keep moving forward."
           }
         }
+      },
+      "frostfade": {
+        "title": "Frostfade",
+        "category": "Installation",
+        "description": "Frostfade envisions a plant from the future, transformed by human pollution of the natural environment. As it adapts to increasingly extreme conditions, including frequent high temperatures, drought and intense ultraviolet radiation, the plant gradually loses its pigment. In this imagined ecology, its white leaves reflect more sunlight and heat, helping it withstand drought by reducing water loss through transpiration. The plant may also develop white leaves as a way to limit the uptake and accumulation of pollutants and toxic substances from its surroundings.",
+        "details": "Size: 28 × 20 × 16 cm. Materials: 3D printing supplies and flower-making liquid.",
+        "gallery": {
+          "full": "Frostfade — full view",
+          "detail": "Frostfade — detail of the leaf and branching structure"
+        },
+        "award": {
+          "level": "Gold Medal",
+          "name": "Global Art Creation Award",
+          "organizer": "European Association of Culture and Education"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
     "filterIndustrial": "Industrial & product",
     "filterPhotography": "Photography",
-    "filterInstallation": "Installation & sculpture",
+    "filterInstallation": "Installation",
     "detailsLabel": "Materials & process",
     "galleryLabel": "Selected images",
     "archiveLabel": "WORK ARCHIVE",
@@ -117,7 +129,13 @@ window.STUDIO_LOCALES = {
     "galleryNext": "Next image",
     "galleryHelp": "Swipe, drag, or use the arrows to explore.",
     "galleryPosition": "Image {current} of {total}",
-    "galleryImage": "View image {number}"
+    "galleryImage": "View image {number}",
+    "projectAwardsTitle": "Recognition",
+    "awardOrganizerLabel": "Organiser",
+    "awardsPageLink": "View awards & honours",
+    "backToWorks": "Back to projects",
+    "awardsMetaTitle": "Awards & honours — Steven Studio",
+    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade."
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -167,9 +185,6 @@ window.STUDIO_LOCALES = {
     "awardsYear": "年份",
     "awardsDistinction": "奖项",
     "awardsProject": "项目",
-    "awardsEmpty": "暂无已记载的项目奖项。",
-    "awardsDescription": "作品档案暂未添加项目奖项。",
-    "awardsPending": "荣誉",
     "studioEyebrow": "03 / 关于工作室",
     "studioLine1": "一种好奇心，",
     "studioLine2": "很多种表达。",
@@ -223,12 +238,27 @@ window.STUDIO_LOCALES = {
             "description": "这是一件设想于未来世界的创新艺术装置，在繁忙城市中心的外围承担能源供应枢纽的角色。这个充满前瞻性的空间源于我对自身精神特质的探索，体现着我坚定不移的韧性。流畅的银色轮廓让它成为城市景观中一座象征持久与坚守的灯塔。在《逆境银翼》中，对未来的想象与坚持不懈的精神相互交融，共同表达面对挑战、持续前行的力量。"
           }
         }
+      },
+      "frostfade": {
+        "title": "Frostfade",
+        "category": "装置艺术",
+        "description": "《Frostfade》构想了一株来自未来的植物，它因人类对自然环境的污染而发生变异。频繁的高温、干旱与强烈的紫外线，使植物面临日益严苛的气候条件；在适应这些变化的过程中，它逐渐失去了原有的色素。在这一想象中的生态环境里，白色叶片能够反射更多阳光与热量，减少叶片蒸腾造成的水分流失，从而帮助植物抵御干旱。植物也可能通过演化出白色叶片，减少对环境中污染物与有毒物质的吸收和积累。",
+        "details": "尺寸：28 × 20 × 16 厘米。材料：3D 打印材料、造花液。",
+        "gallery": {
+          "full": "Frostfade——作品全貌",
+          "detail": "Frostfade——叶片与分枝结构细节"
+        },
+        "award": {
+          "level": "金奖",
+          "name": "全球艺术创作奖",
+          "organizer": "欧洲文化与教育协会"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
     "filterIndustrial": "工业与产品",
     "filterPhotography": "摄影",
-    "filterInstallation": "装置与雕塑",
+    "filterInstallation": "装置艺术",
     "detailsLabel": "材料与过程",
     "galleryLabel": "作品图像",
     "archiveLabel": "作品档案",
@@ -236,7 +266,13 @@ window.STUDIO_LOCALES = {
     "galleryNext": "下一张图片",
     "galleryHelp": "左右滑动、拖动，或使用箭头浏览。",
     "galleryPosition": "第 {current} 张，共 {total} 张",
-    "galleryImage": "查看第 {number} 张图片"
+    "galleryImage": "查看第 {number} 张图片",
+    "projectAwardsTitle": "获奖荣誉",
+    "awardOrganizerLabel": "主办单位",
+    "awardsPageLink": "查看奖项与荣誉",
+    "backToWorks": "返回作品",
+    "awardsMetaTitle": "奖项与荣誉 — Steven Studio",
+    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 获得的 2024 年全球艺术创作奖金奖。"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -286,9 +322,6 @@ window.STUDIO_LOCALES = {
     "awardsYear": "年份",
     "awardsDistinction": "獎項",
     "awardsProject": "專案",
-    "awardsEmpty": "暫無已記載的項目獎項。",
-    "awardsDescription": "作品檔案暫未添加項目獎項。",
-    "awardsPending": "榮譽",
     "studioEyebrow": "03 / 關於工作室",
     "studioLine1": "一種好奇心，",
     "studioLine2": "很多種表達。",
@@ -342,12 +375,27 @@ window.STUDIO_LOCALES = {
             "description": "這是一件設想於未來世界的創新藝術裝置，在繁忙城市中心的外圍承擔能源供應樞紐的角色。這個充滿前瞻性的空間源於我對自身精神特質的探索，體現著我堅定不移的韌性。流暢的銀色輪廓讓它成為城市景觀中一座象徵持久與堅守的燈塔。在《逆境銀翼》中，對未來的想像與堅持不懈的精神相互交融，共同表達面對挑戰、持續前行的力量。"
           }
         }
+      },
+      "frostfade": {
+        "title": "Frostfade",
+        "category": "裝置藝術",
+        "description": "《Frostfade》構想了一株來自未來的植物，它因人類對自然環境的污染而發生變異。頻繁的高溫、乾旱與強烈的紫外線，使植物面臨日益嚴苛的氣候條件；在適應這些變化的過程中，它逐漸失去了原有的色素。在這一想像中的生態環境裡，白色葉片能夠反射更多陽光與熱量，減少葉片蒸散造成的水分流失，從而幫助植物抵禦乾旱。植物也可能透過演化出白色葉片，減少對環境中污染物與有毒物質的吸收和累積。",
+        "details": "尺寸：28 × 20 × 16 公分。材料：3D 列印材料、造花液。",
+        "gallery": {
+          "full": "Frostfade——作品全貌",
+          "detail": "Frostfade——葉片與分枝結構細節"
+        },
+        "award": {
+          "level": "金獎",
+          "name": "全球藝術創作獎",
+          "organizer": "歐洲文化與教育協會"
+        }
       }
     },
     "filterArchitecture": "建築設計",
     "filterIndustrial": "工業與產品",
     "filterPhotography": "攝影",
-    "filterInstallation": "裝置與雕塑",
+    "filterInstallation": "裝置藝術",
     "detailsLabel": "材料與過程",
     "galleryLabel": "作品圖像",
     "archiveLabel": "作品檔案",
@@ -355,7 +403,13 @@ window.STUDIO_LOCALES = {
     "galleryNext": "下一張圖片",
     "galleryHelp": "左右滑動、拖動，或使用箭頭瀏覽。",
     "galleryPosition": "第 {current} 張，共 {total} 張",
-    "galleryImage": "查看第 {number} 張圖片"
+    "galleryImage": "查看第 {number} 張圖片",
+    "projectAwardsTitle": "獲獎榮譽",
+    "awardOrganizerLabel": "主辦單位",
+    "awardsPageLink": "查看獎項與榮譽",
+    "backToWorks": "返回作品",
+    "awardsMetaTitle": "獎項與榮譽 — Steven Studio",
+    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 獲得的 2024 年全球藝術創作獎金獎。"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -405,9 +459,6 @@ window.STUDIO_LOCALES = {
     "awardsYear": "年",
     "awardsDistinction": "賞・評価",
     "awardsProject": "プロジェクト",
-    "awardsEmpty": "作品の受賞記録はありません。",
-    "awardsDescription": "作品の受賞情報はまだ追加されていません。",
-    "awardsPending": "受賞",
     "studioEyebrow": "03 / スタジオについて",
     "studioLine1": "ひとつの好奇心。",
     "studioLine2": "多彩な表現。",
@@ -461,12 +512,27 @@ window.STUDIO_LOCALES = {
             "description": "未来の世界に構想したこの革新的なアートインスタレーションは、活気ある都心の外縁でエネルギー供給の拠点を担う存在です。この先を見据えた空間は、自分自身の精神性を探る過程から生まれ、私の揺るがない粘り強さを表しています。滑らかな銀色の輪郭は、都市の風景の中で、耐え抜き、進み続ける意志を示す灯台のように立ち現れます。「逆境の銀翼」では、未来への想像力と諦めずに歩む姿勢が結びつき、困難に向き合いながら前へ進む力を表現しています。"
           }
         }
+      },
+      "frostfade": {
+        "title": "Frostfade",
+        "category": "インスタレーション",
+        "description": "「Frostfade」は、人間による自然環境の汚染を受けて変異した、未来の植物を構想した作品です。頻繁な高温、干ばつ、強い紫外線など、ますます厳しくなる気候条件に適応する過程で、植物は少しずつ色素を失っていきます。この想像上の生態系では、白い葉がより多くの日光と熱を反射し、蒸散による水分の損失を抑えることで、植物が乾燥に耐える助けとなります。また、白い葉への進化は、周囲の環境に含まれる汚染物質や有害物質の吸収と蓄積を減らすための適応とも考えられます。",
+        "details": "寸法：28 × 20 × 16 cm。素材：3D プリント用素材、造花用液。",
+        "gallery": {
+          "full": "Frostfade — 作品全景",
+          "detail": "Frostfade — 葉と枝分かれの構造のディテール"
+        },
+        "award": {
+          "level": "金賞",
+          "name": "グローバル・アート・クリエーション・アワード",
+          "organizer": "欧州文化教育協会"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
     "filterIndustrial": "工業・プロダクト",
     "filterPhotography": "写真",
-    "filterInstallation": "インスタレーション・彫刻",
+    "filterInstallation": "インスタレーション",
     "detailsLabel": "素材と制作",
     "galleryLabel": "作品画像",
     "archiveLabel": "作品アーカイブ",
@@ -474,7 +540,13 @@ window.STUDIO_LOCALES = {
     "galleryNext": "次の画像",
     "galleryHelp": "スワイプ、ドラッグ、または矢印でご覧ください。",
     "galleryPosition": "画像 {current} / {total}",
-    "galleryImage": "画像 {number} を表示"
+    "galleryImage": "画像 {number} を表示",
+    "projectAwardsTitle": "受賞",
+    "awardOrganizerLabel": "主催",
+    "awardsPageLink": "受賞一覧を見る",
+    "backToWorks": "作品一覧へ戻る",
+    "awardsMetaTitle": "受賞 — Steven Studio",
+    "awardsMetaDescription": "Frostfade の2024年グローバル・アート・クリエーション・アワード金賞をはじめとする、Steven Studio の受賞情報。"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -524,9 +596,6 @@ window.STUDIO_LOCALES = {
     "awardsYear": "연도",
     "awardsDistinction": "수상 내역",
     "awardsProject": "프로젝트",
-    "awardsEmpty": "기록된 작품 수상 내역이 없습니다.",
-    "awardsDescription": "아직 작품 수상 정보가 추가되지 않았습니다.",
-    "awardsPending": "수상",
     "studioEyebrow": "03 / 스튜디오 소개",
     "studioLine1": "하나의 호기심.",
     "studioLine2": "다양한 표현.",
@@ -580,12 +649,27 @@ window.STUDIO_LOCALES = {
             "description": "미래 세계를 배경으로 구상한 이 혁신적인 예술 설치 작품은 분주한 도심의 외곽에서 에너지를 공급하는 거점 역할을 합니다. 앞날을 내다보는 이 공간은 저 자신의 정신적 특성을 탐구하는 과정에서 탄생했으며, 흔들리지 않는 저의 회복력을 담고 있습니다. 매끄러운 은빛 윤곽은 도시 풍경 속에서 인내와 굳건한 의지를 보여 주는 등대 같은 존재가 됩니다. 「역경의 은빛 날개」에서는 미래를 향한 상상력과 끈기 있게 나아가는 정신이 만나, 도전을 견디며 계속 전진하는 힘을 표현합니다."
           }
         }
+      },
+      "frostfade": {
+        "title": "Frostfade",
+        "category": "설치미술",
+        "description": "〈Frostfade〉는 인간의 자연환경 오염으로 변이를 겪은 미래의 식물을 상상한 작품입니다. 잦은 고온과 가뭄, 강한 자외선 등 갈수록 극심해지는 기후 조건에 적응하는 과정에서 이 식물은 점차 색소를 잃어갑니다. 이 상상 속 생태계에서 흰 잎은 더 많은 햇빛과 열을 반사하고, 증산으로 인한 수분 손실을 줄여 식물이 가뭄을 견디도록 돕습니다. 또한 흰 잎으로의 진화는 주변 환경에 있는 오염물질과 유해물질의 흡수 및 축적을 줄이기 위한 적응 방식일 수 있습니다.",
+        "details": "크기: 28 × 20 × 16cm. 재료: 3D 프린팅 재료, 조화 제작액.",
+        "gallery": {
+          "full": "Frostfade — 작품 전체 모습",
+          "detail": "Frostfade — 잎과 가지 구조의 세부 모습"
+        },
+        "award": {
+          "level": "금상",
+          "name": "글로벌 아트 크리에이션 어워드",
+          "organizer": "유럽 문화교육협회"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
     "filterIndustrial": "산업·제품",
     "filterPhotography": "사진",
-    "filterInstallation": "설치·조각",
+    "filterInstallation": "설치미술",
     "detailsLabel": "재료와 제작",
     "galleryLabel": "작품 이미지",
     "archiveLabel": "작품 아카이브",
@@ -593,6 +677,12 @@ window.STUDIO_LOCALES = {
     "galleryNext": "다음 이미지",
     "galleryHelp": "좌우로 스와이프하거나 드래그 또는 화살표를 사용하세요.",
     "galleryPosition": "이미지 {current} / {total}",
-    "galleryImage": "이미지 {number} 보기"
+    "galleryImage": "이미지 {number} 보기",
+    "projectAwardsTitle": "수상",
+    "awardOrganizerLabel": "주최 기관",
+    "awardsPageLink": "수상 내역 보기",
+    "backToWorks": "작품으로 돌아가기",
+    "awardsMetaTitle": "수상 내역 — Steven Studio",
+    "awardsMetaDescription": "Frostfade의 2024 글로벌 아트 크리에이션 어워드 금상을 포함한 Steven Studio의 수상 내역입니다."
   }
 };
