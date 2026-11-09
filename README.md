@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Two owner-supplied works are published: **Adversity Silver Wings** (Architectural design) and **Frostfade** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
+Three owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade** (Installation), and **Color Sphere Marine Blossoms** (Installation). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -15,6 +15,10 @@ The 2023 study uses acrylic board, wood strips and mirror paper. Model dimension
 Frostfade uses two owner-supplied photographs: the first is its cover and the second is a detail visible only in its gallery. Dimensions are 28 × 20 × 16 cm; materials are 3D printing supplies and flower-making liquid. The five-language introduction preserves the speculative environmental narrative.
 
 Frostfade is associated by the owner with the **2024 Global Art Creation Award — Gold Medal**, dated **30 September 2024**, issued to Feng Rui Xi. The organiser/issuing institution is **European Association of Culture and Education**, as named on the supplied certificate. The certificate does not name the work; the work association is supplied by the owner. The certificate image, number and signatures are excluded from the site and repository. The separate `awards.html` page, homepage recognition row and work dialog list the award and institution. Only the confirmed Gold Medal is listed; the certificate’s future-tense reference to a European Teenagers Art Medal is not treated as another received award.
+
+**Color Sphere Marine Blossoms** uses two further owner-supplied photographs, with the first as its cover and the second only in the work gallery. The owner specifies the space between “Color” and “Sphere” in every language. Dimensions are 26 × 15 × 17 cm; materials are foam balls, modelling clay and 3D printing supplies. Its future marine ecology narrative is polished in all five languages.
+
+Its separate **Global Art Creation Award — Silver Medal** is dated **30 September 2024**, with the same named organiser, **European Association of Culture and Education**. The supplied certificate names Feng Rui Xi; the owner associates the award with this work. The certificate photograph, number and signatures are excluded. The Silver Medal appears as its own row beside Frostfade’s Gold Medal on the homepage and the dedicated awards page, and in its own work dialog.
 
 ## Identity and languages
 

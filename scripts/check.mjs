@@ -48,6 +48,12 @@ assert.equal(frost.images.length,2,'Only the two Frostfade work photos belong in
 assert.equal(frost.cover,frost.images[0][0]);
 assert.equal(frost.awards[0].distinction,'Gold Medal');
 assert.equal(frost.awards[0].date,'2024-09-30');
+const color=works['color-sphere'];
+assert.equal(color.category,'installation');
+assert.equal(color.images.length,2,'Color Sphere must contain only the two work photos');
+assert.equal(color.awards[0].distinction,'Silver Medal');
+assert.equal(color.awards[0].date,'2024-09-30');
+for(const dictionary of Object.values(locales)) assert.equal(dictionary.projects['color-sphere'].title,'Color Sphere Marine Blossoms','The work title must retain the space between Color and Sphere');
 for (const [id,work] of Object.entries(works)) {
   const imageRoot=work.assetPath || 'assets/a1';
   assert.ok(html.includes(`src="${imageRoot}/${work.cover}.webp"`),`${id} cover is missing`);
@@ -57,7 +63,12 @@ assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image
 const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
 assert.ok(awardsHtml.includes('European Association of Culture and Education'),'Award organiser is missing');
 assert.ok(awardsHtml.includes('href="#project/frostfade"'),'Award must link to the work');
-assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');
+assert.ok(awardsHtml.includes('Gold Medal') && awardsHtml.includes('Silver Medal') && awardsHtml.includes('2024-09-30'),'Award date or distinction is missing');
+assert.ok(awardsHtml.includes('href="#project/color-sphere"'),'Silver award must link to Color Sphere');
+for(const [,category,count] of html.matchAll(/<button[^>]*data-filter="([^"]+)"[\s\S]*?<sup>(\d+)<\/sup><\/button>/g)) {
+  const expected=category==='all'?Object.keys(works).length:Object.values(works).filter(w=>w.category===category).length;
+  assert.equal(Number(count),expected,`Incorrect filter count for ${category}`);
+}
 assert.ok(html.includes('href="awards.html"'),'Awards page must be reachable');
 const awardsIds=[...awardsHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(awardsIds.length,new Set(awardsIds).size,'Duplicate awards-page IDs');

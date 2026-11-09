@@ -116,6 +116,21 @@ window.STUDIO_LOCALES = {
           "name": "Global Art Creation Award",
           "organizer": "European Association of Culture and Education"
         }
+      },
+      "color-sphere": {
+        "title": "Color Sphere Marine Blossoms",
+        "category": "Installation",
+        "description": "Color Sphere Marine Blossoms imagines a sea plant from the future, shaped by human destruction and pollution. As discarded waste breaks down and toxic substances accumulate, the surrounding environment and its plant life take on a spectrum of colours. The plants are spherical and have evolved a more efficient photosynthetic system, enabling them to survive in the low-light conditions of the deep sea. Their richly coloured leaves may capture and use a wider range of light wavelengths, improving the efficiency of photosynthesis.",
+        "details": "Size: 26 × 15 × 17 cm. Materials: foam balls, modelling clay and 3D printing supplies.",
+        "gallery": {
+          "full": "Color Sphere Marine Blossoms — full view",
+          "detail": "Color Sphere Marine Blossoms — detail of the coloured spherical forms"
+        },
+        "award": {
+          "level": "Silver Medal",
+          "name": "Global Art Creation Award",
+          "organizer": "European Association of Culture and Education"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -135,7 +150,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "View awards & honours",
     "backToWorks": "Back to projects",
     "awardsMetaTitle": "Awards & honours — Steven Studio",
-    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade."
+    "awardsMetaDescription": "Awards and recognition for Steven Studio, including the 2024 Global Art Creation Award Gold Medal for Frostfade and Silver Medal for Color Sphere Marine Blossoms."
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -253,6 +268,21 @@ window.STUDIO_LOCALES = {
           "name": "全球艺术创作奖",
           "organizer": "欧洲文化与教育协会"
         }
+      },
+      "color-sphere": {
+        "title": "Color Sphere Marine Blossoms",
+        "category": "装置艺术",
+        "description": "《Color Sphere Marine Blossoms》构想了一种来自未来的海洋植物，它的形态与色彩受到人类破坏和环境污染的影响。随着废弃物分解、有毒物质不断积累，周围环境与其中生长的植物逐渐呈现出多样的色彩。这些植物具有球形结构，并演化出更高效的光合作用系统，使它们能够在光线微弱的深海环境中生存。叶片丰富的颜色，也可能是一种捕捉并利用不同波长光线的适应方式，从而提升光合作用的效率。",
+        "details": "尺寸：26 × 15 × 17 厘米。材料：泡沫球、塑形土、3D 打印材料。",
+        "gallery": {
+          "full": "Color Sphere Marine Blossoms——作品全貌",
+          "detail": "Color Sphere Marine Blossoms——彩色球状形体细节"
+        },
+        "award": {
+          "level": "银奖",
+          "name": "全球艺术创作奖",
+          "organizer": "欧洲文化与教育协会"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -272,7 +302,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "查看奖项与荣誉",
     "backToWorks": "返回作品",
     "awardsMetaTitle": "奖项与荣誉 — Steven Studio",
-    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 获得的 2024 年全球艺术创作奖金奖。"
+    "awardsMetaDescription": "Steven Studio 的奖项与荣誉，包括 Frostfade 获得的 2024 年全球艺术创作奖金奖，以及 Color Sphere Marine Blossoms 获得的银奖。"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -390,6 +420,21 @@ window.STUDIO_LOCALES = {
           "name": "全球藝術創作獎",
           "organizer": "歐洲文化與教育協會"
         }
+      },
+      "color-sphere": {
+        "title": "Color Sphere Marine Blossoms",
+        "category": "裝置藝術",
+        "description": "《Color Sphere Marine Blossoms》構想了一種來自未來的海洋植物，它的形態與色彩受到人類破壞和環境污染的影響。隨著廢棄物分解、有毒物質不斷累積，周圍環境與其中生長的植物逐漸呈現出多樣的色彩。這些植物具有球形結構，並演化出更高效的光合作用系統，使它們能夠在光線微弱的深海環境中生存。葉片豐富的顏色，也可能是一種捕捉並利用不同波長光線的適應方式，從而提升光合作用的效率。",
+        "details": "尺寸：26 × 15 × 17 公分。材料：泡沫球、塑形土、3D 列印材料。",
+        "gallery": {
+          "full": "Color Sphere Marine Blossoms——作品全貌",
+          "detail": "Color Sphere Marine Blossoms——彩色球狀形體細節"
+        },
+        "award": {
+          "level": "銀獎",
+          "name": "全球藝術創作獎",
+          "organizer": "歐洲文化與教育協會"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -409,7 +454,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "查看獎項與榮譽",
     "backToWorks": "返回作品",
     "awardsMetaTitle": "獎項與榮譽 — Steven Studio",
-    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 獲得的 2024 年全球藝術創作獎金獎。"
+    "awardsMetaDescription": "Steven Studio 的獎項與榮譽，包括 Frostfade 獲得的 2024 年全球藝術創作獎金獎，以及 Color Sphere Marine Blossoms 獲得的銀獎。"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -527,6 +572,21 @@ window.STUDIO_LOCALES = {
           "name": "グローバル・アート・クリエーション・アワード",
           "organizer": "欧州文化教育協会"
         }
+      },
+      "color-sphere": {
+        "title": "Color Sphere Marine Blossoms",
+        "category": "インスタレーション",
+        "description": "「Color Sphere Marine Blossoms」は、人間による環境破壊や汚染の影響を受けた、未来の海洋植物を構想した作品です。捨てられたごみが分解され、有害物質が蓄積するにつれて、周囲の環境とそこに育つ植物はさまざまな色を帯びていきます。植物は球状の構造を持ち、より効率的な光合成の仕組みを進化させることで、光の乏しい深海でも生きられるようになっています。色鮮やかな葉も、異なる波長の光を捉えて利用し、光合成の効率を高めるための適応なのかもしれません。",
+        "details": "寸法：26 × 15 × 17 cm。素材：発泡素材の球、造形用粘土、3D プリント用素材。",
+        "gallery": {
+          "full": "Color Sphere Marine Blossoms — 作品全景",
+          "detail": "Color Sphere Marine Blossoms — 色鮮やかな球状の形のディテール"
+        },
+        "award": {
+          "level": "銀賞",
+          "name": "グローバル・アート・クリエーション・アワード",
+          "organizer": "欧州文化教育協会"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -546,7 +606,7 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "受賞一覧を見る",
     "backToWorks": "作品一覧へ戻る",
     "awardsMetaTitle": "受賞 — Steven Studio",
-    "awardsMetaDescription": "Frostfade の2024年グローバル・アート・クリエーション・アワード金賞をはじめとする、Steven Studio の受賞情報。"
+    "awardsMetaDescription": "2024年グローバル・アート・クリエーション・アワードでの Frostfade の金賞、Color Sphere Marine Blossoms の銀賞など、Steven Studio の受賞情報。"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -664,6 +724,21 @@ window.STUDIO_LOCALES = {
           "name": "글로벌 아트 크리에이션 어워드",
           "organizer": "유럽 문화교육협회"
         }
+      },
+      "color-sphere": {
+        "title": "Color Sphere Marine Blossoms",
+        "category": "설치미술",
+        "description": "〈Color Sphere Marine Blossoms〉는 인간의 환경 파괴와 오염의 영향을 받은 미래의 해양 식물을 상상한 작품입니다. 버려진 쓰레기가 분해되고 유해물질이 축적되면서, 주변 환경과 그곳에서 자라는 식물은 다양한 색을 띠게 됩니다. 이 식물들은 구형 구조를 지니며, 더욱 효율적인 광합성 체계를 진화시켜 빛이 부족한 심해에서도 살아갈 수 있습니다. 다채로운 잎의 색 역시 서로 다른 파장의 빛을 포착하고 활용하여 광합성 효율을 높이기 위한 적응 방식일 수 있습니다.",
+        "details": "크기: 26 × 15 × 17cm. 재료: 폼볼, 조형용 점토, 3D 프린팅 재료.",
+        "gallery": {
+          "full": "Color Sphere Marine Blossoms — 작품 전체 모습",
+          "detail": "Color Sphere Marine Blossoms — 다채로운 구형 구조의 세부 모습"
+        },
+        "award": {
+          "level": "은상",
+          "name": "글로벌 아트 크리에이션 어워드",
+          "organizer": "유럽 문화교육협회"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -683,6 +758,6 @@ window.STUDIO_LOCALES = {
     "awardsPageLink": "수상 내역 보기",
     "backToWorks": "작품으로 돌아가기",
     "awardsMetaTitle": "수상 내역 — Steven Studio",
-    "awardsMetaDescription": "Frostfade의 2024 글로벌 아트 크리에이션 어워드 금상을 포함한 Steven Studio의 수상 내역입니다."
+    "awardsMetaDescription": "2024 글로벌 아트 크리에이션 어워드에서 Frostfade가 받은 금상과 Color Sphere Marine Blossoms가 받은 은상을 포함한 Steven Studio의 수상 내역입니다."
   }
 };
