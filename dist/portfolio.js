@@ -49,6 +49,12 @@ window.STUDIO_WORKS = {
         "detail",
         1647,
         832
+      ],
+      [
+        "frostfade-03",
+        "closeup",
+        1280,
+        1920
       ]
     ],
     "awards": [
@@ -79,6 +85,12 @@ window.STUDIO_WORKS = {
         "detail",
         1842,
         2400
+      ],
+      [
+        "color-sphere-03",
+        "closeup",
+        1370,
+        1280
       ]
     ],
     "awards": [

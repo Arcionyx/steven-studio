@@ -114,7 +114,8 @@ window.STUDIO_LOCALES = {
         "description": "Frostfade envisions a plant from the future, transformed by human pollution of the natural environment. As it adapts to increasingly extreme conditions, including frequent high temperatures, drought and intense ultraviolet radiation, the plant gradually loses its pigment. In this imagined ecology, its white leaves reflect more sunlight and heat, helping it withstand drought by reducing water loss through transpiration. The plant may also develop white leaves as a way to limit the uptake and accumulation of pollutants and toxic substances from its surroundings.",
         "gallery": {
           "full": "Frostfade — full view",
-          "detail": "Frostfade — detail of the leaf and branching structure"
+          "detail": "Frostfade — detail of the leaf and branching structure",
+          "closeup": "Frostfade — close-up of the white leaf network and trunk"
         },
         "award": {
           "level": "Gold Medal",
@@ -133,7 +134,8 @@ window.STUDIO_LOCALES = {
         "description": "Color Sphere Marine Blossoms imagines a sea plant from the future, shaped by human destruction and pollution. As discarded waste breaks down and toxic substances accumulate, the surrounding environment and its plant life take on a spectrum of colours. The plants are spherical and have evolved a more efficient photosynthetic system, enabling them to survive in the low-light conditions of the deep sea. Their richly coloured leaves may capture and use a wider range of light wavelengths, improving the efficiency of photosynthesis.",
         "gallery": {
           "full": "Color Sphere Marine Blossoms — full view",
-          "detail": "Color Sphere Marine Blossoms — detail of the coloured spherical forms"
+          "detail": "Color Sphere Marine Blossoms — detail of the coloured spherical forms",
+          "closeup": "Color Sphere Marine Blossoms — close-up of the textured spheres and interlaced fibres"
         },
         "award": {
           "level": "Silver Medal",
@@ -548,7 +550,8 @@ window.STUDIO_LOCALES = {
         "description": "《Frostfade》构想了一株来自未来的植物，它因人类对自然环境的污染而发生变异。频繁的高温、干旱与强烈的紫外线，使植物面临日益严苛的气候条件；在适应这些变化的过程中，它逐渐失去了原有的色素。在这一想象中的生态环境里，白色叶片能够反射更多阳光与热量，减少叶片蒸腾造成的水分流失，从而帮助植物抵御干旱。植物也可能通过演化出白色叶片，减少对环境中污染物与有毒物质的吸收和积累。",
         "gallery": {
           "full": "Frostfade——作品全貌",
-          "detail": "Frostfade——叶片与分枝结构细节"
+          "detail": "Frostfade——叶片与分枝结构细节",
+          "closeup": "Frostfade — 白色叶片脉络与主干细节"
         },
         "award": {
           "level": "金奖",
@@ -567,7 +570,8 @@ window.STUDIO_LOCALES = {
         "description": "《Color Sphere Marine Blossoms》构想了一种来自未来的海洋植物，它的形态与色彩受到人类破坏和环境污染的影响。随着废弃物分解、有毒物质不断积累，周围环境与其中生长的植物逐渐呈现出多样的色彩。这些植物具有球形结构，并演化出更高效的光合作用系统，使它们能够在光线微弱的深海环境中生存。叶片丰富的颜色，也可能是一种捕捉并利用不同波长光线的适应方式，从而提升光合作用的效率。",
         "gallery": {
           "full": "Color Sphere Marine Blossoms——作品全貌",
-          "detail": "Color Sphere Marine Blossoms——彩色球状形体细节"
+          "detail": "Color Sphere Marine Blossoms——彩色球状形体细节",
+          "closeup": "Color Sphere Marine Blossoms — 彩色球体肌理与交织纤维细节"
         },
         "award": {
           "level": "银奖",
@@ -982,7 +986,8 @@ window.STUDIO_LOCALES = {
         "description": "《Frostfade》構想了一株來自未來的植物，它因人類對自然環境的污染而發生變異。頻繁的高溫、乾旱與強烈的紫外線，使植物面臨日益嚴苛的氣候條件；在適應這些變化的過程中，它逐漸失去了原有的色素。在這一想像中的生態環境裡，白色葉片能夠反射更多陽光與熱量，減少葉片蒸散造成的水分流失，從而幫助植物抵禦乾旱。植物也可能透過演化出白色葉片，減少對環境中污染物與有毒物質的吸收和累積。",
         "gallery": {
           "full": "Frostfade——作品全貌",
-          "detail": "Frostfade——葉片與分枝結構細節"
+          "detail": "Frostfade——葉片與分枝結構細節",
+          "closeup": "Frostfade — 白色葉片脈絡與主幹細節"
         },
         "award": {
           "level": "金獎",
@@ -1001,7 +1006,8 @@ window.STUDIO_LOCALES = {
         "description": "《Color Sphere Marine Blossoms》構想了一種來自未來的海洋植物，它的形態與色彩受到人類破壞和環境污染的影響。隨著廢棄物分解、有毒物質不斷累積，周圍環境與其中生長的植物逐漸呈現出多樣的色彩。這些植物具有球形結構，並演化出更高效的光合作用系統，使它們能夠在光線微弱的深海環境中生存。葉片豐富的顏色，也可能是一種捕捉並利用不同波長光線的適應方式，從而提升光合作用的效率。",
         "gallery": {
           "full": "Color Sphere Marine Blossoms——作品全貌",
-          "detail": "Color Sphere Marine Blossoms——彩色球狀形體細節"
+          "detail": "Color Sphere Marine Blossoms——彩色球狀形體細節",
+          "closeup": "Color Sphere Marine Blossoms — 彩色球體肌理與交織纖維細節"
         },
         "award": {
           "level": "銀獎",
@@ -1416,7 +1422,8 @@ window.STUDIO_LOCALES = {
         "description": "「Frostfade」は、人間による自然環境の汚染を受けて変異した、未来の植物を構想した作品です。頻繁な高温、干ばつ、強い紫外線など、ますます厳しくなる気候条件に適応する過程で、植物は少しずつ色素を失っていきます。この想像上の生態系では、白い葉がより多くの日光と熱を反射し、蒸散による水分の損失を抑えることで、植物が乾燥に耐える助けとなります。また、白い葉への進化は、周囲の環境に含まれる汚染物質や有害物質の吸収と蓄積を減らすための適応とも考えられます。",
         "gallery": {
           "full": "Frostfade — 作品全景",
-          "detail": "Frostfade — 葉と枝分かれの構造のディテール"
+          "detail": "Frostfade — 葉と枝分かれの構造のディテール",
+          "closeup": "Frostfade — 白い葉の網目と幹のクローズアップ"
         },
         "award": {
           "level": "金賞",
@@ -1435,7 +1442,8 @@ window.STUDIO_LOCALES = {
         "description": "「Color Sphere Marine Blossoms」は、人間による環境破壊や汚染の影響を受けた、未来の海洋植物を構想した作品です。捨てられたごみが分解され、有害物質が蓄積するにつれて、周囲の環境とそこに育つ植物はさまざまな色を帯びていきます。植物は球状の構造を持ち、より効率的な光合成の仕組みを進化させることで、光の乏しい深海でも生きられるようになっています。色鮮やかな葉も、異なる波長の光を捉えて利用し、光合成の効率を高めるための適応なのかもしれません。",
         "gallery": {
           "full": "Color Sphere Marine Blossoms — 作品全景",
-          "detail": "Color Sphere Marine Blossoms — 色鮮やかな球状の形のディテール"
+          "detail": "Color Sphere Marine Blossoms — 色鮮やかな球状の形のディテール",
+          "closeup": "Color Sphere Marine Blossoms — 球体の質感と絡み合う繊維のクローズアップ"
         },
         "award": {
           "level": "銀賞",
@@ -1850,7 +1858,8 @@ window.STUDIO_LOCALES = {
         "description": "〈Frostfade〉는 인간의 자연환경 오염으로 변이를 겪은 미래의 식물을 상상한 작품입니다. 잦은 고온과 가뭄, 강한 자외선 등 갈수록 극심해지는 기후 조건에 적응하는 과정에서 이 식물은 점차 색소를 잃어갑니다. 이 상상 속 생태계에서 흰 잎은 더 많은 햇빛과 열을 반사하고, 증산으로 인한 수분 손실을 줄여 식물이 가뭄을 견디도록 돕습니다. 또한 흰 잎으로의 진화는 주변 환경에 있는 오염물질과 유해물질의 흡수 및 축적을 줄이기 위한 적응 방식일 수 있습니다.",
         "gallery": {
           "full": "Frostfade — 작품 전체 모습",
-          "detail": "Frostfade — 잎과 가지 구조의 세부 모습"
+          "detail": "Frostfade — 잎과 가지 구조의 세부 모습",
+          "closeup": "Frostfade — 흰 잎의 그물 같은 구조와 줄기 세부"
         },
         "award": {
           "level": "금상",
@@ -1869,7 +1878,8 @@ window.STUDIO_LOCALES = {
         "description": "〈Color Sphere Marine Blossoms〉는 인간의 환경 파괴와 오염의 영향을 받은 미래의 해양 식물을 상상한 작품입니다. 버려진 쓰레기가 분해되고 유해물질이 축적되면서, 주변 환경과 그곳에서 자라는 식물은 다양한 색을 띠게 됩니다. 이 식물들은 구형 구조를 지니며, 더욱 효율적인 광합성 체계를 진화시켜 빛이 부족한 심해에서도 살아갈 수 있습니다. 다채로운 잎의 색 역시 서로 다른 파장의 빛을 포착하고 활용하여 광합성 효율을 높이기 위한 적응 방식일 수 있습니다.",
         "gallery": {
           "full": "Color Sphere Marine Blossoms — 작품 전체 모습",
-          "detail": "Color Sphere Marine Blossoms — 다채로운 구형 구조의 세부 모습"
+          "detail": "Color Sphere Marine Blossoms — 다채로운 구형 구조의 세부 모습",
+          "closeup": "Color Sphere Marine Blossoms — 구체의 표면 질감과 서로 얽힌 섬유 세부"
         },
         "award": {
           "level": "은상",

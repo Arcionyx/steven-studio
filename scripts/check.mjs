@@ -45,7 +45,7 @@ assert.ok(html.includes(`src="assets/a1/${silver.cover}.webp"`),'Cover must appe
 for (const [file] of silver.images.slice(1)) assert.ok(!html.includes(`src="assets/a1/${file}.webp"`),'Additional images must appear only inside work details');
 const frost = works.frostfade;
 assert.equal(frost.category,'installation');
-assert.equal(frost.images.length,2,'Only the two Frostfade work photos belong in its gallery');
+assert.equal(frost.images.length,3,'Frostfade must contain the three owner-supplied work photos');
 assert.equal(frost.cover,frost.images[0][0]);
 assert.equal(frost.awards[0].distinction,'Gold Medal');
 assert.equal(frost.awards[0].date,'2024-09-30');
@@ -56,7 +56,7 @@ assert.equal(argen.awards[0].distinction,'Bronze Medal');
 assert.equal(argen.awards[0].date,'2024-09-30');
 const color=works['color-sphere'];
 assert.equal(color.category,'installation');
-assert.equal(color.images.length,2,'Color Sphere must contain only the two work photos');
+assert.equal(color.images.length,3,'Color Sphere must contain the three owner-supplied work photos');
 assert.equal(color.awards[0].distinction,'Silver Medal');
 assert.equal(color.awards[0].date,'2024-09-30');
 for(const dictionary of Object.values(locales)) assert.equal(dictionary.projects['color-sphere'].title,'Color Sphere Marine Blossoms','The work title must retain the space between Color and Sphere');
