@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Seven owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), and **Cyber Aurora** (Photography / Light painting). Categories are assigned by the owner. Unfinished work entries remain removed.
+Eight owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, and **Blucosix** (Photography / Light painting). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -30,7 +30,9 @@ The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bro
 
 **Cyber Aurora** is the first supplied light-painting photograph. Its one image serves as both cover and detail view. The supplied camera settings are SONY ILCE-7M4, RGB, 44 mm, F/22, Manual, original image dimensions 3504 × 2336 pixels, ISO 125 and a 13-second exposure. No other light-painting entries are created until supplied.
 
-All seven works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
+**Blucosix** is the second supplied light-painting photograph, using SONY ILCE-7M4, RGB, 29 mm, F/22, Manual, ISO 125 and a 13-second exposure. Its displayed image dimensions preserve the owner-supplied 1352 × 1975 pixels. The attached image is actually 1352 × 1968 pixels; the web asset preserves that full composition. Its nine information fields follow the same five-language layout as Cyber Aurora.
+
+All eight works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
 
 ## Identity and languages
 

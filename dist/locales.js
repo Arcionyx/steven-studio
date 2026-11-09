@@ -230,6 +230,25 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Cyber Aurora — blue-white and golden light trails"
         }
+      },
+      "blucosix": {
+        "title": "Blucosix",
+        "category": "Photography / Light painting",
+        "description": "Light-painting photography captured over a 13-second exposure.",
+        "facts": {
+          "title": "Blucosix",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "29 mm",
+          "aperture": "F/22",
+          "exposureProgram": "Manual",
+          "resolution": "1352 × 1975 px",
+          "iso": "125",
+          "exposureTime": "13 s"
+        },
+        "gallery": {
+          "full": "Blucosix — blue and warm white light loops"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -497,6 +516,25 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "Cyber Aurora — 蓝白色与金色光轨"
+        }
+      },
+      "blucosix": {
+        "title": "Blucosix",
+        "category": "摄影 / 光绘",
+        "description": "以 13 秒曝光记录光迹的光绘摄影作品。",
+        "facts": {
+          "title": "Blucosix",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "29 mm",
+          "aperture": "F/22",
+          "exposureProgram": "手动",
+          "resolution": "1352 × 1975 px",
+          "iso": "125",
+          "exposureTime": "13 秒"
+        },
+        "gallery": {
+          "full": "Blucosix — 蓝色与暖白色的环绕光轨"
         }
       }
     },
@@ -766,6 +804,25 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Cyber Aurora — 藍白色與金色光軌"
         }
+      },
+      "blucosix": {
+        "title": "Blucosix",
+        "category": "攝影 / 光繪",
+        "description": "以 13 秒曝光記錄光跡的光繪攝影作品。",
+        "facts": {
+          "title": "Blucosix",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "29 mm",
+          "aperture": "F/22",
+          "exposureProgram": "手動",
+          "resolution": "1352 × 1975 px",
+          "iso": "125",
+          "exposureTime": "13 秒"
+        },
+        "gallery": {
+          "full": "Blucosix — 藍色與暖白色的環繞光軌"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -1034,6 +1091,25 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Cyber Aurora — 青白い光と金色の光の軌跡"
         }
+      },
+      "blucosix": {
+        "title": "Blucosix",
+        "category": "写真 / ライトペインティング",
+        "description": "13秒の露光で光の軌跡を描いたライトペインティング作品。",
+        "facts": {
+          "title": "Blucosix",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "29 mm",
+          "aperture": "F/22",
+          "exposureProgram": "マニュアル",
+          "resolution": "1352 × 1975 px",
+          "iso": "125",
+          "exposureTime": "13秒"
+        },
+        "gallery": {
+          "full": "Blucosix — 青と暖かな白い光のループ"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -1301,6 +1377,25 @@ window.STUDIO_LOCALES = {
         },
         "gallery": {
           "full": "Cyber Aurora — 푸른빛이 도는 흰색과 금색의 빛 궤적"
+        }
+      },
+      "blucosix": {
+        "title": "Blucosix",
+        "category": "사진 / 라이트 페인팅",
+        "description": "13초 노출로 빛의 궤적을 담아낸 라이트 페인팅 작품입니다.",
+        "facts": {
+          "title": "Blucosix",
+          "equipment": "SONY ILCE-7M4",
+          "colorSpace": "RGB",
+          "focalLength": "29 mm",
+          "aperture": "F/22",
+          "exposureProgram": "수동",
+          "resolution": "1352 × 1975 px",
+          "iso": "125",
+          "exposureTime": "13초"
+        },
+        "gallery": {
+          "full": "Blucosix — 파란빛과 따뜻한 흰빛이 그리는 고리"
         }
       }
     },

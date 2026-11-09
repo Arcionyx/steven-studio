@@ -205,5 +205,19 @@ window.STUDIO_WORKS = {
         1600
       ]
     ]
+  },
+  "blucosix": {
+    "category": "photography",
+    "source": "Owner-supplied photograph and camera settings. Displayed image dimensions follow the supplied 1352 × 1975 metadata; the attached image file is 1352 × 1968 and is displayed without cropping.",
+    "assetPath": "assets/works/blucosix",
+    "cover": "blucosix-01",
+    "images": [
+      [
+        "blucosix-01",
+        "full",
+        1352,
+        1968
+      ]
+    ]
   }
 };
