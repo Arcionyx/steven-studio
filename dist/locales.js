@@ -467,6 +467,20 @@ window.STUDIO_LOCALES = {
           "chat": "Social interaction concept with tree avatars and a chat panel",
           "feedback": "Tree profile with stars, hearts and a prominent elapsed-time display",
           "timer": "A darkened interface and enlarged red timer signal an extended visit"
+        },
+        "sketchbook": {
+          "link": "View sketches & process",
+          "title": "Sketches & process",
+          "intro": "Workflow maps, interface sketches and feedback studies from the development of Tempus Forestum Retreat.",
+          "back": "Back to work details",
+          "metaTitle": "Tempus Forestum Retreat — Sketches & process | Steven Studio",
+          "metaDescription": "Explore the workflow, interface and time-feedback sketches behind Tempus Forestum Retreat.",
+          "images": {
+            "workflow": "Workflow maps and navigation sketches",
+            "interfaces": "Interface sketches and the user journey",
+            "timing": "Background brightness, system colour and elapsed-time feedback",
+            "growth": "Tree growth, shared interactions and session-ending rules"
+          }
         }
       }
     },
@@ -985,6 +999,20 @@ window.STUDIO_LOCALES = {
           "chat": "社交互动概念：树木化身与聊天面板",
           "feedback": "树木页面：星星、爱心与醒目的经过时间显示",
           "timer": "暗下的界面与放大的红色计时，提示停留时间的延长"
+        },
+        "sketchbook": {
+          "link": "查看草图与设计过程",
+          "title": "草图与设计过程",
+          "intro": "Tempus Forestum Retreat 设计发展中的流程图、界面草图与反馈机制研究。",
+          "back": "返回作品详情",
+          "metaTitle": "Tempus Forestum Retreat — 草图与设计过程 | Steven Studio",
+          "metaDescription": "浏览 Tempus Forestum Retreat 的使用流程、界面设计与时间反馈草图。",
+          "images": {
+            "workflow": "使用流程图与导航草图",
+            "interfaces": "界面草图与用户使用路径",
+            "timing": "背景亮度、系统颜色与经过时间的反馈",
+            "growth": "树木成长、共同互动与结束机制"
+          }
         }
       }
     },
@@ -1503,6 +1531,20 @@ window.STUDIO_LOCALES = {
           "chat": "社交互動概念：樹木化身與聊天面板",
           "feedback": "樹木頁面：星星、愛心與醒目的經過時間顯示",
           "timer": "暗下的介面與放大的紅色計時，提示停留時間的延長"
+        },
+        "sketchbook": {
+          "link": "查看草圖與設計過程",
+          "title": "草圖與設計過程",
+          "intro": "Tempus Forestum Retreat 設計發展中的流程圖、介面草圖與回饋機制研究。",
+          "back": "返回作品詳情",
+          "metaTitle": "Tempus Forestum Retreat — 草圖與設計過程 | Steven Studio",
+          "metaDescription": "瀏覽 Tempus Forestum Retreat 的使用流程、介面設計與時間回饋草圖。",
+          "images": {
+            "workflow": "使用流程圖與導覽草圖",
+            "interfaces": "介面草圖與使用者路徑",
+            "timing": "背景亮度、系統顏色與經過時間的回饋",
+            "growth": "樹木成長、共同互動與結束機制"
+          }
         }
       }
     },
@@ -2021,6 +2063,20 @@ window.STUDIO_LOCALES = {
           "chat": "木のアバターとチャットパネルによる交流の構想",
           "feedback": "星、ハート、目立つ経過時間表示を備えた木の画面",
           "timer": "長い滞在を知らせる、暗くなった画面と拡大された赤いタイマー"
+        },
+        "sketchbook": {
+          "link": "スケッチと制作過程を見る",
+          "title": "スケッチと制作過程",
+          "intro": "Tempus Forestum Retreat の制作で描いた、画面遷移図、インターフェースのスケッチ、フィードバックの検討資料。",
+          "back": "作品詳細に戻る",
+          "metaTitle": "Tempus Forestum Retreat — スケッチと制作過程 | Steven Studio",
+          "metaDescription": "Tempus Forestum Retreat の画面遷移、インターフェース、時間のフィードバックを検討したスケッチを紹介します。",
+          "images": {
+            "workflow": "画面遷移図とナビゲーションのスケッチ",
+            "interfaces": "インターフェースのスケッチとユーザーの動線",
+            "timing": "背景の明るさ、画面の色、経過時間のフィードバック",
+            "growth": "木の成長、他者との交流、セッション終了の仕組み"
+          }
         }
       }
     },
@@ -2539,6 +2595,20 @@ window.STUDIO_LOCALES = {
           "chat": "나무 아바타와 채팅 패널을 통한 소통 콘셉트",
           "feedback": "별과 하트, 눈에 띄는 경과 시간 표시가 있는 나무 화면",
           "timer": "길어진 체류를 알리는 어두워진 화면과 확대된 빨간 타이머"
+        },
+        "sketchbook": {
+          "link": "스케치와 디자인 과정 보기",
+          "title": "스케치와 디자인 과정",
+          "intro": "Tempus Forestum Retreat 의 디자인을 발전시키며 제작한 흐름도, 인터페이스 스케치, 피드백 방식 연구입니다.",
+          "back": "작품 상세로 돌아가기",
+          "metaTitle": "Tempus Forestum Retreat — 스케치와 디자인 과정 | Steven Studio",
+          "metaDescription": "Tempus Forestum Retreat 의 이용 흐름, 인터페이스, 시간 피드백 스케치를 살펴보세요.",
+          "images": {
+            "workflow": "이용 흐름도와 탐색 구조 스케치",
+            "interfaces": "인터페이스 스케치와 사용자 동선",
+            "timing": "배경 밝기, 시스템 색상과 경과 시간 피드백",
+            "growth": "나무 성장, 공동 상호작용과 세션 종료 방식"
+          }
         }
       }
     },

@@ -207,6 +207,9 @@ html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
 #dialog-details{margin:18px 0 0;display:grid;gap:16px}
 .work-fact dt,.fact-label{display:block;font-size:10px;line-height:1.5;letter-spacing:.3px;color:var(--muted)}
 .work-fact dd{font-size:12px;line-height:1.9;margin:4px 0 0;overflow-wrap:anywhere}
+.work-process-link{display:table;width:fit-content;max-width:100%;margin-top:12px;padding-bottom:3px;border-bottom:1px solid var(--ink);font-size:12px;line-height:1.7}
+.work-process-link:after{content:'→';margin-left:12px}
+.work-process-link:hover{border-color:var(--muted);color:var(--muted)}
 .work-awards .fact-label{margin:15px 0 4px}
 @media(max-width:760px){.work-fact dd{font-size:11px}}
 
@@ -230,3 +233,17 @@ html:not([lang=en]) .coming-soon-panel h3{font-family:inherit;font-size:clamp(26
 @media(max-width:1279px){.project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:959px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:599px){.project-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Development studies are read in a vertical sequence on their own page. */
+.sketchbook-page{padding:45px var(--pad) 100px}
+.sketchbook-content{max-width:1440px;margin-inline:auto}
+.sketchbook-back{display:inline-flex;align-items:center;gap:12px;font-size:12px;border-bottom:1px solid var(--line);padding-bottom:7px}
+.sketchbook-heading{margin:65px 0 45px}
+.sketchbook-heading h1{font-family:var(--display-font);font-size:clamp(42px,6vw,88px);font-weight:500;line-height:1.08;letter-spacing:-.025em;margin:24px 0;overflow-wrap:anywhere}
+.sketchbook-intro{font-size:14px;line-height:1.9;color:var(--muted);max-width:65ch;margin:0}
+.sketchbook-gallery{display:flex;flex-direction:column;gap:55px;margin:0 0 55px}
+.sketchbook-gallery figure{margin:0;min-width:0}
+.sketchbook-gallery img{display:block;width:100%;height:auto;background:#fff;border:1px solid var(--line)}
+.sketchbook-gallery figcaption{display:flex;gap:16px;font-size:12px;line-height:1.8;margin-top:14px;color:var(--muted)}
+.sketchbook-index{font-variant-numeric:tabular-nums;flex-shrink:0}
+@media(max-width:760px){.sketchbook-page{padding-top:30px;padding-bottom:65px}.sketchbook-heading{margin:45px 0 32px}.sketchbook-intro{font-size:12px}.sketchbook-gallery{gap:35px;margin-bottom:40px}.sketchbook-gallery figcaption{font-size:11px;gap:12px}}

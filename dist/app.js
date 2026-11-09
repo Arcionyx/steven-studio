@@ -210,6 +210,13 @@ function renderProject(index, slide = 0) {
     label.textContent = text('factLabels.' + key);
     const content = document.createElement('dd');
     content.textContent = value;
+    if (key === 'presentation' && work.sketchbook) {
+      const link = document.createElement('a');
+      link.className = 'work-process-link';
+      link.href = `${work.sketchbook.page}?lang=${encodeURIComponent(currentLocale)}`;
+      link.textContent = copy.sketchbook.link;
+      content.append(link);
+    }
     row.append(label, content);
     return row;
   }));

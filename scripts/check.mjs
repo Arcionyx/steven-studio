@@ -67,6 +67,7 @@ for (const [id,work] of Object.entries(works)) {
 }
 assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image must not be published');
 const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
+const supplementalHtml=[];
 for (const asset of ['locales.js','portfolio.js','app.js','style.css']) {
   const content = await readFile(new URL('../dist/'+asset,import.meta.url));
   const expected = createHash('sha256').update(content).digest('hex').slice(0,12);
@@ -74,6 +75,27 @@ for (const asset of ['locales.js','portfolio.js','app.js','style.css']) {
     const references = [...markup.matchAll(/\b(?:src|href)="([^"]+)"/g)].map(match=>match[1]).filter(reference=>reference.split('?')[0]===asset);
     assert.equal(references.length,1,`${page} must reference ${asset} exactly once`);
     assert.equal(new URLSearchParams(references[0].split('?')[1]).get('v'),expected,`${page} has an outdated ${asset} version; run npm run version:assets`);
+  }
+}
+for (const [id,work] of Object.entries(works)) {
+  if (!work.sketchbook) continue;
+  const page=await readFile(new URL('../dist/'+work.sketchbook.page,import.meta.url),'utf8');
+  supplementalHtml.push(page);
+  assert.ok(page.includes('<html lang="en">'),'Sketch pages must default to English');
+  const sketchIds=[...page.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+  assert.equal(sketchIds.length,new Set(sketchIds).size,'Duplicate sketch-page IDs');
+  for (const [,asset] of page.matchAll(/(?:src|href)="([^"?#]+\.(?:js|css|svg|png|webp|woff2))(?:\?[^"#]*)?"/g)) await access(new URL('../dist/'+asset,import.meta.url));
+  for (const asset of ['locales.js','style.css','sketches.js']) {
+    const expected=createHash('sha256').update(await readFile(new URL('../dist/'+asset,import.meta.url))).digest('hex').slice(0,12);
+    assert.ok(page.includes(`${asset}?v=${expected}`),`${work.sketchbook.page} has an outdated ${asset} version`);
+  }
+  for (const [file,caption,width,height] of work.sketchbook.images) {
+    const path=work.sketchbook.assetPath+'/'+file+'.webp';
+    await access(new URL('../dist/'+path,import.meta.url));
+    assert.ok(width>0 && height>0);
+    assert.ok(page.includes(`src="${path}"`),`${file} is missing from the sketch page`);
+    assert.ok(!html.includes(`src="${path}"`),`${file} must be reached through the sketch link`);
+    for (const dictionary of Object.values(locales)) assert.ok(dictionary.projects[id].sketchbook.images[caption],`${file} needs a localized caption`);
   }
 }
 const tribute=works['pay-tribute'];
@@ -112,7 +134,7 @@ if (Object.values(works).every(work => work.images.length === 0)) {
 }
 const baseKeys = flatten(locales.en).map(([key])=>key).sort();
 const baseMessages = Object.fromEntries(flatten(locales.en));
-const usedKeys = [...(html+awardsHtml).matchAll(/data-i18n(?:-aria-label)?="([^"]+)"/g)].map(match=>match[1]);
+const usedKeys = [...(html+awardsHtml+supplementalHtml.join('')).matchAll(/data-i18n(?:-aria-label)?="([^"]+)"/g)].map(match=>match[1]);
 for (const [locale,messages] of Object.entries(locales)) {
   const flattened = Object.fromEntries(flatten(messages));
   assert.deepEqual(Object.keys(flattened).sort(),baseKeys,`${locale} has missing or extra translations`);

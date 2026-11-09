@@ -467,6 +467,36 @@ window.STUDIO_WORKS = {
         2400,
         1350
       ]
-    ]
+    ],
+    "sketchbook": {
+      "page": "tempus-forestum-retreat-sketches.html",
+      "assetPath": "assets/works/tempus-forestum-retreat/sketches",
+      "images": [
+        [
+          "tempus-sketch-01",
+          "workflow",
+          2972,
+          1522
+        ],
+        [
+          "tempus-sketch-02",
+          "interfaces",
+          3000,
+          1542
+        ],
+        [
+          "tempus-sketch-03",
+          "timing",
+          2982,
+          1276
+        ],
+        [
+          "tempus-sketch-04",
+          "growth",
+          3000,
+          1472
+        ]
+      ]
+    }
   }
 };
