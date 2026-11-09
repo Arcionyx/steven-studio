@@ -280,6 +280,66 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Portrait Sketch — complete view"
         }
+      },
+      "digital-art-01": {
+        "title": "Digital Art 01",
+        "category": "Painting / Digital art",
+        "description": "Black looping lines form a portrait on a pale lilac background.",
+        "facts": {
+          "title": "Digital Art 01",
+          "category": "Painting / Digital art"
+        },
+        "gallery": {
+          "full": "Digital Art 01 — Complete artwork"
+        }
+      },
+      "digital-art-02": {
+        "title": "Digital Art 02",
+        "category": "Painting / Digital art",
+        "description": "An abstract composition of overlapping red, orange and blue squares.",
+        "facts": {
+          "title": "Digital Art 02",
+          "category": "Painting / Digital art"
+        },
+        "gallery": {
+          "full": "Digital Art 02 — Complete artwork"
+        }
+      },
+      "digital-art-03": {
+        "title": "Digital Art 03",
+        "category": "Painting / Digital art",
+        "description": "Multicoloured circles and squares overlap across a dark, textured background.",
+        "facts": {
+          "title": "Digital Art 03",
+          "category": "Painting / Digital art"
+        },
+        "gallery": {
+          "full": "Digital Art 03 — Complete artwork"
+        }
+      },
+      "digital-art-04": {
+        "title": "Digital Art 04",
+        "category": "Painting / Digital art",
+        "description": "Coloured curves intersect across a black background.",
+        "facts": {
+          "title": "Digital Art 04",
+          "category": "Painting / Digital art"
+        },
+        "gallery": {
+          "full": "Digital Art 04 — Complete artwork"
+        }
+      },
+      "digital-art-05": {
+        "title": "Digital Art 05",
+        "category": "Painting / Digital art",
+        "description": "An abstract composition of rounded, reflective forms in contrasting colours.",
+        "facts": {
+          "title": "Digital Art 05",
+          "category": "Painting / Digital art"
+        },
+        "gallery": {
+          "full": "Digital Art 05 — Complete artwork"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -318,7 +378,11 @@ window.STUDIO_LOCALES = {
       "exposureTime": "Exposure time",
       "category": "Category"
     },
-    "filterPainting": "Painting"
+    "filterPainting": "Painting",
+    "filterDigitalArt": "Digital art",
+    "filterSketch": "Sketch",
+    "filterAllPainting": "All paintings",
+    "paintingFilterLabel": "Filter paintings by type"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -600,6 +664,66 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "人物素描 — 完整画面"
         }
+      },
+      "digital-art-01": {
+        "title": "数字艺术 01",
+        "category": "绘画 / 数字艺术",
+        "description": "淡紫色背景上，黑色回环线条构成人物肖像。",
+        "facts": {
+          "title": "数字艺术 01",
+          "category": "绘画 / 数字艺术"
+        },
+        "gallery": {
+          "full": "数字艺术 01 — 完整画面"
+        }
+      },
+      "digital-art-02": {
+        "title": "数字艺术 02",
+        "category": "绘画 / 数字艺术",
+        "description": "红、橙、蓝色方块交叠构成抽象画面。",
+        "facts": {
+          "title": "数字艺术 02",
+          "category": "绘画 / 数字艺术"
+        },
+        "gallery": {
+          "full": "数字艺术 02 — 完整画面"
+        }
+      },
+      "digital-art-03": {
+        "title": "数字艺术 03",
+        "category": "绘画 / 数字艺术",
+        "description": "多彩的圆形与方形交叠在深色纹理背景上。",
+        "facts": {
+          "title": "数字艺术 03",
+          "category": "绘画 / 数字艺术"
+        },
+        "gallery": {
+          "full": "数字艺术 03 — 完整画面"
+        }
+      },
+      "digital-art-04": {
+        "title": "数字艺术 04",
+        "category": "绘画 / 数字艺术",
+        "description": "多色曲线在黑色背景上交织穿行。",
+        "facts": {
+          "title": "数字艺术 04",
+          "category": "绘画 / 数字艺术"
+        },
+        "gallery": {
+          "full": "数字艺术 04 — 完整画面"
+        }
+      },
+      "digital-art-05": {
+        "title": "数字艺术 05",
+        "category": "绘画 / 数字艺术",
+        "description": "圆润且带有反光质感的形态，以对比色构成抽象画面。",
+        "facts": {
+          "title": "数字艺术 05",
+          "category": "绘画 / 数字艺术"
+        },
+        "gallery": {
+          "full": "数字艺术 05 — 完整画面"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -638,7 +762,11 @@ window.STUDIO_LOCALES = {
       "exposureTime": "曝光时间",
       "category": "分类"
     },
-    "filterPainting": "绘画"
+    "filterPainting": "绘画",
+    "filterDigitalArt": "数字艺术",
+    "filterSketch": "素描",
+    "filterAllPainting": "全部绘画",
+    "paintingFilterLabel": "按绘画类型筛选"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -920,6 +1048,66 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "人物素描 — 完整畫面"
         }
+      },
+      "digital-art-01": {
+        "title": "數位藝術 01",
+        "category": "繪畫 / 數位藝術",
+        "description": "淡紫色背景上，黑色迴環線條構成人物肖像。",
+        "facts": {
+          "title": "數位藝術 01",
+          "category": "繪畫 / 數位藝術"
+        },
+        "gallery": {
+          "full": "數位藝術 01 — 完整畫面"
+        }
+      },
+      "digital-art-02": {
+        "title": "數位藝術 02",
+        "category": "繪畫 / 數位藝術",
+        "description": "紅、橙、藍色方塊交疊構成抽象畫面。",
+        "facts": {
+          "title": "數位藝術 02",
+          "category": "繪畫 / 數位藝術"
+        },
+        "gallery": {
+          "full": "數位藝術 02 — 完整畫面"
+        }
+      },
+      "digital-art-03": {
+        "title": "數位藝術 03",
+        "category": "繪畫 / 數位藝術",
+        "description": "多彩的圓形與方形交疊在深色紋理背景上。",
+        "facts": {
+          "title": "數位藝術 03",
+          "category": "繪畫 / 數位藝術"
+        },
+        "gallery": {
+          "full": "數位藝術 03 — 完整畫面"
+        }
+      },
+      "digital-art-04": {
+        "title": "數位藝術 04",
+        "category": "繪畫 / 數位藝術",
+        "description": "多色曲線在黑色背景上交織穿行。",
+        "facts": {
+          "title": "數位藝術 04",
+          "category": "繪畫 / 數位藝術"
+        },
+        "gallery": {
+          "full": "數位藝術 04 — 完整畫面"
+        }
+      },
+      "digital-art-05": {
+        "title": "數位藝術 05",
+        "category": "繪畫 / 數位藝術",
+        "description": "圓潤且帶有反光質感的形態，以對比色構成抽象畫面。",
+        "facts": {
+          "title": "數位藝術 05",
+          "category": "繪畫 / 數位藝術"
+        },
+        "gallery": {
+          "full": "數位藝術 05 — 完整畫面"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -958,7 +1146,11 @@ window.STUDIO_LOCALES = {
       "exposureTime": "曝光時間",
       "category": "分類"
     },
-    "filterPainting": "繪畫"
+    "filterPainting": "繪畫",
+    "filterDigitalArt": "數位藝術",
+    "filterSketch": "素描",
+    "filterAllPainting": "全部繪畫",
+    "paintingFilterLabel": "按繪畫類型篩選"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -1240,6 +1432,66 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "人物デッサン — 全体像"
         }
+      },
+      "digital-art-01": {
+        "title": "デジタルアート 01",
+        "category": "絵画 / デジタルアート",
+        "description": "淡いライラック色の背景に、黒い曲線を重ねて描かれた肖像。",
+        "facts": {
+          "title": "デジタルアート 01",
+          "category": "絵画 / デジタルアート"
+        },
+        "gallery": {
+          "full": "デジタルアート 01 — 作品全体"
+        }
+      },
+      "digital-art-02": {
+        "title": "デジタルアート 02",
+        "category": "絵画 / デジタルアート",
+        "description": "赤、オレンジ、青の四角形が重なり合う抽象的な構成。",
+        "facts": {
+          "title": "デジタルアート 02",
+          "category": "絵画 / デジタルアート"
+        },
+        "gallery": {
+          "full": "デジタルアート 02 — 作品全体"
+        }
+      },
+      "digital-art-03": {
+        "title": "デジタルアート 03",
+        "category": "絵画 / デジタルアート",
+        "description": "質感のある暗い背景に、多彩な円と四角形が重なり合う作品。",
+        "facts": {
+          "title": "デジタルアート 03",
+          "category": "絵画 / デジタルアート"
+        },
+        "gallery": {
+          "full": "デジタルアート 03 — 作品全体"
+        }
+      },
+      "digital-art-04": {
+        "title": "デジタルアート 04",
+        "category": "絵画 / デジタルアート",
+        "description": "黒い背景を横切る、多色の曲線が交差する作品。",
+        "facts": {
+          "title": "デジタルアート 04",
+          "category": "絵画 / デジタルアート"
+        },
+        "gallery": {
+          "full": "デジタルアート 04 — 作品全体"
+        }
+      },
+      "digital-art-05": {
+        "title": "デジタルアート 05",
+        "category": "絵画 / デジタルアート",
+        "description": "丸みを帯びた反射する形と、対照的な色彩による抽象的な構成。",
+        "facts": {
+          "title": "デジタルアート 05",
+          "category": "絵画 / デジタルアート"
+        },
+        "gallery": {
+          "full": "デジタルアート 05 — 作品全体"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -1278,7 +1530,11 @@ window.STUDIO_LOCALES = {
       "exposureTime": "露光時間",
       "category": "カテゴリー"
     },
-    "filterPainting": "絵画"
+    "filterPainting": "絵画",
+    "filterDigitalArt": "デジタルアート",
+    "filterSketch": "デッサン",
+    "filterAllPainting": "すべての絵画",
+    "paintingFilterLabel": "絵画の種類で絞り込む"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -1560,6 +1816,66 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "인물 소묘 — 작품 전체 모습"
         }
+      },
+      "digital-art-01": {
+        "title": "디지털 아트 01",
+        "category": "회화 / 디지털 아트",
+        "description": "연한 라일락색 배경 위에 검은 곡선을 겹쳐 그린 초상입니다.",
+        "facts": {
+          "title": "디지털 아트 01",
+          "category": "회화 / 디지털 아트"
+        },
+        "gallery": {
+          "full": "디지털 아트 01 — 작품 전체 모습"
+        }
+      },
+      "digital-art-02": {
+        "title": "디지털 아트 02",
+        "category": "회화 / 디지털 아트",
+        "description": "빨강, 주황, 파랑 사각형이 겹쳐진 추상 구성입니다.",
+        "facts": {
+          "title": "디지털 아트 02",
+          "category": "회화 / 디지털 아트"
+        },
+        "gallery": {
+          "full": "디지털 아트 02 — 작품 전체 모습"
+        }
+      },
+      "digital-art-03": {
+        "title": "디지털 아트 03",
+        "category": "회화 / 디지털 아트",
+        "description": "질감이 있는 어두운 배경 위에 다채로운 원과 사각형이 겹쳐진 작품입니다.",
+        "facts": {
+          "title": "디지털 아트 03",
+          "category": "회화 / 디지털 아트"
+        },
+        "gallery": {
+          "full": "디지털 아트 03 — 작품 전체 모습"
+        }
+      },
+      "digital-art-04": {
+        "title": "디지털 아트 04",
+        "category": "회화 / 디지털 아트",
+        "description": "검은 배경 위에서 여러 색의 곡선이 교차하는 작품입니다.",
+        "facts": {
+          "title": "디지털 아트 04",
+          "category": "회화 / 디지털 아트"
+        },
+        "gallery": {
+          "full": "디지털 아트 04 — 작품 전체 모습"
+        }
+      },
+      "digital-art-05": {
+        "title": "디지털 아트 05",
+        "category": "회화 / 디지털 아트",
+        "description": "둥글고 반사되는 형태와 대비되는 색으로 이루어진 추상 구성입니다.",
+        "facts": {
+          "title": "디지털 아트 05",
+          "category": "회화 / 디지털 아트"
+        },
+        "gallery": {
+          "full": "디지털 아트 05 — 작품 전체 모습"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -1598,6 +1914,10 @@ window.STUDIO_LOCALES = {
       "exposureTime": "노출 시간",
       "category": "분류"
     },
-    "filterPainting": "회화"
+    "filterPainting": "회화",
+    "filterDigitalArt": "디지털 아트",
+    "filterSketch": "소묘",
+    "filterAllPainting": "전체 회화",
+    "paintingFilterLabel": "회화 유형별 보기"
   }
 };

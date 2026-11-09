@@ -4,6 +4,8 @@ const projectIds = Object.keys(works);
 const storageKey = 'steven-studio-language';
 const languageSelector = document.querySelector('#language-selector');
 const filterButtons = [...document.querySelectorAll('[data-filter]')];
+const paintingFilterBar = document.querySelector('#painting-filters');
+const paintingFilterButtons = [...document.querySelectorAll('[data-painting-filter]')];
 const cards = [...document.querySelectorAll('.project')];
 const menuButton = document.querySelector('.menu-toggle');
 const mobileNav = document.querySelector('#mobile-nav');
@@ -65,7 +67,24 @@ filterButtons.forEach(button => button.addEventListener('click', () => {
     item.classList.toggle('active', active);
     item.setAttribute('aria-pressed', String(active));
   });
+  if (paintingFilterBar) paintingFilterBar.hidden = button.dataset.filter !== 'painting';
+  paintingFilterButtons.forEach(item => {
+    const active = item.dataset.paintingFilter === 'all';
+    item.classList.toggle('active', active);
+    item.setAttribute('aria-pressed', String(active));
+  });
   cards.forEach(card => { card.hidden = button.dataset.filter !== 'all' && card.dataset.category !== button.dataset.filter; });
+  updateFilterStatus();
+}));
+paintingFilterButtons.forEach(button => button.addEventListener('click', () => {
+  paintingFilterButtons.forEach(item => {
+    const active = item === button;
+    item.classList.toggle('active', active);
+    item.setAttribute('aria-pressed', String(active));
+  });
+  cards.forEach(card => {
+    card.hidden = card.dataset.category !== 'painting' || (button.dataset.paintingFilter !== 'all' && card.dataset.subcategory !== button.dataset.paintingFilter);
+  });
   updateFilterStatus();
 }));
 function closeMenu() {

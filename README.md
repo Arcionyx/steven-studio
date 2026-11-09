@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Ten owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, **Red Flame Demon God** (Photography / Light painting), and **Portrait Sketch** (Painting / Sketch). Categories are assigned by the owner. Unfinished work entries remain removed.
+Fifteen owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, **Red Flame Demon God** (Photography / Light painting), **Portrait Sketch** (Painting / Sketch), and five numbered **Digital Art** works (Painting / Digital art). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -36,7 +36,11 @@ The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bro
 
 **Portrait Sketch** is an owner-supplied artwork classified as Painting / Sketch. The descriptive display label is localised in five languages. Its full image, including the paper edges, is used as the cover and detail view. No date, dimensions, medium or award is inferred from the image.
 
-All ten works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
+Five digital artworks are separate entries under Painting / Digital art, using neutral display names Digital Art 01–05 in the supplied order: Untitled_Artwork.png, Untitled_Artwork 4.png, Untitled_Artwork 5.png, Untitled_Artwork 1.png, Untitled_Artwork 3.png. Each uses its own complete image as cover and detail view. The original composition, signatures and embedded colour profile are preserved. The five-language descriptions describe visible content; no software, dates, physical dimensions or awards are inferred.
+
+Selecting Painting reveals filters for all six paintings, the one sketch and the five digital artworks. Changing the main discipline resets the painting subtype filter. Work navigation follows the visible selection.
+
+All fifteen works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
 
 ## Identity and languages
 

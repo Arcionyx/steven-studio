@@ -248,5 +248,80 @@ window.STUDIO_WORKS = {
         2400
       ]
     ]
+  },
+  "digital-art-01": {
+    "category": "painting",
+    "subcategory": "digital-art",
+    "source": "Owner-supplied artwork image and classification. Numbered display title follows upload order; artist-defined title, date, software, dimensions and award were not supplied.",
+    "assetPath": "assets/works/digital-art-01",
+    "cover": "digital-art-01-01",
+    "images": [
+      [
+        "digital-art-01-01",
+        "full",
+        1799,
+        2400
+      ]
+    ]
+  },
+  "digital-art-02": {
+    "category": "painting",
+    "subcategory": "digital-art",
+    "source": "Owner-supplied artwork image and classification. Numbered display title follows upload order; artist-defined title, date, software, dimensions and award were not supplied.",
+    "assetPath": "assets/works/digital-art-02",
+    "cover": "digital-art-02-01",
+    "images": [
+      [
+        "digital-art-02-01",
+        "full",
+        2000,
+        1499
+      ]
+    ]
+  },
+  "digital-art-03": {
+    "category": "painting",
+    "subcategory": "digital-art",
+    "source": "Owner-supplied artwork image and classification. Numbered display title follows upload order; artist-defined title, date, software, dimensions and award were not supplied.",
+    "assetPath": "assets/works/digital-art-03",
+    "cover": "digital-art-03-01",
+    "images": [
+      [
+        "digital-art-03-01",
+        "full",
+        2400,
+        1799
+      ]
+    ]
+  },
+  "digital-art-04": {
+    "category": "painting",
+    "subcategory": "digital-art",
+    "source": "Owner-supplied artwork image and classification. Numbered display title follows upload order; artist-defined title, date, software, dimensions and award were not supplied.",
+    "assetPath": "assets/works/digital-art-04",
+    "cover": "digital-art-04-01",
+    "images": [
+      [
+        "digital-art-04-01",
+        "full",
+        1799,
+        2400
+      ]
+    ]
+  },
+  "digital-art-05": {
+    "category": "painting",
+    "subcategory": "digital-art",
+    "source": "Owner-supplied artwork image and classification. Numbered display title follows upload order; artist-defined title, date, software, dimensions and award were not supplied.",
+    "assetPath": "assets/works/digital-art-05",
+    "cover": "digital-art-05-01",
+    "images": [
+      [
+        "digital-art-05-01",
+        "full",
+        2400,
+        1799
+      ]
+    ]
   }
 };

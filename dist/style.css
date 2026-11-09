@@ -203,3 +203,7 @@ html:not([lang=en]) .work-narrative h3{font-family:inherit;font-size:23px}
 .work-fact dd{font-size:12px;line-height:1.9;margin:4px 0 0;overflow-wrap:anywhere}
 .work-awards .fact-label{margin:15px 0 4px}
 @media(max-width:760px){.work-fact dd{font-size:11px}}
+
+/* Painting types remain within the owner-assigned Painting category. */
+.painting-filters{margin-top:-12px;margin-bottom:28px;gap:24px}
+.painting-filters button{font-size:11px}
