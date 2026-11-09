@@ -233,5 +233,20 @@ window.STUDIO_WORKS = {
         1600
       ]
     ]
+  },
+  "portrait-sketch": {
+    "category": "painting",
+    "subcategory": "sketch",
+    "source": "Owner-supplied artwork image and classification. Portrait Sketch is a descriptive display label; no artwork title, medium, dimensions, date or award was supplied.",
+    "assetPath": "assets/works/portrait-sketch",
+    "cover": "portrait-sketch-01",
+    "images": [
+      [
+        "portrait-sketch-01",
+        "full",
+        1760,
+        2400
+      ]
+    ]
   }
 };

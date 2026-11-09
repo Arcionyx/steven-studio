@@ -268,6 +268,18 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Red Flame Demon God — red light trails against a dark background"
         }
+      },
+      "portrait-sketch": {
+        "title": "Portrait Sketch",
+        "category": "Painting / Sketch",
+        "description": "A portrait sketch of a sculpted bust.",
+        "facts": {
+          "title": "Portrait Sketch",
+          "category": "Painting / Sketch"
+        },
+        "gallery": {
+          "full": "Portrait Sketch — complete view"
+        }
       }
     },
     "filterArchitecture": "Architectural design",
@@ -303,8 +315,10 @@ window.STUDIO_LOCALES = {
       "exposureProgram": "Exposure program",
       "resolution": "Image dimensions",
       "iso": "ISO",
-      "exposureTime": "Exposure time"
-    }
+      "exposureTime": "Exposure time",
+      "category": "Category"
+    },
+    "filterPainting": "Painting"
   },
   "zh-Hans": {
     "metaTitle": "Steven Studio — 艺术、设计与跨领域创作",
@@ -574,6 +588,18 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Red Flame Demon God — 深色背景中的红色光轨"
         }
+      },
+      "portrait-sketch": {
+        "title": "人物素描",
+        "category": "绘画 / 素描",
+        "description": "以雕塑胸像为对象的人物素描。",
+        "facts": {
+          "title": "人物素描",
+          "category": "绘画 / 素描"
+        },
+        "gallery": {
+          "full": "人物素描 — 完整画面"
+        }
       }
     },
     "filterArchitecture": "建筑设计",
@@ -609,8 +635,10 @@ window.STUDIO_LOCALES = {
       "exposureProgram": "曝光模式",
       "resolution": "图像尺寸",
       "iso": "ISO 感光度",
-      "exposureTime": "曝光时间"
-    }
+      "exposureTime": "曝光时间",
+      "category": "分类"
+    },
+    "filterPainting": "绘画"
   },
   "zh-Hant": {
     "metaTitle": "Steven Studio — 藝術、設計與跨領域創作",
@@ -880,6 +908,18 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Red Flame Demon God — 深色背景中的紅色光軌"
         }
+      },
+      "portrait-sketch": {
+        "title": "人物素描",
+        "category": "繪畫 / 素描",
+        "description": "以雕塑胸像為對象的人物素描。",
+        "facts": {
+          "title": "人物素描",
+          "category": "繪畫 / 素描"
+        },
+        "gallery": {
+          "full": "人物素描 — 完整畫面"
+        }
       }
     },
     "filterArchitecture": "建築設計",
@@ -915,8 +955,10 @@ window.STUDIO_LOCALES = {
       "exposureProgram": "曝光模式",
       "resolution": "影像尺寸",
       "iso": "ISO 感光度",
-      "exposureTime": "曝光時間"
-    }
+      "exposureTime": "曝光時間",
+      "category": "分類"
+    },
+    "filterPainting": "繪畫"
   },
   "ja": {
     "metaTitle": "Steven Studio — アート、デザイン、領域を超える創作",
@@ -1186,6 +1228,18 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Red Flame Demon God — 暗い背景に浮かぶ赤い光の軌跡"
         }
+      },
+      "portrait-sketch": {
+        "title": "人物デッサン",
+        "category": "絵画 / デッサン",
+        "description": "彫刻の胸像を描いた人物デッサン。",
+        "facts": {
+          "title": "人物デッサン",
+          "category": "絵画 / デッサン"
+        },
+        "gallery": {
+          "full": "人物デッサン — 全体像"
+        }
       }
     },
     "filterArchitecture": "建築デザイン",
@@ -1221,8 +1275,10 @@ window.STUDIO_LOCALES = {
       "exposureProgram": "露出モード",
       "resolution": "画像サイズ",
       "iso": "ISO感度",
-      "exposureTime": "露光時間"
-    }
+      "exposureTime": "露光時間",
+      "category": "カテゴリー"
+    },
+    "filterPainting": "絵画"
   },
   "ko": {
     "metaTitle": "Steven Studio — 예술, 디자인, 그리고 분야를 넘나드는 창작",
@@ -1492,6 +1548,18 @@ window.STUDIO_LOCALES = {
         "gallery": {
           "full": "Red Flame Demon God — 어두운 배경 위에 그려진 붉은 빛의 궤적"
         }
+      },
+      "portrait-sketch": {
+        "title": "인물 소묘",
+        "category": "회화 / 소묘",
+        "description": "조각 흉상을 그린 인물 소묘 작품입니다.",
+        "facts": {
+          "title": "인물 소묘",
+          "category": "회화 / 소묘"
+        },
+        "gallery": {
+          "full": "인물 소묘 — 작품 전체 모습"
+        }
       }
     },
     "filterArchitecture": "건축 디자인",
@@ -1527,7 +1595,9 @@ window.STUDIO_LOCALES = {
       "exposureProgram": "노출 모드",
       "resolution": "이미지 크기",
       "iso": "ISO 감도",
-      "exposureTime": "노출 시간"
-    }
+      "exposureTime": "노출 시간",
+      "category": "분류"
+    },
+    "filterPainting": "회화"
   }
 };

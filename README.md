@@ -4,7 +4,7 @@ Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsiv
 
 ## Current work
 
-Nine owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, and **Red Flame Demon God** (Photography / Light painting). Categories are assigned by the owner. Unfinished work entries remain removed.
+Ten owner-supplied works are published: **Adversity Silver Wings** (Architectural design), **Frostfade**, **Color Sphere Marine Blossoms**, **ArgenRubi**, **Pay Tribute** (Installation), **Future Fibre Optic Transmitter** (Three-dimensional composition), **Cyber Aurora**, **Blucosix**, **Red Flame Demon God** (Photography / Light painting), and **Portrait Sketch** (Painting / Sketch). Categories are assigned by the owner. Unfinished work entries remain removed.
 
 The first of four owner-supplied images is the work's cover. All four appear in their original order inside the work dialog. Visitors can swipe on touch screens, drag with a mouse, use the previous/next buttons, select a dot, or use Left/Right/Home/End while the gallery is focused. The corresponding scene introduction changes with each image. All four owner-provided narratives are polished for natural expression in five languages while preserving their content and substantial length. There is no automatic slideshow. Images retain their full composition. Reduced-motion preferences disable smooth movement.
 
@@ -34,7 +34,9 @@ The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bro
 
 **Red Flame Demon God** is the third supplied light-painting photograph. Its settings are SONY ILCE-7M4, RGB, 44 mm, F/22, Manual, original image dimensions 3504 × 2336 pixels, ISO 125 and a 13-second exposure. The supplied image is used as its cover and complete detail view, with nine separate information fields in all five languages.
 
-All nine works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
+**Portrait Sketch** is an owner-supplied artwork classified as Painting / Sketch. The descriptive display label is localised in five languages. Its full image, including the paper edges, is used as the cover and detail view. No date, dimensions, medium or award is inferred from the image.
+
+All ten works use semantic definition lists for their information: each field label occupies its own line, followed by its value on the next line. Titles, materials, dimensions and camera settings are localised in five languages. The existing narratives remain intact. Single-image works hide gallery navigation; multi-image works retain all existing controls.
 
 ## Identity and languages
 
