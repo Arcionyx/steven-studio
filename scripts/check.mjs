@@ -68,7 +68,7 @@ assert.ok(!/Weixin|certificate|526_137/i.test(html),'The award certificate image
 const awardsHtml=await readFile(new URL('../dist/awards.html',import.meta.url),'utf8');
 const tribute=works['pay-tribute'];
 assert.equal(tribute.category,'installation');
-assert.deepEqual(Array.from(tribute.images,image=>image[0]),['pay-tribute-01','pay-tribute-02','pay-tribute-04','pay-tribute-05','pay-tribute-06'],'Pay Tribute must omit photo 3 and retain the other five photos in order');
+assert.deepEqual(Array.from(tribute.images,image=>image[0]),['pay-tribute-01','pay-tribute-02','pay-tribute-03','pay-tribute-04','pay-tribute-05','pay-tribute-06'],'Pay Tribute must retain all six supplied photos in order');
 assert.ok(!tribute.awards,'Pay Tribute has no award');
 assert.ok(!awardsHtml.includes('href="#project/pay-tribute"'),'Pay Tribute must not appear in the award list');
 for(const dictionary of Object.values(locales)) {

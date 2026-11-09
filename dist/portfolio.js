@@ -141,6 +141,12 @@ window.STUDIO_WORKS = {
         2400
       ],
       [
+        "pay-tribute-03",
+        "wovenEye",
+        1800,
+        2400
+      ],
+      [
         "pay-tribute-04",
         "lightningEye",
         1277,

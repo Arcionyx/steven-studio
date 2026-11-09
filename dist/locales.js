@@ -171,7 +171,8 @@ window.STUDIO_LOCALES = {
           "angle": "Pay Tribute — angled view",
           "lightningEye": "Pay Tribute — lightning-bolt eye detail",
           "fibreDetail": "Pay Tribute — fibre and wire mesh detail",
-          "structureDetail": "Pay Tribute — chain and framework detail"
+          "structureDetail": "Pay Tribute — chain and framework detail",
+          "wovenEye": "Pay Tribute — woven eye and chain detail"
         }
       }
     },
@@ -365,7 +366,8 @@ window.STUDIO_LOCALES = {
           "angle": "Pay Tribute — 侧面视角",
           "lightningEye": "Pay Tribute — 闪电形眼睛细节",
           "fibreDetail": "Pay Tribute — 纤维与金属网细节",
-          "structureDetail": "Pay Tribute — 铁链与骨架细节"
+          "structureDetail": "Pay Tribute — 铁链与骨架细节",
+          "wovenEye": "Pay Tribute — 编织眼部与铁链细节"
         }
       }
     },
@@ -559,7 +561,8 @@ window.STUDIO_LOCALES = {
           "angle": "Pay Tribute — 側面視角",
           "lightningEye": "Pay Tribute — 閃電形眼睛細節",
           "fibreDetail": "Pay Tribute — 纖維與金屬網細節",
-          "structureDetail": "Pay Tribute — 鐵鏈與骨架細節"
+          "structureDetail": "Pay Tribute — 鐵鏈與骨架細節",
+          "wovenEye": "Pay Tribute — 編織眼部與鐵鏈細節"
         }
       }
     },
@@ -753,7 +756,8 @@ window.STUDIO_LOCALES = {
           "angle": "Pay Tribute — 斜めからの眺め",
           "lightningEye": "Pay Tribute — 稲妻形の目のディテール",
           "fibreDetail": "Pay Tribute — 繊維と金網のディテール",
-          "structureDetail": "Pay Tribute — 鎖と骨組みのディテール"
+          "structureDetail": "Pay Tribute — 鎖と骨組みのディテール",
+          "wovenEye": "Pay Tribute — 編み込まれた目と鎖のディテール"
         }
       }
     },
@@ -947,7 +951,8 @@ window.STUDIO_LOCALES = {
           "angle": "Pay Tribute — 비스듬히 바라본 모습",
           "lightningEye": "Pay Tribute — 번개 모양 눈의 세부 모습",
           "fibreDetail": "Pay Tribute — 섬유와 철망의 세부 모습",
-          "structureDetail": "Pay Tribute — 사슬과 골조의 세부 모습"
+          "structureDetail": "Pay Tribute — 사슬과 골조의 세부 모습",
+          "wovenEye": "Pay Tribute — 엮어 만든 눈과 사슬의 세부 모습"
         }
       }
     },

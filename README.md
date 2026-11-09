@@ -24,7 +24,7 @@ Its separate **Global Art Creation Award — Silver Medal** is dated **30 Septem
 
 The owner associates ArgenRubi with the **2024 Global Art Creation Award — Bronze Medal**, dated **30 September 2024**, organised/issued by **European Association of Culture and Education**. Its certificate image, number and signatures are excluded. The Bronze Medal is a separate entry in the homepage awards section, dedicated awards page and work dialog; the existing Gold and Silver entries remain attached to their own works.
 
-**Pay Tribute** uses five owner-supplied photographs in their original order (photos 1, 2, 4, 5 and 6), with the first as its cover and the remaining four visible only in the work gallery. The owner requested that photo 3 be omitted for now. Its full narrative retains Background, Introduction and Significance sections, polished in all five languages. Dimensions are 36.5 × 38.1 × 24.7 cm; materials are polyester fibre, iron chain, iron wire, wooden strips and LED light strip. The owner states that this work has no award; it does not appear in Awards & honours.
+**Pay Tribute** uses six owner-supplied photographs in their original order, with the first as its cover and the remaining five visible only in the work gallery. Its full narrative retains Background, Introduction and Significance sections, polished in all five languages. Dimensions are 36.5 × 38.1 × 24.7 cm; materials are polyester fibre, iron chain, iron wire, wooden strips and LED light strip. The owner states that this work has no award; it does not appear in Awards & honours.
 
 ## Identity and languages
 
