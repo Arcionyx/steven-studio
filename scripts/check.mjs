@@ -140,6 +140,19 @@ if (Object.values(works).every(work => work.images.length === 0)) {
   assert.ok(imageSources.length > 0 && imageSources.every(source=>source==='assets/sf-monogram.png'),'Text-only archive must preserve only SF brand images');
   assert.ok(!html.includes('assets/a1/'),'Removed project images must not remain referenced');
 }
+const profileHtml=await readFile(new URL('../dist/about.html',import.meta.url),'utf8');
+supplementalHtml.push(profileHtml);
+assert.ok(profileHtml.includes('<html lang="en">'),'The personal introduction must default to English');
+assert.ok(profileHtml.includes('data-page="profile"'),'The profile page is missing its identity');
+const profileIds=[...profileHtml.matchAll(/\bid="([^"]+)"/g)].map(match=>match[1]);
+assert.equal(profileIds.length,new Set(profileIds).size,'Duplicate profile-page IDs');
+for(const [,id] of profileHtml.matchAll(/href="#([^"]+)"/g)) assert.ok(profileIds.includes(id),`Missing profile section ${id}`);
+for(const [,asset] of profileHtml.matchAll(/(?:src|href)="([^"?#]+\.(?:js|css|png|jpg|webp|woff2))(?:\?[^"#]*)?"/g)) await access(new URL('../dist/'+asset,import.meta.url));
+for(const asset of ['locales.js','style.css','profile.js']) {
+  const expected=createHash('sha256').update(await readFile(new URL('../dist/'+asset,import.meta.url))).digest('hex').slice(0,12);
+  assert.ok(profileHtml.includes(`${asset}?v=${expected}`),`about.html has an outdated ${asset} version`);
+}
+assert.ok(html.includes('href="about.html"'),'The personal introduction must be reachable from the homepage');
 const baseKeys = flatten(locales.en).map(([key])=>key).sort();
 const baseMessages = Object.fromEntries(flatten(locales.en));
 const usedKeys = [...(html+awardsHtml+supplementalHtml.join('')).matchAll(/data-i18n(?:-aria-label)?="([^"]+)"/g)].map(match=>match[1]);

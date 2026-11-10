@@ -2,6 +2,10 @@
 
 Ruixi (Steven) Feng's personal art and design portfolio. The site uses responsive HTML, CSS and JavaScript with no build dependencies.
 
+## Personal introduction
+
+`about.html` introduces Ruixi (Steven) Feng with the owner-supplied `Ruixi Feng 2.jpg` portrait. The original photograph is preserved; CSS displays a circular crop on the left at desktop widths and above the introduction on phones. The first-person biography draws on the supplied portfolio works, documented development processes and three confirmed 2024 awards. It makes no unsupported claims about education, employment, location or the Chinese spelling of the owner’s name. The page supports all five languages, defaults to English and preserves language across navigation. Header links across the site and a homepage studio-section link lead to it.
+
 ## Current work
 
 Twenty-three owner-supplied works are published across Architectural design, Urban planning, Installation, Performance art, Three-dimensional composition, Photography, Painting, Interaction design and Industrial & product design. Categories are assigned by the owner or the owner's project documentation. Unfinished work entries remain removed.

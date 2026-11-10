@@ -63,6 +63,7 @@ function applyLocale(value, updateUrl = false) {
   document.querySelectorAll('[data-i18n-aria-label]').forEach(element => { element.setAttribute('aria-label', text(element.dataset.i18nAriaLabel)); });
   document.querySelectorAll('[data-i18n-alt]').forEach(element => { element.alt = text(element.dataset.i18nAlt); });
   document.querySelectorAll('[data-project]').forEach(button => { button.setAttribute('aria-label', format(text('projectOpen'), {title: text(`projects.${button.dataset.project}.title`)})); });
+  document.querySelectorAll('[data-profile-link]').forEach(link => { link.href = 'about.html?lang=' + encodeURIComponent(currentLocale); });
   languageSelector.value = currentLocale;
   updateFilterStatus();
   updateMenuLabel();

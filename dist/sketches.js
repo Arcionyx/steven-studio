@@ -29,6 +29,7 @@ function applySketchLanguage(language, updateUrl = false) {
   document.querySelectorAll('[data-work-return]').forEach(link => {
     link.href = `index.html?lang=${encodeURIComponent(sketchLanguage)}#project/tempus-forestum-retreat`;
   });
+  document.querySelectorAll('[data-profile-link]').forEach(link => { link.href = 'about.html?lang=' + encodeURIComponent(sketchLanguage); });
   sketchLanguageSelector.value = sketchLanguage;
   updateSketchMenuLabel();
   try { localStorage.setItem(sketchStorageKey, sketchLanguage); } catch { /* Language storage is optional. */ }
