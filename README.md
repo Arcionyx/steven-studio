@@ -94,8 +94,8 @@ Work links use `#project/silver-wings`. Future works should be added only when s
 
 ## Publishing
 
-`.openai/hosting.json` preserves the existing Site identity and serves `dist/`. GitHub source: [Arcionyx/steven-studio](https://github.com/Arcionyx/steven-studio). Preserve the current owner-private access settings.
+GitHub Pages publishes the contents of `dist/` at [arcionyx.github.io/steven-studio](https://arcionyx.github.io/steven-studio/). The repository and this Pages website are intended to be public at the owner's request. Configure the repository's Pages source as **GitHub Actions**. `.github/workflows/pages.yml` checks the site, uploads only `dist/` and deploys it after relevant pushes to `main`; it can also be run manually. No domain purchase or ChatGPT sign-in is required for the Pages website.
 
-Live site: https://steven-studio-arcionyx.steven0574.chatgpt.site
+`.openai/hosting.json` retains the existing Sites deployment identity. Its separate owner-private deployment remains at https://steven-studio-arcionyx.steven0574.chatgpt.site; changing the GitHub repository's visibility does not change that deployment's audience. GitHub source: [Arcionyx/steven-studio](https://github.com/Arcionyx/steven-studio).
 
 The contact destination remains the confirmed GitHub profile. The site submits no messages or payments.
